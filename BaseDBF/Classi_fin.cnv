@@ -1,0 +1,9 @@
+; CLASSI_FIN.CNV
+6 1 
+      1  Ign/Branco                                         0,7
+      2  Descartado                                         1
+      2  Confirmado clinico-epidemiologico                  2
+      3  Confirmado laboratorial                            3 
+      4  Síndrome Gripal não especificada                   4
+      5  Confirmado clínico imagem                          5
+      6  Confirmado por critério clínico                    6

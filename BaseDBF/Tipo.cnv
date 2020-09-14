@@ -1,0 +1,9 @@
+; TIPO.CNV
+6 1 
+      1  Ign/Branco                                         0,7
+      2  RT-PCR                                             1
+      2  Teste rapido - anticorpo                           2
+      3  Teste rapido - antigeno                            3 
+      4  Enzimaimunoensaio - ELISA                          4
+      5  Imunoensaio por eletroquimioluminescencia - ECLIA  5
+      6  Quimioluminescencia - CLIA                         6
