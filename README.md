@@ -22,6 +22,7 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab.setup.exe". Esse arquivo está disponível no release "Covid19Tab_versao_alfa". Procure na página do repositório e clique no link.
 
 ![](C:\Users\LuizVirginio\Desktop\covid19tab_docs\img\release1.jpg)
+![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release1.jpg)
 
 2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab.setup.exe".
 
