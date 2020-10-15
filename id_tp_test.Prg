@@ -32,7 +32,7 @@ case "QUIMIOLUMINESCENCIA -"
 cTpTeste = "6"
 exit
 otherwise
-cTpTeste = "7"
+cTpTeste = "0"
 endswitch
 
 replace id_tp_test with cTpTeste

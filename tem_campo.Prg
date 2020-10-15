@@ -114,7 +114,12 @@ if nFieldExist19 != 0
 nCount ++
 endif
 
-if nCount == 19
+nFieldExist20 := AScan(aCampo,"ID_SOROLOG")
+if nFieldExist20 != 0
+nCount ++
+endif
+
+if nCount == 20
 erro = 0
 indice++
 dt := dia_hora()

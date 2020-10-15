@@ -35,7 +35,7 @@ case "IGNORADO"
 cEvolucao = "9"
 exit
 otherwise
-cEvolucao = "7"
+cEvolucao = "0"
 endswitch
 
 replace id_evoluc with cEvolucao

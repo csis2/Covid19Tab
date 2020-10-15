@@ -3,6 +3,7 @@ about.Prg
 about_button_1_action.prg
 about_form_oninit.prg
 about_label_10_action.prg
+about_label_11_action.prg
 about_label_9_action.prg
 alter.Prg
 calepi.Prg
@@ -26,6 +27,7 @@ id_municip.Prg
 id_raca_cor.Prg
 id_rg_not.Prg
 id_rg_resi.Prg
+id_sorolog.Prg
 id_tp_test.Prg
 indexing.Prg
 load_settings.Prg

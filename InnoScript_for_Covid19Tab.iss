@@ -6,12 +6,12 @@
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{C24115D1-7BDA-4D70-9679-4607C132D600}
 AppName=Covid19Tab
-AppVersion=alfa
-;AppVerName=Covid19Tab alfa
+AppVersion=1.0
+;AppVerName=Covid19Tab 1.0
 AppPublisher=CSIS Software
-AppPublisherURL=https://github.com/csisgo/Covid19Tab
-AppSupportURL=https://github.com/csisgo/Covid19Tab
-AppUpdatesURL=https://github.com/csisgo/Covid19Tab
+AppPublisherURL=https://github.com/csis2/Covid19Tab
+AppSupportURL=https://github.com/csis2/Covid19Tab
+AppUpdatesURL=https://github.com/csis2/Covid19Tab
 DefaultDirName=c:\Covid19Tab
 DisableProgramGroupPage=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
@@ -43,7 +43,6 @@ Source: "C:\Covid19Tab\verify.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Covid19Tab\libiconv2.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Covid19Tab\libintl3.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Covid19Tab\regex2.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Covid19Tab\logo.bmp"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Covid19Tab\heading_model.c19"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Covid19Tab\settings.c19"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files

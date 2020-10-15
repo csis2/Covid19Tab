@@ -30,26 +30,27 @@ endfor
 * Copia a estrutura do arquivo esus_covid19.dbf e acrescenta campos novos.
 	   use ( cDBFFile ) new
 	   aStruct := dbStruct( cDBFFile )
-	   aAdd( aStruct, { "sem_not", "C", 6, 0 } )
-	   aAdd( aStruct, { "nu_ano", "C", 4, 0 } )
-	   aAdd( aStruct, { "id_mn_resi", "C", 6, 0 } )
-	   aAdd( aStruct, { "id_rg_resi", "C", 8, 0 } )
-	   aAdd( aStruct, { "uf_resi", "C", 2, 0 } )
-	   aAdd( aStruct, { "nu_idade_n", "N", 4, 0 } )
-	   aAdd( aStruct, { "sem_pri", "C", 6, 0 } )
-	   aAdd( aStruct, { "nomeregi", "C", 70, 0 } )
-	   aAdd( aStruct, { "sigla", "C", 2, 0 } )
-	   aAdd( aStruct, { "id_municip", "C", 6, 0 } )
-	   aAdd( aStruct, { "id_regiona", "C", 8, 0 } )	   	   
-	   aAdd( aStruct, { "sigla_not", "C", 2, 0 } )
-	   aAdd( aStruct, { "uf_not", "C", 2, 0 } )	 
-	   aAdd( aStruct, { "regio_not", "C", 70, 0 } )	  
-	   aAdd( aStruct, { "id_racacor", "C", 1, 0 } )	  	   
-	   aAdd( aStruct, { "id_evoluc", "C", 1, 0 } )	  
-	   aAdd( aStruct, { "id_tp_test", "C", 1, 0 } )	  
-	   aAdd( aStruct, { "id_esttest", "C", 1, 0 } )	  
-	   aAdd( aStruct, { "id_cla_fin", "C", 1, 0 } )	  
-	      	   	   	  	   
+	   aAdd( aStruct, { "sem_not", "C", 6, 0 } ) //1
+	   aAdd( aStruct, { "nu_ano", "C", 4, 0 } ) //2
+	   aAdd( aStruct, { "id_mn_resi", "C", 6, 0 } ) //3
+	   aAdd( aStruct, { "id_rg_resi", "C", 8, 0 } ) //4
+	   aAdd( aStruct, { "uf_resi", "C", 2, 0 } ) //5
+	   aAdd( aStruct, { "nu_idade_n", "N", 4, 0 } ) //6
+	   aAdd( aStruct, { "sem_pri", "C", 6, 0 } ) //7
+	   aAdd( aStruct, { "nomeregi", "C", 70, 0 } ) //8
+	   aAdd( aStruct, { "sigla", "C", 2, 0 } ) //9
+	   aAdd( aStruct, { "id_municip", "C", 6, 0 } ) //10
+	   aAdd( aStruct, { "id_regiona", "C", 8, 0 } ) //11   
+	   aAdd( aStruct, { "sigla_not", "C", 2, 0 } ) //12
+	   aAdd( aStruct, { "uf_not", "C", 2, 0 } )	//13
+	   aAdd( aStruct, { "regio_not", "C", 70, 0 } ) //14
+	   aAdd( aStruct, { "id_racacor", "C", 1, 0 } ) //15
+	   aAdd( aStruct, { "id_evoluc", "C", 1, 0 } ) //16
+	   aAdd( aStruct, { "id_tp_test", "C", 1, 0 } ) //17
+	   aAdd( aStruct, { "id_esttest", "C", 1, 0 } ) //18
+	   aAdd( aStruct, { "id_cla_fin", "C", 1, 0 } ) //19
+	   aAdd( aStruct, { "id_sorolog", "C", 2, 0 } ) //20
+	   	      	   	   	  	   
 * Cria uma tabela nova a partir da estrutura da tabela selecionada como arquivo de entrada.
 * A tabela nova já contém os campos criados pela aplicação.
 	   dbCreate( (cDBFFile2 ) , aStruct )	   

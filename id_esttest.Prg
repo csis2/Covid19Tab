@@ -1,4 +1,4 @@
-#include <hmg.ch>
+﻿#include <hmg.ch>
 
 declare window Main
 
@@ -26,7 +26,7 @@ case "EXAME NAO SOLICITADO"
 cEstTest = "4"
 exit
 otherwise
-cEstTest = "7"
+cEstTest = "0"
 endswitch
 
 replace id_esttest with cEstTest

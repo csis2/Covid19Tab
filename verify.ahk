@@ -18,7 +18,7 @@ erro = 0
 
 if (argui = "")
 {
-msgbox Script "validate" sem argumento.
+msgbox Script "verify" sem argumento.
 ExitApp ; se não existe argumento, finaliza o script.
 }
 

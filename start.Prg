@@ -215,6 +215,11 @@ if erro = 0
 id_cla_fin()
 endif
 
+* Roda o módulo para preencher o campo id_sorolog.
+if erro = 0
+id_sorolog()
+endif
+
 * Roda o módulo que renomeia definitivamente o arquivo DBF gerado.
 if erro = 0
 ren_file()

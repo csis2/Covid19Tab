@@ -1,14 +1,14 @@
-﻿* HMG-IDE UNICODE Form Designer Generated Code
+* HMG-IDE UNICODE Form Designer Generated Code
 * (c) Roberto Lopez - http://sites.google.com/site/hmgweb
 
-DEFINE WINDOW TEMPLATE AT 274 , 545 WIDTH 476 HEIGHT 394 VIRTUAL WIDTH Nil VIRTUAL HEIGHT Nil TITLE "Sobre o Covid19Tab" ICON NIL  NOMAXIMIZE NOMINIMIZE NOSIZE CURSOR NIL ON INIT about_form_oninit() ON RELEASE Nil ON INTERACTIVECLOSE Nil ON MOUSECLICK Nil ON MOUSEDRAG Nil ON MOUSEMOVE Nil ON SIZE Nil ON MAXIMIZE Nil ON MINIMIZE Nil ON PAINT Nil BACKCOLOR Nil NOTIFYICON NIL NOTIFYTOOLTIP NIL ON NOTIFYCLICK Nil ON GOTFOCUS Nil ON LOSTFOCUS Nil ON SCROLLUP Nil ON SCROLLDOWN Nil ON SCROLLLEFT Nil ON SCROLLRIGHT Nil ON HSCROLLBOX Nil ON VSCROLLBOX Nil
+DEFINE WINDOW TEMPLATE AT 274 , 545 WIDTH 476 HEIGHT 280 VIRTUAL WIDTH Nil VIRTUAL HEIGHT Nil TITLE "Sobre o Covid19Tab" ICON NIL  NOMAXIMIZE NOMINIMIZE NOSIZE CURSOR NIL ON INIT about_form_oninit() ON RELEASE Nil ON INTERACTIVECLOSE Nil ON MOUSECLICK Nil ON MOUSEDRAG Nil ON MOUSEMOVE Nil ON SIZE Nil ON MAXIMIZE Nil ON MINIMIZE Nil ON PAINT Nil BACKCOLOR Nil NOTIFYICON NIL NOTIFYTOOLTIP NIL ON NOTIFYCLICK Nil ON GOTFOCUS Nil ON LOSTFOCUS Nil ON SCROLLUP Nil ON SCROLLDOWN Nil ON SCROLLLEFT Nil ON SCROLLRIGHT Nil ON HSCROLLBOX Nil ON VSCROLLBOX Nil
 
     DEFINE LABEL Label_3
         ROW    10
         COL    10
-        WIDTH  330
+        WIDTH  200
         HEIGHT 18
-        VALUE "Covid19Tab - versão alfa - setembro 2020"
+        VALUE "Covid19Tab 1.0 - outubro 2020"
         FONTNAME "Arial"
         FONTSIZE 10
         TOOLTIP ""
@@ -50,7 +50,7 @@ DEFINE WINDOW TEMPLATE AT 274 , 545 WIDTH 476 HEIGHT 394 VIRTUAL WIDTH Nil VIRTU
     DEFINE LABEL Label_5
         ROW    100
         COL    10
-        WIDTH  380
+        WIDTH  100
         HEIGHT 15
         VALUE "CSIS Software é:"
         FONTNAME "Arial"
@@ -94,8 +94,8 @@ DEFINE WINDOW TEMPLATE AT 274 , 545 WIDTH 476 HEIGHT 394 VIRTUAL WIDTH Nil VIRTU
     DEFINE LABEL Label_1
         ROW    170
         COL    20
-        WIDTH  380
-        HEIGHT 15
+        WIDTH  250
+        HEIGHT 20
         VALUE "Gerência de Vigilância Epidemiológica (GVE)"
         FONTNAME "Arial"
         FONTSIZE 9
@@ -116,8 +116,8 @@ DEFINE WINDOW TEMPLATE AT 274 , 545 WIDTH 476 HEIGHT 394 VIRTUAL WIDTH Nil VIRTU
     DEFINE LABEL Label_2
         ROW    190
         COL    20
-        WIDTH  370
-        HEIGHT 15
+        WIDTH  290
+        HEIGHT 20
         VALUE "Superintendência de Vigilância em Saúde (SUVISA)"
         FONTNAME "Arial"
         FONTSIZE 9
@@ -138,8 +138,8 @@ DEFINE WINDOW TEMPLATE AT 274 , 545 WIDTH 476 HEIGHT 394 VIRTUAL WIDTH Nil VIRTU
     DEFINE LABEL Label_7
         ROW    210
         COL    20
-        WIDTH  340
-        HEIGHT 15
+        WIDTH  280
+        HEIGHT 20
         VALUE "Secretaria de Estado da Saúde de Goiás (SESGO)"
         FONTNAME "Arial"
         FONTSIZE 9
@@ -156,18 +156,6 @@ DEFINE WINDOW TEMPLATE AT 274 , 545 WIDTH 476 HEIGHT 394 VIRTUAL WIDTH Nil VIRTU
         BACKCOLOR NIL
         FONTCOLOR NIL
     END LABEL
-
-    DEFINE IMAGE Image_1
-        ROW    250
-        COL    30
-        WIDTH  280
-        HEIGHT 80
-        PICTURE (HB_DirBase()) + "\logo.bmp"
-        HELPID Nil
-        VISIBLE .T.
-        STRETCH .F.
-        ACTION Nil
-    END IMAGE
 
     DEFINE LABEL Label_8
         ROW    150
@@ -192,7 +180,7 @@ DEFINE WINDOW TEMPLATE AT 274 , 545 WIDTH 476 HEIGHT 394 VIRTUAL WIDTH Nil VIRTU
     END LABEL
 
     DEFINE BUTTON Button_1
-        ROW    280
+        ROW    180
         COL    330
         WIDTH  100
         HEIGHT 28
@@ -221,7 +209,7 @@ DEFINE WINDOW TEMPLATE AT 274 , 545 WIDTH 476 HEIGHT 394 VIRTUAL WIDTH Nil VIRTU
         ROW    50
         COL    10
         WIDTH  153
-        HEIGHT 18
+        HEIGHT 15
         VALUE "sinannetgo@gmail.com"
         FONTNAME "Arial"
         FONTSIZE 10
@@ -239,12 +227,12 @@ DEFINE WINDOW TEMPLATE AT 274 , 545 WIDTH 476 HEIGHT 394 VIRTUAL WIDTH Nil VIRTU
         FONTCOLOR {0,0,255}
     END LABEL
 
-    DEFINE LABEL Label_10
+    DEFINE LABEL Label_11
         ROW    30
         COL    10
-        WIDTH  238
-        HEIGHT 18
-        VALUE "https://github.com/csisgo/Covid19Tab"
+        WIDTH  235
+        HEIGHT 15
+        VALUE "https://github.com/csis2/Covid19Tab"
         FONTNAME "Arial"
         FONTSIZE 10
         TOOLTIP ""
@@ -255,7 +243,7 @@ DEFINE WINDOW TEMPLATE AT 274 , 545 WIDTH 476 HEIGHT 394 VIRTUAL WIDTH Nil VIRTU
         HELPID Nil
         VISIBLE .T.
         TRANSPARENT .F.
-        ACTION about_label_10_action()
+        ACTION about_label_11_action()
         AUTOSIZE .F.
         BACKCOLOR NIL
         FONTCOLOR {0,0,255}
