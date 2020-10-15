@@ -1,4 +1,4 @@
-; NOTIFICAÇÃO/INVESTIGAÇÃO Covid19 -  E-SUS VE Notifica
+; NOTIFICAÇÃO/INVESTIGAÇÃO Covid19 - E-SUS VE Notifica
 
 ; ********************** Leitura do arquivo *****************************
 Ac:\Covid19Tab\BaseDBF\*.DBF
@@ -32,6 +32,21 @@ XFx Etaria (9),NU_IDADE_N,1,FXIDAD9NET.CNV
 XFx Etaria SINAN,NU_IDADE_N,1,FXIDAD10NET.CNV
 XFx Etaria (13),NU_IDADE_N,1,FXIDAD13NET.CNV
 XIdade detalhada,NU_IDADE_N,1,IDADEDETNET.CNV
+
+;Definições para Resultado Totais
+XResultadoTot.,RES_TOT,RESULTADOTOTAIS.CNV
+
+;Definições para Resultado IgA
+XResult_IgA,RES_IGA,RESULTADO_IGA.CNV
+
+;Definições para Resultado IgM
+XResult_IgM,RES_IGM,RESULTADO_IGM.CNV
+
+;Definições para Resultado IgG
+XResult_IgG,RES_IGG,RESULTADO_IGG.CNV
+
+;Definições para Resultados PCR/testes rápidos
+XRes.T.Rápidos,RES_RAPIDO,Resultado_PCR_rapidos.cnv
 
 ;Definições para Raça
 XRaça,ID_RACACOR,1,RAÇA.CNV
@@ -220,13 +235,13 @@ XSintomas:Assintoma, ASSINTOMAT, 1, Sim_nao.cnv
 
 ;Definições para Condições
 XCondições:Diabetes,    DIABETES,   1, Sim_nao.cnv
-XCondições:Doenca_resp, D_RESP,     1, Sim_nao.cnv
-XCondições:Doenca_card, D_CARD,     1, Sim_nao.cnv
-XCondições:Doenc_renal, D_RENAIS,   1, Sim_nao.cnv
+XCondições:D.respirat,  D_RESP,     1, Sim_nao.cnv
+XCondições:D.cardiaca,  D_CARD,     1, Sim_nao.cnv
+XCondições:D.renais,    D_RENAIS,   1, Sim_nao.cnv
 XCondições:Imunosuprim, IMUNOSUP,   1, Sim_nao.cnv
 XCondições:Gestante,    GESTANTE,   1, Sim_nao.cnv
 XCondições:Portador,    PORTADOR,   1, Sim_nao.cnv
-XCondições:Puerpura,    PUERPURA,   1, Sim_nao.cnv
+XCondições:Puerpera,    PUERPERA,   1, Sim_nao.cnv
 XCondições:Obesidade,   OBESIDADE,  1, Sim_nao.cnv
 
 ;Definições para a Classificação Final
@@ -256,12 +271,22 @@ xEstado do teste, ID_ESTTEST, 1, est_test.cnv
 ;Definições para resultado do teste.
 xResultado do teste, RESULTADO, 1, resultado.cnv
 
-;Definições para Ano, Mes e Trimestre da data de coleta.
-XAno da Coleta,DT_COLETA,1,ANOS.CNV
-LMes da Coleta,DT_COLETA,5,MESES.CNV
-CMes da Coleta,DT_COLETA,5,MESESC.CNV
-SMes da Coleta,DT_COLETA,5,MESES.CNV
-XTrim da Coleta,DT_COLETA,5,TRIME.CNV
+;Definições para teste sorológico.
+XTeste sorológico, ID_SOROLOG, 1, sorologico.cnv
+
+;Definições para Ano, Mes e Trimestre da data do teste sorológico
+XAno.Test.Sor,DT_TST_SOR,1,ANOS.CNV
+LMes.Test.Sor,DT_TST_SOR,5,MESES.CNV
+CMes.Test.Sor,DT_TST_SOR,5,MESESC.CNV
+SMes.Test.Sor,DT_TST_SOR,5,MESES.CNV
+XTrim.Test.Sor,DT_TST_SOR,5,TRIME.CNV
+
+;Definições para Ano, Mes e Trimestre da data do teste rapido.
+XAno.Test.Rap,DT_TST_RAP,1,ANOS.CNV
+LMes.Test.Rap,DT_TST_RAP,5,MESES.CNV
+CMes.Test.Rap,DT_TST_RAP,5,MESESC.CNV
+SMes.Test.Rap,DT_TST_RAP,5,MESES.CNV
+XTrim.Test.Rap,DT_TST_RAP,5,TRIME.CNV
 
 ;Definições para Ano, Mes e Trimestre da data de encerramento.
 XAno da Coleta,DT_ENCERRA,1,ANOS.CNV
@@ -269,4 +294,3 @@ LMes da Coleta,DT_ENCERRA,5,MESES.CNV
 CMes da Coleta,DT_ENCERRA,5,MESESC.CNV
 SMes da Coleta,DT_ENCERRA,5,MESES.CNV
 XTrim da Coleta,DT_ENCERRA,5,TRIME.CNV
-

@@ -1,0 +1,13 @@
+; sorologico.CNV
+10  2   
+     10  Em branco/ignorados                                00-99   
+      1  Anticorpos totais                                  01
+      2  IgA                                                02
+      3  IgA,IgG                                            03
+      4  IgG                                                04
+      5  IgG,Anticorpos totais                              05
+      6  IgG,IgA                                            06
+      7  IgG,IgM                                            07
+      8  IgM                                                08
+      9  IgM,IgG                                            09
+      
