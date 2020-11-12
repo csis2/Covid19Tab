@@ -54,7 +54,7 @@ cSubString1 := substr ( (cString),1 ,(nPos1-1) )
 hElements[ 1 ] := ( cSubString1 )
 
 nPosX := nPos1
-for n = 1 to 68
+for n = 1 to 67
 nPosY :=  hb_at ( ";", (cString), (nPosX+1) )
 cSubStringY :=  substr ( (cString),(nPosX+1),(nPosY)-(nPosX+1) )
 hElements[ n+1 ] := ( cSubStringY )
@@ -64,7 +64,7 @@ endfor
 * Ultima string depois do caracter ";".
 nLastPos := hb_RAt ( ";", (cString) )
 cLastSubString := substr ( (cString), (nLastPos+1),(nTotalStringSize)-(nLastPos) )
-hElements[ 70 ] := ( cLastSubString )
+hElements[ 69 ] := ( cLastSubString )
 
 * Transfere os valores armazenados na hash table para o arquivo dbf.
 append blank
@@ -136,22 +136,19 @@ replace dt_encerra with ctod( ( HB_HGET( hElements, 51 ) ) )
 replace dt_nasc with ctod( ( HB_HGET( hElements, 52 ) ) )
 replace classi_fin with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 53 ) ) ) )
 replace munic_res with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 54 ) ) ) )
-
-replace noname_fld with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 55 ) ) ) )
-
-replace complement with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 56 ) ) ) )
-replace passaporte with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 57 ) ) ) )
-replace cpf with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 58 ) ) ) )
-replace nome with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 59 ) ) ) )
-replace pais with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 60 ) ) ) )
-replace dt_sintom with ctod( ( HB_HGET( hElements, 61 ) ) )
-replace nome_mae with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 62 ) ) ) )
-replace tel_cel with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 63 ) ) ) )
-replace not_cnes with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 64 ) ) ) )
-replace not_cpf with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 65 ) ) ) )
-replace not_email with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 66 ) ) ) )
-replace not_nome with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 67 ) ) ) )
-replace not_cnpj with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 68 ) ) ) )
+replace complement with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 55 ) ) ) )
+replace passaporte with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 56 ) ) ) )
+replace cpf with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 57 ) ) ) )
+replace nome with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 58 ) ) ) )
+replace pais with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 59 ) ) ) )
+replace dt_sintom with ctod( ( HB_HGET( hElements, 60 ) ) )
+replace nome_mae with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 61 ) ) ) )
+replace tel_cel with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 62 ) ) ) )
+replace not_cnes with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 63 ) ) ) )
+replace not_cpf with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 64 ) ) ) )
+replace not_email with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 65 ) ) ) )
+replace not_nome with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 66 ) ) ) )
+replace not_cnpj with upper( remacent("",hb_UTF8ToStr( HB_HGET( hElements, 67 ) ) ) )
 
 HB_FSkip()
 

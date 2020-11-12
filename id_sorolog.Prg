@@ -40,6 +40,15 @@ exit
 case "IGM, IGG"
 cTesteSorolog = "09"
 exit
+case "ANTICORPOS TOTAIS, IGM, IGG"
+cTesteSorolog = "10"
+exit
+case "IGG, IGM, ANTICORPOS TOTAIS"
+cTesteSorolog = "11"
+exit
+case "IGM, ANTICORPOS TOTAIS"
+cTesteSorolog = "12"
+exit
 otherwise
 cTesteSorolog = "15"
 endswitch
