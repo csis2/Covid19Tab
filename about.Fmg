@@ -6,9 +6,9 @@ DEFINE WINDOW TEMPLATE AT 274 , 545 WIDTH 476 HEIGHT 280 VIRTUAL WIDTH Nil VIRTU
     DEFINE LABEL Label_3
         ROW    10
         COL    10
-        WIDTH  200
+        WIDTH  270
         HEIGHT 18
-        VALUE "Covid19Tab 1.0 - outubro 2020"
+        VALUE "Covid19Tab 1.1 - novembro 2020"
         FONTNAME "Arial"
         FONTSIZE 10
         TOOLTIP ""
