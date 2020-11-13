@@ -207,7 +207,7 @@ Para desenvolver o Covid19Tab foram utilizadas três linguagens:
 
 O ambiente de desenvolvimento (IDE) utilizado foi o HMG (https://sites.google.com/site/hmgweb/). Para abrir o projeto Covid19Tab no HMG, o desenvolvedor deve usar o arquivo "Covid19Tab.hbp" presente no código fonte.
 
-![](https://github.com/csis2/Covid19Tab/blob/master/img/hmg.jpg)
+![](https://github.com/csis2/Covid19Tab/blob/master/img/HMG.jpg)
 
 
 
@@ -229,7 +229,7 @@ Após o processamento surgirá uma mensagem mostrando que o procedimento foi bem
 
 Um arquivo de log chamado "covid19tab_log.txt" também estará disponível mostrando as etapas da execução e, claro, um novo arquivo "heading_model.c19" será criado com a estrutura do arquivo de exportação CSV que o desenvolvedor apontou na linha de comando.
 
-Caso haja de fato mudanças na estrutura do arquivo de exportação gerado pelo e-SUS VE Notifica, o procedimento mostrado acima só será suficiente para validar o novo arquivo de exportação no Covid19Tab. Uma alteração estrutural do arquivo de exportação deverá ser acompanhado de mudanças em várias partes do programa para que este se adeque às alterações ocorridas e os campos do arquivo CSV sejam convertidos de maneira correta em arquivos DBF e possam ser trabalhados no TabWin.
+![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/warning.jpg) Atenção! Caso haja de fato mudanças na estrutura do arquivo de exportação gerado pelo e-SUS VE Notifica, o procedimento mostrado acima só será suficiente para validar o novo arquivo de exportação no Covid19Tab. Uma alteração estrutural do arquivo de exportação deverá ser acompanhado de mudanças em várias partes do programa para que este se adeque às alterações ocorridas e os campos do arquivo CSV sejam convertidos de maneira correta em arquivos DBF e possam ser trabalhados no TabWin.
 
 Dependendo das alterações ocorridas, os seguintes arquivos também deverão ser alterados:
 
