@@ -41,22 +41,22 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 Para começar, escolha o modo de instalação.!![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/install1.jpg)
 
-2. Escolha o local de instalação do programa. Se optar por uma pasta diferente da que vem como padrão (c:\Covid19Tab), nunca crie uma pasta para instalação com palavras separadas por espeço. Por exemplo, ao invés de criar uma pasta com o nome "c:\Minha Pasta", crie com o nome "c:\Minha_Pasta".
+6. Escolha o local de instalação do programa. Se optar por uma pasta diferente da que vem como padrão (c:\Covid19Tab), nunca crie uma pasta para instalação com palavras separadas por espeço. Por exemplo, ao invés de criar uma pasta com o nome "c:\Minha Pasta", crie com o nome "c:\Minha_Pasta".
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/install2.jpg)
 
-3. Caso deseje criar um atalho para o Covid19Tab na área de trabalho, marque a caixa de checagem (checkbox) da tela seguinte.
+7. Caso deseje criar um atalho para o Covid19Tab na área de trabalho, marque a caixa de checagem (checkbox) da tela seguinte.
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/install3.jpg)
 
-   4. Depois de feitas as escolhas, é só instalar o programa clicando no botão "Instalar".
+8. Depois de feitas as escolhas, é só instalar o programa clicando no botão "Instalar".
       ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/install4.jpg)
 
-5. Aguarde a instalação realizada pelo arquivo de setup.
+9. Aguarde a instalação realizada pelo arquivo de setup.
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/install5.jpg)
 
-6. Após a instalação, o assistente de instalação informará se a instalação foi bem sucedida. Clicando no botão "Concluir", o programa se iniciará automaticamente. Caso não queira iniciar o Covid19Tab após o término da instalação, desmarque a caixa de checagem "Iniciar o Covid19Tab".
+10. Após a instalação, o assistente de instalação informará se a instalação foi bem sucedida. Clicando no botão "Concluir", o programa se iniciará automaticamente. Caso não queira iniciar o Covid19Tab após o término da instalação, desmarque a caixa de checagem "Iniciar o Covid19Tab".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/install6.jpg)
 
@@ -69,19 +69,19 @@ Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a desc
 1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab.rar". Esse arquivo está disponível no release "Covid19Tab_versao_alfa". Procure na página do repositório e clique no link.
    ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release1.jpg)
 
-   2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab.rar".
+2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab.rar".
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release2.jpg)
 
-   3. Clicando no link, em poucos instantes surgirá uma janela, o usuário então deve optar por abrir ou salvar o arquivo. Marque na caixa de checagem a opção "Abrir com - WinRAR" e clique no botão "OK".
+3. Clicando no link, em poucos instantes surgirá uma janela, o usuário então deve optar por abrir ou salvar o arquivo. Marque na caixa de checagem a opção "Abrir com - WinRAR" e clique no botão "OK".
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release3.jpg)
 
-   4. Surgirá então uma nova janela, mostrando o conteúdo inicial da descompactação do arquivo "Covid19Tab.rar". Clique uma vez na pasta "Covid19Tab" para selecionar o arquivo, depois clique no botão "Extrair Para".
+4. Surgirá então uma nova janela, mostrando o conteúdo inicial da descompactação do arquivo "Covid19Tab.rar". Clique uma vez na pasta "Covid19Tab" para selecionar o arquivo, depois clique no botão "Extrair Para".
    
       ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release4.jpg)
    
-      5. Na nova janela que surgirá, selecione "disco local C" e clique no botão "OK".
+5. Na nova janela que surgirá, selecione "disco local C" e clique no botão "OK".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release5.jpg)
 
