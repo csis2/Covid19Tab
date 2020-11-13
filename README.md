@@ -193,21 +193,21 @@ O Covid19Tab foi desenvolvido usando o paradigma de programação estruturada, o
 
 Para desenvolver o Covid19Tab foram utilizadas três linguagens:
 
-![](C:\Users\Flavio\Desktop\gyn_pacote_DBF-eSUS\harbour.bmp)
+![](https://github.com/csis2/Covid19Tab/blob/master/img/harbour.jpg)
 
 - **Harbour** (https://harbour.github.io): compõe a maioria do código usado para construir o programa. É uma linguagem open source que utiliza o padrão xBase e compila o código fonte usando o compilador hbmk2.
 
-![](C:\Users\Flavio\Desktop\gyn_pacote_DBF-eSUS\autohotkey.bmp)
+![](https://github.com/csis2/Covid19Tab/blob/master/img/autohotkey.jpg)
 
 - **AutoHotKey** (https://www.autohotkey.com): linguagem de script de código aberto muito usada para automatização de tarefas. Aqui ela foi utilizada para manipulação de arquivos texto e strings usando a biblioteca tf (https://github.com/hi5/TF).
 
-![](C:\Users\Flavio\Desktop\gyn_pacote_DBF-eSUS\object_pascal.bmp)
+![](https://github.com/csis2/Covid19Tab/blob/master/img/object_pascal.jpg)
 
 - **Object Pascal** (https://www.remobjects.com/ps.aspx): linguagem de script em Pascal usada no Inno Setup (https://jrsoftware.org/isdl.php) para criar o arquivo de setup do Covid19Tab, o "InnoScript_for_Covid19Tab.iss".
 
 O ambiente de desenvolvimento (IDE) utilizado foi o HMG (https://sites.google.com/site/hmgweb/). Para abrir o projeto Covid19Tab no HMG, o desenvolvedor deve usar o arquivo "Covid19Tab.hbp" presente no código fonte.
 
-![](C:\Users\Flavio\Desktop\gyn_pacote_DBF-eSUS\HMG.bmp)
+![](https://github.com/csis2/Covid19Tab/blob/master/img/hmg.jpg)
 
 
 
@@ -225,7 +225,7 @@ Como exemplo, vamos criar um novo arquivo "heading_model.c19" usando um arquivo 
 
 Após o processamento surgirá uma mensagem mostrando que o procedimento foi bem-sucedido.
 
-![](C:\Users\Flavio\Desktop\gyn_pacote_DBF-eSUS\heading_model.jpg)
+![](https://github.com/csis2/Covid19Tab/blob/master/img/heading_model.jpg)
 
 Um arquivo de log chamado "covid19tab_log.txt" também estará disponível mostrando as etapas da execução e, claro, um novo arquivo "heading_model.c19" será criado com a estrutura do arquivo de exportação CSV que o desenvolvedor apontou na linha de comando.
 
