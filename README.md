@@ -205,11 +205,9 @@ Para desenvolver o Covid19Tab foram utilizadas três linguagens:
 
 - **Object Pascal** (https://www.remobjects.com/ps.aspx): linguagem de script em Pascal usada no Inno Setup (https://jrsoftware.org/isdl.php) para criar o arquivo de setup do Covid19Tab, o "InnoScript_for_Covid19Tab.iss".
 
-O ambiente de desenvolvimento (IDE) utilizado foi o HMG (https://sites.google.com/site/hmgweb/). Para abrir o projeto Covid19Tab no HMG, o desenvolvedor deve usar o arquivo "Covid19Tab.hbp" presente no código fonte.
-
 ![](https://github.com/csis2/Covid19Tab/blob/master/img/HMG.jpg)
 
-
+O ambiente de desenvolvimento (IDE) utilizado foi o HMG (https://sites.google.com/site/hmgweb/). Para abrir o projeto Covid19Tab no HMG, o desenvolvedor deve usar o arquivo "Covid19Tab.hbp" presente no código fonte.
 
 Até agora, a maior causa de mudanças das versões do Covid19Tab, foi devido à mudanças da estrutura dos arquivos do formato CSV, que são exportados pelo e-SUS VE Notifica quando o usuário solicita a exportação de dados. Por ser um programa relativamente novo (menos de um ano de existência), o e-SUS VE Notifica vem sendo constantemente modificado, essas mudanças também se refletem nos arquivos exportados pelo programa para se adequar às mudanças ocorridas durante o ciclo de vida do programa.
 
