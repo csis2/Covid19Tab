@@ -186,3 +186,59 @@ Depois basta realizar as tabulações que desejar no TabWin.
 Caso o usuário não possua o TabWin no seu PC, o link abaixo fornece as orientações para instalação e operação desse programa
 
 http://www2.datasus.gov.br/DATASUS/index.php?area=060805&item=6
+
+## Notas para desenvolvedores
+
+O Covid19Tab foi desenvolvido usando o paradigma de programação estruturada, ou seja, possui estruturas de sequência, decisão e iteração.
+
+Para desenvolver o Covid19Tab foram utilizadas três linguagens:
+
+![](C:\Users\Flavio\Desktop\gyn_pacote_DBF-eSUS\harbour.bmp)
+
+- **Harbour** (https://harbour.github.io): compõe a maioria do código usado para construir o programa. É uma linguagem open source que utiliza o padrão xBase e compila o código fonte usando o compilador hbmk2.
+
+![](C:\Users\Flavio\Desktop\gyn_pacote_DBF-eSUS\autohotkey.bmp)
+
+- **AutoHotKey** (https://www.autohotkey.com): linguagem de script de código aberto muito usada para automatização de tarefas. Aqui ela foi utilizada para manipulação de arquivos texto e strings usando a biblioteca tf (https://github.com/hi5/TF).
+
+![](C:\Users\Flavio\Desktop\gyn_pacote_DBF-eSUS\object_pascal.bmp)
+
+- **Object Pascal** (https://www.remobjects.com/ps.aspx): linguagem de script em Pascal usada no Inno Setup (https://jrsoftware.org/isdl.php) para criar o arquivo de setup do Covid19Tab, o "InnoScript_for_Covid19Tab.iss".
+
+O ambiente de desenvolvimento (IDE) utilizado foi o HMG (https://sites.google.com/site/hmgweb/). Para abrir o projeto Covid19Tab no HMG, o desenvolvedor deve usar o arquivo "Covid19Tab.hbp" presente no código fonte.
+
+![](C:\Users\Flavio\Desktop\gyn_pacote_DBF-eSUS\HMG.bmp)
+
+
+
+Até agora, a maior causa de mudanças das versões do Covid19Tab, foi devido à mudanças da estrutura dos arquivos do formato CSV, que são exportados pelo e-SUS VE Notifica quando o usuário solicita a exportação de dados. Por ser um programa relativamente novo (menos de um ano de existência), o e-SUS VE Notifica vem sendo constantemente modificado, essas mudanças também se refletem nos arquivos exportados pelo programa para se adequar às mudanças ocorridas durante o ciclo de vida do programa.
+
+O Covid19Tab contém uma proteção que detecta mudança na estrutura do arquivos de exportação gerados pelo e-SUS VE. Dessa forma, quando esses arquivos sofrem uma mudança estrutural, como acréscimo de campos, subtração de campos, mudança do nome de campos, etc, o programa não valida o arquivo e o processamento é finalizado.
+
+Para que o arquivo seja novamente validado, o Covid19Tab possui um módulo para realizar essa tarefa. Esse módulo quando executado gera o arquivo "heading_model.c19" que contém o cabeçalho do arquivo CSV exportado pelo e-SUS VE Notifica, ou seja, o nome dos campos do arquivo. Para usá-lo, o desenvolvedor deve acessar o diretório onde o executável principal do programa está (Covid9Tab.exe), e, usando o prompt de comando, usar o parâmetro "--heading_model".
+
+`covid19tab.exe --heading_model [nome do arquivo]`
+
+Como exemplo, vamos criar um novo arquivo "heading_model.c19" usando um arquivo exportado pelo e-SUS VE Notifica chamado "gyn_set_2020.csv". Ficaria assim no prompt de comando, usando o diretório padrão de instalação do Covid19Tab:
+
+`c:\covid19tab.exe --heading_model c:\covid19tab\BaseDBF\gyn_set_2020.csv`
+
+Após o processamento surgirá uma mensagem mostrando que o procedimento foi bem-sucedido.
+
+![](C:\Users\Flavio\Desktop\gyn_pacote_DBF-eSUS\heading_model.jpg)
+
+Um arquivo de log chamado "covid19tab_log.txt" também estará disponível mostrando as etapas da execução e, claro, um novo arquivo "heading_model.c19" será criado com a estrutura do arquivo de exportação CSV que o desenvolvedor apontou na linha de comando.
+
+Caso haja de fato mudanças na estrutura do arquivo de exportação gerado pelo e-SUS VE Notifica, o procedimento mostrado acima só será suficiente para validar o novo arquivo de exportação no Covid19Tab. Uma alteração estrutural do arquivo de exportação deverá ser acompanhado de mudanças em várias partes do programa para que este se adeque às alterações ocorridas e os campos do arquivo CSV sejam convertidos de maneira correta em arquivos DBF e possam ser trabalhados no TabWin.
+
+Dependendo das alterações ocorridas, os seguintes arquivos também deverão ser alterados:
+
+cria_campo.prg
+
+DBF_file.prg
+
+heading.prg
+
+tem_campo.prg
+
+transfer2.prg
