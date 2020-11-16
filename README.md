@@ -209,7 +209,7 @@ Para desenvolver o Covid19Tab foram utilizadas três linguagens:
 
 O ambiente de desenvolvimento (IDE) utilizado foi o HMG (https://sites.google.com/site/hmgweb/). Para abrir o projeto Covid19Tab no HMG, o desenvolvedor deve usar o arquivo "Covid19Tab.hbp" presente no código fonte.
 
-Até agora, a maior causa de mudanças das versões do Covid19Tab, foi devido à mudanças da estrutura dos arquivos do formato CSV, que são exportados pelo e-SUS VE Notifica quando o usuário solicita a exportação de dados. Por ser um programa relativamente novo (menos de um ano de existência), o e-SUS VE Notifica vem sendo constantemente modificado, essas mudanças também se refletem nos arquivos exportados pelo programa para se adequar às mudanças ocorridas durante o ciclo de vida do programa.
+Até agora, a maior causa de mudanças das versões do Covid19Tab, foi devido à mudanças da estrutura dos arquivos do formato CSV, que são exportados pelo e-SUS VE Notifica quando o usuário solicita a exportação de dados. Por ser um programa relativamente novo (menos de um ano de existência), o e-SUS VE Notifica vem sendo constantemente modificado, essas mudanças também se refletem nos arquivos exportados pelo programa para se adequar às mudanças ocorridas durante o seu ciclo de vida.
 
 O Covid19Tab contém uma proteção que detecta mudança na estrutura do arquivos de exportação gerados pelo e-SUS VE. Dessa forma, quando esses arquivos sofrem uma mudança estrutural, como acréscimo de campos, subtração de campos, mudança do nome de campos, etc, o programa não valida o arquivo e o processamento é finalizado.
 
