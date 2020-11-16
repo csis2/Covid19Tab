@@ -199,7 +199,7 @@ Para desenvolver o Covid19Tab foram utilizadas três linguagens:
 
 ![](https://github.com/csis2/Covid19Tab/blob/master/img/autohotkey.jpg)
 
-- **AutoHotKey** (https://www.autohotkey.com): linguagem de script de código aberto muito usada para automatização de tarefas. Aqui ela foi utilizada para manipulação de arquivos texto e strings usando a biblioteca tf (https://github.com/hi5/TF).
+- **AutoHotKey** (https://www.autohotkey.com): linguagem de script de código aberto muito usada para automatização de tarefas. Aqui ela foi utilizada para manipulação de arquivos texto e strings usando a biblioteca TF (https://github.com/hi5/TF).
 
 ![](https://github.com/csis2/Covid19Tab/blob/master/img/object_pascal.jpg)
 
