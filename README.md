@@ -187,6 +187,16 @@ Caso o usuário não possua o TabWin no seu PC, o link abaixo fornece as orienta
 
 http://www2.datasus.gov.br/DATASUS/index.php?area=060805&item=6
 
+## Problemas conhecidos
+
+Alguns antivírus podem excluir arquivos legítimos usados no Covid19Tab. Geralmente os arquivos excluídos ou postos em quarentena são o "del_line.exe" e o "verify.exe" desenvolvidos na linguagem AHK (AutoHotKey).
+
+Às vezes, os antivírus identificam esses arquivos como ameaças ou malwares, mas são falsos positivos emitidos por esses programas. 
+
+Nesses casos, é necessário o usuário ou, se for o caso, o administrador de rede ou de segurança, realizar a configuração do antivírus para não mais excluir esses arquivos, pois são componentes legítimos que fazem parte do Covid19Tab e não programas maliciosos.
+
+Caso haja algum mal funcionamento do Covid19Tab, rode o módulo de diagnóstico (ver seção "Processando os arquivos do e-SUS VE Notifica") e veja se não está faltando nenhum arquivo necessário para que o programa processe os dados corretamente.
+
 ## Notas para desenvolvedores
 
 O Covid19Tab foi desenvolvido usando o paradigma de programação estruturada, ou seja, possui estruturas de sequência, decisão e iteração.
