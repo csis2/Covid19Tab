@@ -1,0 +1,14 @@
+; MP2_TIPO_TESTE.CNV
+12 2
+      1  ECLIA IGG                                          1                                         
+      2  ELISA IGM                                          2
+      3  Enzimaimunoensaio                                  3
+      4  IGA                                                4
+      5  IGG                                                5
+      6  IGM                                                6
+      7  Imunoensaio por eletroquimioluminescencia - ECLIA  7
+      8  Quimioluminescencia                                8
+      9  RT-PCR                                             9
+     10  Teste rápido - anticorpo                           10
+     11  Teste rápido - antígeno                            11
+     12  Ignorado/em branco                                 12
