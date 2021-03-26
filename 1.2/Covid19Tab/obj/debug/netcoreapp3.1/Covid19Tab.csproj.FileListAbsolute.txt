@@ -1,0 +1,15 @@
+C:\Covid19Tab\1.2\Covid19Tab\bin\Debug\netcoreapp3.1\Covid19Tab.exe
+C:\Covid19Tab\1.2\Covid19Tab\bin\Debug\netcoreapp3.1\Covid19Tab.deps.json
+C:\Covid19Tab\1.2\Covid19Tab\bin\Debug\netcoreapp3.1\Covid19Tab.runtimeconfig.json
+C:\Covid19Tab\1.2\Covid19Tab\bin\Debug\netcoreapp3.1\Covid19Tab.runtimeconfig.dev.json
+C:\Covid19Tab\1.2\Covid19Tab\bin\Debug\netcoreapp3.1\Covid19Tab.dll
+C:\Covid19Tab\1.2\Covid19Tab\bin\Debug\netcoreapp3.1\Covid19Tab.pdb
+C:\Covid19Tab\1.2\Covid19Tab\obj\Debug\netcoreapp3.1\Covid19Tab.csprojAssemblyReference.cache
+C:\Covid19Tab\1.2\Covid19Tab\obj\Debug\netcoreapp3.1\Covid19Tab.Form1.resources
+C:\Covid19Tab\1.2\Covid19Tab\obj\Debug\netcoreapp3.1\Covid19Tab.csproj.GenerateResource.cache
+C:\Covid19Tab\1.2\Covid19Tab\obj\Debug\netcoreapp3.1\Covid19Tab.AssemblyInfoInputs.cache
+C:\Covid19Tab\1.2\Covid19Tab\obj\Debug\netcoreapp3.1\Covid19Tab.AssemblyInfo.cs
+C:\Covid19Tab\1.2\Covid19Tab\obj\Debug\netcoreapp3.1\Covid19Tab.csproj.CoreCompileInputs.cache
+C:\Covid19Tab\1.2\Covid19Tab\obj\Debug\netcoreapp3.1\Covid19Tab.dll
+C:\Covid19Tab\1.2\Covid19Tab\obj\Debug\netcoreapp3.1\Covid19Tab.pdb
+C:\Covid19Tab\1.2\Covid19Tab\obj\Debug\netcoreapp3.1\Covid19Tab.genruntimeconfig.cache
