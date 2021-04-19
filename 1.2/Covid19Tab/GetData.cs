@@ -13,7 +13,7 @@ namespace Covid19Tab
 
             startInfo1.FileName = "getdata.exe";
             startInfo1.Arguments = "run";
-            startInfo1.WindowStyle = ProcessWindowStyle.Normal;
+            startInfo1.WindowStyle = ProcessWindowStyle.Hidden;
             startInfo1.WorkingDirectory = @"c:\covid19tab\1.2\Covid19Tab\bin";
 
             var process1 = Process.Start(startInfo1);
@@ -50,12 +50,6 @@ namespace Covid19Tab
                 counter++;
                 }
             file.Close();
-
-            /*
-            Console.WriteLine(DateTime.Now + "-" + (Program.cDisplayTxt));
-            Console.WriteLine(DateTime.Now + "-" + (Program.cDisplayDbf));
-            Console.WriteLine(DateTime.Now + "-" + (Program.cPercent) + "%");
-            */
         }
     }
  }

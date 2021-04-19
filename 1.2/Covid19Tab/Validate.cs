@@ -27,21 +27,16 @@ namespace Covid19Tab
             }
             if (nValidate >= 1)
             {
+                Program.nErro = 0;
                 Console.WriteLine(DateTime.Now + "-Validacao foi bem sucedida.");
             }
             else
             {
-                string cMessage = "Erro! Validação falhou..";
+                Program.nErro = 1;
+                string cMessage = "Erro! Validação falhou.";
                 string cTitle = "Covid19Tab";
                 MessageBox.Show(cMessage, cTitle, 0, MessageBoxIcon.Error);
                 System.Windows.Forms.Application.Exit();
-
-                /*
-                Console.WriteLine(DateTime.Now + "-Erro! Validação falhou.");
-                Console.WriteLine("Pressione qualquer tecla.");
-                Console.Read();
-                Environment.Exit(1);
-                */
             }
         }
     }

@@ -11,15 +11,31 @@ namespace Covid19Tab
     {
         public void compareAnalyse()
         {
-            String cFilex = @"c:\covid19tab\1.2\covid19tab\tmp\heading_ready.txt";
-            String cFiley = @"c:\covid19tab\1.2\covid19tab\mod\heading_model.c19";
+            String cFilex = @"c:\covid19tab\1.2\covid19tab\tmp\heading_ready.txt";                     
+            String cFiley = "";
+            switch(Program.cModeloPadrao)
+            {
+                case "MP1":
+                String cFiley2 = @"c:\covid19tab\1.2\covid19tab\mod\heading_model_MP1.c19";
+                cFiley = cFiley2;
+                break;
+                case "MP2":
+                String cFiley3 = @"c:\covid19tab\1.2\covid19tab\mod\heading_model_MP2.c19";
+                cFiley = cFiley3;
+                break;
+                case "MP3":
+                String cFiley4 = @"c:\covid19tab\1.2\covid19tab\mod\heading_model_MP3.c19";
+                cFiley = cFiley4;
+                break;
+            }
+
             String cResult = @"c:\covid19tab\1.2\covid19tab\tmp\comp_return.prn";
             ProcessStartInfo startInfo1 = new ProcessStartInfo();
             startInfo1.CreateNoWindow = false;
             startInfo1.UseShellExecute = true;
             startInfo1.FileName = "cmd.exe";
             startInfo1.Arguments = String.Format("/C echo n|comp {0} {1} > {2}", (cFilex), (cFiley), (cResult));
-            startInfo1.WindowStyle = ProcessWindowStyle.Normal;
+            startInfo1.WindowStyle = ProcessWindowStyle.Hidden;
             var process1 = Process.Start(startInfo1);
             process1.WaitForExit();
             var process2 = process1.ExitCode.ToString();
@@ -28,20 +44,15 @@ namespace Covid19Tab
 
             if (!File.Exists(@"c:\covid19tab\1.2\covid19tab\tmp\comp_return.prn"))
             {
+                Program.nErro = 1;
                 string cMessage = "Erro! Falha ao criar arquivo 'comp_return.prn'.";
                 string cTitle = "Covid19Tab";
                 MessageBox.Show(cMessage, cTitle, 0, MessageBoxIcon.Error);
                 System.Windows.Forms.Application.Exit();
-
-                /*
-                Console.WriteLine(DateTime.Now + "-Erro! Falha ao criar arquivo 'comp_return.prn'.");
-                Console.WriteLine("Pressione qualquer tecla.");
-                Console.Read();
-                Environment.Exit(1);
-                */
             }
             else
             {
+                Program.nErro = 0;
                 Console.WriteLine(DateTime.Now + "-Arquivo 'comp_return.txt' criado com sucesso.");
             }
         }

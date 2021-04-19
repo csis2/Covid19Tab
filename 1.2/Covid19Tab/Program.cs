@@ -11,8 +11,11 @@ namespace Covid19Tab
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
-        public static string cPlace;
-        public static string cDisplayTxt, cDisplayDbf, cPercent;
+        public static string cPlace, cModeloPadrao, cFileName, cFileNameWithoutExt, cFinalName;
+        public static string cDisplayTxt, cDisplayDbf, cPercent, cUf, cDbf_Sinan, cText;
+        public static int nErro, nError_task;
+        public static string cVersion = "1.2";
+
         [STAThread]
         static void Main()
         {

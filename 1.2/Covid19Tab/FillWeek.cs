@@ -1,32 +1,20 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace Covid19Tab
 {
-    public class FieldCreation
+    public class FillWeek
     {
-        public void fieldCreation()
+        public void fillWeek(string ano)
         {
             ProcessStartInfo startInfo1 = new ProcessStartInfo();
             startInfo1.CreateNoWindow = false;
             startInfo1.UseShellExecute = true;
-
-            startInfo1.FileName = "field_creation.exe";
-
-            switch (Program.cModeloPadrao)
-            {
-                case "MP1":
-                    startInfo1.Arguments = "MP1";
-                    break;
-                case "MP2":
-                    startInfo1.Arguments = "MP2";
-                    break;
-                case "MP3":
-                    startInfo1.Arguments = "MP3";
-                    break;
-            }
-
+            startInfo1.FileName = "fill_week.exe";
+            startInfo1.Arguments = ano;
             startInfo1.WindowStyle = ProcessWindowStyle.Hidden;
             startInfo1.WorkingDirectory = @"c:\covid19tab\1.2\Covid19Tab\bin";
 
@@ -36,7 +24,7 @@ namespace Covid19Tab
             if (process1.ExitCode != 0)
             {
                 Program.nErro = 1;
-                string cMessage = "Erro! Falha na execução do objeto 'FieldCreation'.";
+                string cMessage = "Erro! Falha na execução do objeto 'fillWeek'.";
                 string cTitle = "Covid19Tab";
                 MessageBox.Show(cMessage, cTitle, 0, MessageBoxIcon.Error);
                 System.Windows.Forms.Application.Exit();

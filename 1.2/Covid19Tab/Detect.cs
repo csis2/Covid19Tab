@@ -1,18 +1,21 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace Covid19Tab
 {
-    public class FieldCreation
+    public class Detect
+    // Detecta registros inconsistentes após o processamento do arquivo dbf.
     {
-        public void fieldCreation()
+        public void detect()
         {
             ProcessStartInfo startInfo1 = new ProcessStartInfo();
             startInfo1.CreateNoWindow = false;
             startInfo1.UseShellExecute = true;
 
-            startInfo1.FileName = "field_creation.exe";
+            startInfo1.FileName = "detect.exe";
 
             switch (Program.cModeloPadrao)
             {
@@ -36,7 +39,7 @@ namespace Covid19Tab
             if (process1.ExitCode != 0)
             {
                 Program.nErro = 1;
-                string cMessage = "Erro! Falha na execução do objeto 'FieldCreation'.";
+                string cMessage = "Erro! Falha na execução do objeto 'Detect'.";
                 string cTitle = "Covid19Tab";
                 MessageBox.Show(cMessage, cTitle, 0, MessageBoxIcon.Error);
                 System.Windows.Forms.Application.Exit();

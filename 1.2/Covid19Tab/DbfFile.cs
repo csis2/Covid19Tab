@@ -13,8 +13,22 @@ namespace Covid19Tab
             startInfo1.UseShellExecute = true;
 
             startInfo1.FileName = "dbf_file.exe";
-            startInfo1.Arguments = "run";
-            startInfo1.WindowStyle = ProcessWindowStyle.Normal;
+
+            switch (Program.cModeloPadrao)
+            {
+                case "MP1":
+                    startInfo1.Arguments = "MP1";
+                    break;
+                case "MP2":
+                    startInfo1.Arguments = "MP2";
+                    break;
+                case "MP3":
+                    startInfo1.Arguments = "MP3";
+                    break;
+            }
+
+            //startInfo1.Arguments = "run";
+            startInfo1.WindowStyle = ProcessWindowStyle.Hidden;
             startInfo1.WorkingDirectory = @"c:\Covid19Tab\1.2\Covid19Tab\bin";
 
             var process1 = Process.Start(startInfo1);
@@ -22,19 +36,15 @@ namespace Covid19Tab
 
             if (process1.ExitCode != 0)
             {
+                Program.nErro = 1;
                 string cMessage = "Erro! Falha na execução do objeto 'DbfFile'.";
                 string cTitle = "Covid19Tab";
                 MessageBox.Show(cMessage, cTitle, 0, MessageBoxIcon.Error);
                 System.Windows.Forms.Application.Exit();
-
-                /*
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine(DateTime.Now + "-Erro! Falha na execução do objeto 'DbfFile'.");
-                Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("Pressione qualquer tecla.");
-                Console.Read();
-                Environment.Exit(1);
-                */
+            }
+            else
+            {
+                Program.nErro = 0;
             }
         }
     }

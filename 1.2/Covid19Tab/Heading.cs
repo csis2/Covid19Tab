@@ -1,7 +1,10 @@
 ﻿using System;
 using System.IO;
-using System.Diagnostics;
 using System.Windows.Forms;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Collections.Generic;
+using System.Collections;
 
 namespace Covid19Tab
 {
@@ -11,37 +14,159 @@ namespace Covid19Tab
     {
         public void heading()
         {
-            ProcessStartInfo startInfo1 = new ProcessStartInfo();
-            startInfo1.CreateNoWindow = false;
-            startInfo1.UseShellExecute = true;
-            startInfo1.FileName = "cmd.exe";
-            startInfo1.Arguments = "/C cd\\&&cd C:\\covid19tab\\1.2\\covid19tab\\bin &&sed 1d C:\\Covid19Tab\\1.2\\Covid19Tab\\tmp\\temp_covid19.txt > C:\\Covid19Tab\\1.2\\Covid19Tab\\tmp\\temp_covid19alfa.txt&&sed -i 1i\\nu_notific;dt_notific;cpf;nm_pacient;sexo;raca_cor;dt_nasc;nu_idade_n;cbo;id_mn_resi;munic_res;regio_res;macroresid;uf;dt_sin_pri;diabetes;cardio;d_resp;imunosup;classific;criterio;evolucao;dt_evoluc;cnes_not;res_teste;tp_teste;est_teste;profissio;fonte;classivep;internacao;dt_inter;inter_uti;dt_int_uti;dt_sai_uti;puerpera;hemato;sind_down;hepat_cron;neuro_cron;renal_cron;obesidade;gestante;febre;tosse;dor_gargan;dispneia;desc_resp;saturacao;diarreia;vomito;out_sint2;condicoes;etnia_ind;out_sint;doen_renal;doen_cromo;sem_epi_si;ano_epi_si;sem_epi_ev;ano_epi_ev;sem_epi_in;ano_epi_in;sem_epi_no;ano_epi_no C:\\Covid19Tab\\1.2\\Covid19Tab\\tmp\\temp_covid19alfa.txt&&sed -n 1p C:\\Covid19Tab\\1.2\\Covid19Tab\\tmp\\temp_covid19alfa.txt > C:\\Covid19Tab\\1.2\\Covid19Tab\\tmp\\heading2.txt";
-            startInfo1.WindowStyle = ProcessWindowStyle.Normal;
-            var process1 = Process.Start(startInfo1);
-            process1.WaitForExit();
-            var process2 = process1.ExitCode.ToString();
-            var process3 = startInfo1.FileName;
-            var process4 = startInfo1.Arguments;
 
+            switch (Program.cModeloPadrao)
+            {
+                case "MP1":
+                    
+                    Task task1a = Task.Run(() =>
+                    {
+                        var lines2a = System.IO.File.ReadAllLines("C:\\Covid19Tab\\1.2\\Covid19Tab\\tmp\\temp_covid19.txt");
+                        System.IO.File.WriteAllLines("C:\\Covid19Tab\\1.2\\Covid19Tab\\tmp\\temp_covid19.txt", lines2a.Skip(1).ToArray());
+                    });
+                    task1a.Wait();
+                                        
+                    Task task2a = Task.Run(() =>
+                    {
+                        string strTextFileName = "C:\\Covid19Tab\\1.2\\Covid19Tab\\tmp\\temp_covid19.txt";
+                        int iInsertAtLineNumber = 0;
+                        string strTextToInsert = "nu_notific,uf_notific,munic_not,tipo_teste,res_rapido,evolucao,dt_tst_rap,est_teste,dt_encerra,classi_fin,res_tot,res_iga,res_igm,res_igg,t_sorolog,dt_tst_sor,tel_contat,uf_resid,sexo,tem_cpf,estrang,cpf,munic_res,cns,dt_nasc,passaporte,nome_mae,pais,tel_cel,nm_pacient,profsaude,cbo,cep,logradouro,numero,complement,bairro,raca_cor,prof_seg,etnia,email,comunidade,id_comunid,garganta,dispneia,febre,tosse,outros,dor_cabeca,gustativos,olfativos,coriza,assintomat,dt_notific,d_resp,d_card,diabetes,d_renais,imunosup,gestante,portador,puerpera,obesidade,dt_sintom,descricao,cnes_lab,not_cnes,not_cpf,not_email,not_nome,not_cnpj";
+                        ArrayList lines = new ArrayList();
+                        StreamReader rdr = new StreamReader(strTextFileName);
+                        string line;
+
+                        while ((line = rdr.ReadLine()) != null)
+                            lines.Add(line);
+                        rdr.Close();
+
+                        if (lines.Count > iInsertAtLineNumber)
+                            lines.Insert(iInsertAtLineNumber, strTextToInsert);
+                        else
+
+                            lines.Add(strTextToInsert);
+
+                        StreamWriter wrtr = new StreamWriter(strTextFileName);
+                        foreach (string strNewLine in lines)
+                            wrtr.WriteLine(strNewLine);
+
+                        wrtr.Close();
+                    });
+                    task2a.Wait();
+
+                    Task task3a = Task.Run(() =>
+                    {
+                        File.Move("C:\\Covid19Tab\\1.2\\Covid19Tab\\tmp\\temp_covid19.txt", "C:\\Covid19Tab\\1.2\\Covid19Tab\\tmp\\temp_covid19alfa.txt");
+                        string lineswitch = File.ReadLines("C:\\Covid19Tab\\1.2\\Covid19Tab\\tmp\\temp_covid19alfa.txt").First();
+                        using (StreamWriter sw = File.CreateText("C:\\Covid19Tab\\1.2\\Covid19Tab\\tmp\\heading2.txt"))
+                        {
+                            sw.WriteLine(lineswitch);
+                        }
+                    });
+                    task3a.Wait();
+                    
+                    break;
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                case "MP2":
+                    var lines = System.IO.File.ReadAllLines("c:\\hb30\\bin\\temp_covid19.txt");
+                    System.IO.File.WriteAllLines("c:\\hb30\\bin\\temp_covid19.txt", lines.Skip(1).ToArray());
+                    
+                    MessageBox.Show("Processado!");
+
+                    var allLines = File.ReadAllLines("c:\\hb30\\bin\\temp_covid19.txt");
+                    allLines[0] = "2345";
+
+                    File.WriteAllLines("c:\\hb30\\bin\\temp_covid19.txt", allLines);
+                    MessageBox.Show("Processado 2!");
+                    break;
+
+                case "MP3":
+                                        
+                    Task task1 = Task.Run(() =>
+                    {
+                    var lines2 = System.IO.File.ReadAllLines("C:\\Covid19Tab\\1.2\\Covid19Tab\\tmp\\temp_covid19.txt");
+                    System.IO.File.WriteAllLines("C:\\Covid19Tab\\1.2\\Covid19Tab\\tmp\\temp_covid19.txt", lines2.Skip(1).ToArray());
+                    });
+                    task1.Wait();
+
+                    Task task2 = Task.Run(() =>
+                    {
+                    string strTextFileName = "C:\\Covid19Tab\\1.2\\Covid19Tab\\tmp\\temp_covid19.txt";
+                    int iInsertAtLineNumber = 0;
+                    string strTextToInsert = "nu_notific,dt_notific,cpf,nm_pacient,sexo,raca_cor,dt_nasc,nome_mae,cbo,logradouro,bairro,cep,id_mn_resi,munic_res,region_res,macroresid,uf,munic_not,diabetes,cardio,d_resp,imunosup,dt_sin_pri,classific,criterio,evolucao,dt_evoluc,cnes_not,res_teste,tp_teste,dt_coleta,est_teste,profissio,fonte,idade";
+                    ArrayList lines = new ArrayList();
+                    StreamReader rdr = new StreamReader( strTextFileName );
+                    string line;
+
+                    while ((line = rdr.ReadLine()) != null)
+                    lines.Add(line);
+                    rdr.Close();
+
+                    if (lines.Count > iInsertAtLineNumber)
+                        lines.Insert(iInsertAtLineNumber, strTextToInsert);
+                    else
+
+                    lines.Add(strTextToInsert);
+
+                    StreamWriter wrtr = new StreamWriter( strTextFileName);
+                    foreach (string strNewLine in lines)
+                    wrtr.WriteLine(strNewLine);
+
+                    wrtr.Close();
+                    });
+                    task2.Wait();
+
+                    Task task3 = Task.Run(() =>
+                    {
+                    File.Move("C:\\Covid19Tab\\1.2\\Covid19Tab\\tmp\\temp_covid19.txt", "C:\\Covid19Tab\\1.2\\Covid19Tab\\tmp\\temp_covid19alfa.txt");
+                    string lineswitch = File.ReadLines("C:\\Covid19Tab\\1.2\\Covid19Tab\\tmp\\temp_covid19alfa.txt").First();
+                    using (StreamWriter sw = File.CreateText("C:\\Covid19Tab\\1.2\\Covid19Tab\\tmp\\heading2.txt"))
+                    {
+                        sw.WriteLine(lineswitch);
+                    }
+                    });
+                    task3.Wait();
+
+                    break;            
+            }
+                            
             if (!File.Exists(@"C:\covid19tab\1.2\covid19tab\tmp\heading2.txt"))
             {
+                Program.nErro = 1;
                 string cMessage = "Erro! Falha ao criar arquivo 'heading2.txt'.";
                 string cTitle = "Covid19Tab";
                 MessageBox.Show(cMessage, cTitle, 0, MessageBoxIcon.Error);
                 System.Windows.Forms.Application.Exit();
-
-                /*
-                Console.WriteLine(DateTime.Now + "-Erro! Falha ao criar arquivo 'heading2.txt'.");
-                Console.WriteLine("Pressione qualquer tecla.");
-                Console.Read();
-                Environment.Exit(1);
-                */
             }
             else
             {
+                Program.nErro = 0;
                 Console.WriteLine(DateTime.Now + "-Alteração processada.");
             }
-
         }
     }
 }

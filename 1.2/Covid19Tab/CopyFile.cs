@@ -16,18 +16,15 @@ namespace Covid19Tab
 
             if (!File.Exists(@"C:\Covid19Tab\1.2\Covid19Tab\tmp\temp_covid19.txt"))
             {
+                Program.nErro = 1;
                 string cMessage = "Erro! Falha ao criar arquivo 'temp_covid19.txt'.";
                 string cTitle = "Covid19Tab";
                 MessageBox.Show(cMessage, cTitle, 0, MessageBoxIcon.Error);
                 System.Windows.Forms.Application.Exit();
-
-                //Console.WriteLine(DateTime.Now + "-Erro! Falha ao criar arquivo 'temp_covid19.txt'.");
-                //Console.WriteLine("Pressione qualquer tecla.");
-                //Console.Read();
-                //Environment.Exit(1);
             }
             else
             {
+                Program.nErro = 0;
                 Console.WriteLine(DateTime.Now + "-Arquivo 'temp_covid19.txt' criado com sucesso.");
             }
         }
