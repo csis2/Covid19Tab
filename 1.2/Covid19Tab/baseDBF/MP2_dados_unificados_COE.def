@@ -83,7 +83,7 @@ XEvolução,ID_EVOLUC,1,MP2_EVOLUCAO.CNV
 XResult.Teste,ID_RES_TST,1,MP2_RESULT_TESTE.CNV
 
 ;Definições para o tipo de teste.
-XTipo do Teste,ID_TP_TST,2,MP2_TIPO_TESTE.CNV
+XTipo do Teste,ID_TP_TST,1,MP2_TIPO_TESTE.CNV
 
 ;Definições para estado do teste.
 XEstado do teste,ID_EST_TST,1,MP2_ESTADO_TESTE.CNV
