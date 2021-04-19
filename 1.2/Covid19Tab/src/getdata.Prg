@@ -26,6 +26,7 @@ endif
 
 * O ultimo registro do arquivo 'molde5.dbf' contém a quantidade de linhas do arquivo 'temp_covid19alfa.txt'. Cada linha
 * representa um registro. O trecho seguinte extrai essa informação do arquivo 'molde5.dbf'.
+
 use "C:\Covid19Tab\1.2\Covid19Tab\tmp\molde5.dbf"
 dbgobottom()
 cTxtRecs := nm_pacient
