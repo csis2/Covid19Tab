@@ -126,6 +126,86 @@ pause
 exit
 )
 
+cecho {0b}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Compilando os arquivos copiados...
+echo.
+cecho {0a}
+cd\
+cd c:\hb30\bin\
+hbmk2 detect.prg
+if %errorlevel% equ 0 (
+cecho {0b}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Arquivo compilado.
+echo.
+) else (
+cecho {0c}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Erro ao compilar arquivo.
+echo.
+pause
+exit
+)
+
+cecho {0b}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Compilando os arquivos copiados...
+echo.
+cecho {0a}
+cd\
+cd c:\hb30\bin\
+hbmk2 index.prg
+if %errorlevel% equ 0 (
+cecho {0b}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Arquivo compilado.
+echo.
+) else (
+cecho {0c}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Erro ao compilar arquivo.
+echo.
+pause
+exit
+)
+
+cecho {0b}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Compilando os arquivos copiados...
+echo.
+cecho {0a}
+cd\
+cd c:\hb30\bin\
+hbmk2 epidemio.prg
+if %errorlevel% equ 0 (
+cecho {0b}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Arquivo compilado.
+echo.
+) else (
+cecho {0c}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Erro ao compilar arquivo.
+echo.
+pause
+exit
+)
+
+cecho {0b}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Compilando os arquivos copiados...
+echo.
+cecho {0a}
+cd\
+cd c:\hb30\bin\
+hbmk2 fill_week.prg
+if %errorlevel% equ 0 (
+cecho {0b}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Arquivo compilado.
+echo.
+) else (
+cecho {0c}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Erro ao compilar arquivo.
+echo.
+pause
+exit
+)
+
+cecho {0b}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Compilando os arquivos copiados...
+echo.
+cecho {0a}
+cd\
+cd c:\hb30\bin\
+hbmk2 save.prg
+if %errorlevel% equ 0 (
+cecho {0b}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Arquivo compilado.
+echo.
+) else (
+cecho {0c}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Erro ao compilar arquivo.
+echo.
+pause
+exit
+)
+
 cd\
 cd C:\Covid19Tab\1.2\Covid19Tab\bin\Debug\
 cecho {0b}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Copiando os arquivos compilados...
@@ -192,6 +272,66 @@ exit
 
 cecho {0a}
 copy C:\hb30\bin\transfer2.exe C:\Covid19Tab\1.2\Covid19Tab\bin\transfer2.exe
+if %errorlevel% equ 0 (
+cecho {0b}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Arquivo copiado.
+echo.
+) else (
+cecho {0c}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Erro ao copiar arquivo.
+echo.
+pause
+exit
+)
+
+cecho {0a}
+copy C:\hb30\bin\detect.exe C:\Covid19Tab\1.2\Covid19Tab\bin\detect.exe
+if %errorlevel% equ 0 (
+cecho {0b}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Arquivo copiado.
+echo.
+) else (
+cecho {0c}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Erro ao copiar arquivo.
+echo.
+pause
+exit
+)
+
+cecho {0a}
+copy C:\hb30\bin\index.exe C:\Covid19Tab\1.2\Covid19Tab\bin\index.exe
+if %errorlevel% equ 0 (
+cecho {0b}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Arquivo copiado.
+echo.
+) else (
+cecho {0c}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Erro ao copiar arquivo.
+echo.
+pause
+exit
+)
+
+cecho {0a}
+copy C:\hb30\bin\epidemio.exe C:\Covid19Tab\1.2\Covid19Tab\bin\epidemio.exe
+if %errorlevel% equ 0 (
+cecho {0b}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Arquivo copiado.
+echo.
+) else (
+cecho {0c}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Erro ao copiar arquivo.
+echo.
+pause
+exit
+)
+
+cecho {0a}
+copy C:\hb30\bin\fill_week.exe C:\Covid19Tab\1.2\Covid19Tab\bin\fill_week.exe
+if %errorlevel% equ 0 (
+cecho {0b}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Arquivo copiado.
+echo.
+) else (
+cecho {0c}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Erro ao copiar arquivo.
+echo.
+pause
+exit
+)
+
+cecho {0a}
+copy C:\hb30\bin\save.exe C:\Covid19Tab\1.2\Covid19Tab\bin\save.exe
 if %errorlevel% equ 0 (
 cecho {0b}%date:~-10,2%/%date:~-7,2%/%date:~-4,4% %time:~0,2%:%time:~3,2%:%time:~6,2%-------Arquivo copiado.
 echo.
