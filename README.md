@@ -16,7 +16,8 @@ Você também pode constatar a segurança do Covid19Tab utilizando o VirusTotal 
 
 1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_setup.exe". Esse arquivo está disponível no release "Covid19Tab versao 1.2". Procure na página do repositório e clique no link.
 
-![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/1.2/Covid19Tab/img/image01.jpg)
+![alt text]("https://github.com/csis2/Covid19Tab/blob/1.2/1.2/Covid19Tab/img/image01.jpg")
+
 
 2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_setup.exe".
 
