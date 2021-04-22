@@ -6,7 +6,7 @@ O Covid19Tab transforma o arquivo exportado pelo usuário no e-SUS VE Notifica e
 
 ## **É seguro instalar e usar o Covid19Tab?**
 
-Sim. O arquivo de instalação, “Covid19Tab_setup.exe” contém os arquivos que interessam para o usuário final. Escaneando esses arquivos no serviço online VirusTotal, não foram detectados conteúdos maliciosos neles pelos antivírus mais conhecidos no mercado, como o AVG, McAfee, Avast, Kapersky, Symantec, F-Secure etc.
+Sim. O arquivo de instalação, “Covid19Tab_setup.exe” contém os arquivos que interessam para o usuário final. Escaneando esses arquivos no serviço online VirusTotal, não foram detectados conteúdos maliciosos neles pelos antivírus mais conhecidos no mercado, como o AVG, TrendMicro, Avast, Kapersky, Symantec, F-Secure etc.
 
 Você também pode constatar a segurança do Covid19Tab utilizando o VirusTotal (https://www.virustotal.com/gui/) para fazer uma varredura dos arquivos, o serviço é online e gratuito.
 
