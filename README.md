@@ -17,30 +17,26 @@ Você também pode constatar a segurança do Covid19Tab utilizando o VirusTotal 
 1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_setup.exe". Esse arquivo está disponível no release "Covid19Tab versao 1.2". Procure na página do repositório e clique no link.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image1.jpg)
-![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/Covid19Tab/img/image01.jpg)
-
-![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/warning.jpg)
-
 
 2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_setup.exe".
 
-![alt text](C:\Users\Flavio\Desktop\readme\1.2\img2.bmp)
+![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image2.jpg)
 
 3. Em seguida, uma mensagem surgirá, questionando se o usuário quer salvar o arquivo. Clique no botão "Salvar arquivo".
 
-![alt text](C:\Users\Flavio\Desktop\readme\1.2\img3.bmp)
+![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image3.jpg)
 
 4. Procure a pasta onde o arquivo "Covid19Tab_setup.exe" foi salvo.
 
-![alt text](C:\Users\Flavio\Desktop\readme\1.2\img4.bmp)
+![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image4.jpg)
 
 5. Execute o arquivo "Covid19Tab_setup.exe".
 
-   ![alt text](C:\Users\Flavio\Desktop\readme\1.2\img5.bmp)
+   ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image5.jpg)
 
    6. Clique no botão "Próximo" para iniciar a instalação. Nessa versão, o usuário não escolhe o lugar onde o programa será instalado, devendo ser, de forma compulsória, no disco local C, na pasta "Covid19Tab". A única escolha que o usuário tem é de optar pela criação de um atalho para o programa na área de trabalho. Faça a sua escolha e clique no botão "Próximo".
 
-      ![alt text](C:\Users\Flavio\Desktop\readme\1.2\img6.bmp)
+      ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image6.jpg)
 
 7. Tudo pronto para a instalação, clique no botão "Instalar".
 
