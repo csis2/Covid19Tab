@@ -40,14 +40,14 @@ Você também pode constatar a segurança do Covid19Tab utilizando o VirusTotal 
 
 7. Tudo pronto para a instalação, clique no botão "Instalar".
 
-![alt text](C:\Users\Flavio\Desktop\readme\1.2\img7.bmp)
+![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image7.jpg)
 
 8. Aguarde a instalação realizada pelo arquivo de setup.
 
-![alt text](C:\Users\Flavio\Desktop\readme\1.2\img8.bmp)
+![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image8.jpg)
 
 9. Após a instalação, o assistente de instalação informará se a instalação foi bem sucedida. Clicando no botão "Concluir", o programa se iniciará automaticamente. Caso não queira iniciar o Covid19Tab após o término da instalação, desmarque a caixa de checagem "Iniciar o Covid19Tab".
 
-![alt text](C:\Users\Flavio\Desktop\readme\1.2\img9.bmp)
+![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image9.jpg)
 
 
