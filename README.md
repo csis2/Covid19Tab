@@ -86,3 +86,4 @@ Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a desc
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image12.jpg)
 
+## **Usando o Covid19Tab**
