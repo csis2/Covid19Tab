@@ -46,7 +46,7 @@ Você também pode constatar a segurança do Covid19Tab utilizando o VirusTotal 
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image8.jpg)
 
-9. Após a instalação, o assistente de instalação informará se a instalação foi bem sucedida. Clicando no botão "Concluir", o programa se iniciará automaticamente. Caso não queira iniciar o Covid19Tab após o término da instalação, desmarque a caixa de checagem "Iniciar o Covid19Tab".
+9. No final do processo, o assistente de instalação informará se a operação foi bem sucedida. Clicando no botão "Concluir", o programa se iniciará automaticamente. Caso não queira iniciar o Covid19Tab após o término da instalação, desmarque a caixa de checagem "Iniciar o Covid19Tab".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image9.jpg)
 
