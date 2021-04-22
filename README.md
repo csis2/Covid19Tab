@@ -18,7 +18,7 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 - instalando o programa no computador **ou**
 - transferindo uma pasta contendo os executáveis e outros arquivos para o PC.
 
-## **Instalando o Covid19Tab
+### Instalando o Covid19Tab
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/warning.jpg)Atenção!  Utilize sempre o release que estiver mais atualizado no repositório, atualmente, é o release "Covid19Tab versão 1.2".
 
@@ -58,4 +58,30 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image9.jpg)
 
+### Transferindo uma pasta com os executáveis e outros arquivos para o PC
+
+Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a descompactação de arquivos. No exemplo mostrado a seguir, utilizamos o WinRAR (https://www.win-rar.com). Caso o usuário tenha dificuldade em operações de descompactação de arquivos, recomendamos que antes de começar esse tópico, instale o WinRAR no seu PC para facilitar o entendimento do conteúdo descrito a seguir.
+
+1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab.rar". Esse arquivo está disponível no release "Covid19Tab_versao_alfa". Procure na página do repositório e clique no link.
+   ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release1.jpg)
+
+2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab.rar".
+
+   ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release2.jpg)
+
+3. Clicando no link, em poucos instantes surgirá uma janela, o usuário então deve optar por abrir ou salvar o arquivo. Marque na caixa de checagem a opção "Abrir com - WinRAR" e clique no botão "OK".
+
+   ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release3.jpg)
+
+4. Surgirá então uma nova janela, mostrando o conteúdo inicial da descompactação do arquivo "Covid19Tab.rar". Clique uma vez na pasta "Covid19Tab" para selecionar o arquivo, depois clique no botão "Extrair Para".
+   
+      ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release4.jpg)
+   
+5. Na nova janela que surgirá, selecione "disco local C" e clique no botão "OK".
+
+![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release5.jpg)
+
+6. Quando a descompactação do arquivo terminar, o resultado será a pasta "Covid19Tab" no disco local C e, dentro dessa pasta, haverá o arquivo "Covid19Tab.exe", o arquivo principal do programa.
+
+![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release6.jpg)
 
