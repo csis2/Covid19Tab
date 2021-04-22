@@ -68,11 +68,11 @@ Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a desc
 
 2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.2.rar".
 
-   ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release2.jpg)
+   ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image10.jpg)
 
 3. Clicando no link, em poucos instantes surgirá uma janela, o usuário então deve optar por abrir ou salvar o arquivo. Marque na caixa de checagem a opção "Abrir com - WinRAR" e clique no botão "OK".
 
-   ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release3.jpg)
+   ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release2.jpg)
 
 4. Surgirá então uma nova janela, mostrando o conteúdo inicial da descompactação do arquivo "Covid19Tab.rar". Clique uma vez na pasta "Covid19Tab" para selecionar o arquivo, depois clique no botão "Extrair Para".
    
