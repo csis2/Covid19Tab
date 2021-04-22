@@ -84,5 +84,5 @@ Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a desc
 
 6. Quando a descompactação do arquivo terminar, o resultado será a pasta "Covid19Tab" no disco local C e, dentro dessa pasta, haverá o arquivo "Covid19Tab.exe", o arquivo principal do programa.
 
-![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release6.jpg)
+![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image12.jpg)
 
