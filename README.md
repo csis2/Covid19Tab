@@ -1,4 +1,5 @@
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/Covid19Tab_logo.jpg)
+
 É uma ferramenta de código aberto que permite que os dados exportados pelo"e-SUS VE Notifica" (https://notifica.saude.gov.br/login) possam ser tabulados no "TabWin" (http://www2.datasus.gov.br/DATASUS/index.php?area=060805).
 
 ## Como funciona?
