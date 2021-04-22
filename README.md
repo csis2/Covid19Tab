@@ -12,7 +12,7 @@ Você também pode constatar a segurança do Covid19Tab utilizando o VirusTotal 
 
 ## Instalando o Covid19Tab
 
-![alt text](C:\Users\Flavio\Desktop\readme\warning.jpg) Atenção!  Utilize sempre o release que estiver mais atualizado no repositório, atualmente, é o release "Covid19Tab versão 1.2".
+![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/warning.jpg)Atenção!  Utilize sempre o release que estiver mais atualizado no repositório, atualmente, é o release "Covid19Tab versão 1.2".
 
 1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_setup.exe". Esse arquivo está disponível no release "Covid19Tab versao 1.2". Procure na página do repositório e clique no link.
 
