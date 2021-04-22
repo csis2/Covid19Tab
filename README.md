@@ -11,6 +11,13 @@ Sim. O arquivo de instalação, “Covid19Tab_setup.exe” contém os arquivos q
 
 Você também pode constatar a segurança do Covid19Tab utilizando o VirusTotal (https://www.virustotal.com/gui/) para fazer uma varredura dos arquivos, o serviço é online e gratuito.
 
+## **Colocando o Covid19Tab no seu computador**
+
+O usuário poderá utilizar a ferramenta de duas maneiras: 
+
+- instalando o programa no computador **ou**
+- transferindo uma pasta contendo os executáveis e outros arquivos para o PC.
+
 ## Instalando o Covid19Tab
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/warning.jpg)Atenção!  Utilize sempre o release que estiver mais atualizado no repositório, atualmente, é o release "Covid19Tab versão 1.2".
