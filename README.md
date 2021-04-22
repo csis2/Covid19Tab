@@ -26,7 +26,7 @@ Você também pode constatar a segurança do Covid19Tab utilizando o VirusTotal 
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image3.jpg)
 
-4. Procure a pasta onde o arquivo "Covid19Tab_setup.exe" foi salvo.
+4. Procure a pasta onde o arquivo "Covid19Tab_setup.exe" foi salva.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image4.jpg)
 
