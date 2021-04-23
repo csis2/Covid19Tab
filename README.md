@@ -102,6 +102,8 @@ Acessando o módulo de Configuração, o usuário deverá selecionar a UF em que
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image15.jpg)
 
+Para indicar onde os arquivos DBF do SINAN NET estão, o usuário tem duas opções:
+1. 
 
 
 
