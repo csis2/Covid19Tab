@@ -2,24 +2,24 @@
 
 É uma ferramenta de código aberto que permite que os dados exportados pelo"e-SUS VE Notifica" (https://notifica.saude.gov.br/login) possam ser tabulados no "TabWin" (http://www2.datasus.gov.br/DATASUS/index.php?area=060805).
 
-## **1.Como funciona?
+## **1. Como funciona?
 
 O Covid19Tab transforma o arquivo exportado pelo usuário no e-SUS VE Notifica em um arquivo DBF e depois, cria campos extras dentro desse arquivo, como nome da regional, semana de início dos sintomas, idade etc. Em seguida, os dados desses campos que foram criados são preenchidos automaticamente com base nos dados de outros campos. Novos campos também são criados e, em seguida, são codificados para um padrão reconhecido pelo TabWin. Dessa forma, o arquivo resultante contém campos e registros que os tornam compatíveis para poder ser trabalhado no Tabwin.
 
-## **2.É seguro instalar e usar o Covid19Tab?**
+## **2. É seguro instalar e usar o Covid19Tab?**
 
 Sim. O arquivo de instalação, “Covid19Tab_setup.exe” contém os arquivos que interessam para o usuário final. Escaneando esses arquivos no serviço online VirusTotal, não foram detectados conteúdos maliciosos neles pelos antivírus mais conhecidos no mercado, como o AVG, TrendMicro, Avast, Kapersky, Symantec, F-Secure etc.
 
 Você também pode constatar a segurança do Covid19Tab utilizando o VirusTotal (https://www.virustotal.com/gui/) para fazer uma varredura dos arquivos, o serviço é online e gratuito.
 
-## **3.Colocando o Covid19Tab no seu computador**
+## **3. Colocando o Covid19Tab no seu computador**
 
 O usuário poderá utilizar a ferramenta de duas maneiras: 
 
 - instalando o programa no computador **ou**
 - transferindo uma pasta contendo os executáveis e outros arquivos para o PC.
 
-### 3.1.Instalando o Covid19Tab
+### 3.1. Instalando o Covid19Tab
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/warning.jpg) Atenção!  Utilize sempre o release que estiver mais atualizado no repositório. Atualmente, é o release "Covid19Tab versão 1.2".
 
@@ -59,7 +59,7 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image9.jpg)
 
-### 3.2.Transferindo uma pasta com os executáveis e outros arquivos para o PC
+### 3.2. Transferindo uma pasta com os executáveis e outros arquivos para o PC
 
 Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a descompactação de arquivos. No exemplo mostrado a seguir, utilizamos o WinRAR (https://www.win-rar.com). Caso o usuário tenha dificuldade em operações de descompactação de arquivos, recomendamos que antes de começar esse tópico, instale o WinRAR no seu PC para facilitar o entendimento do conteúdo descrito a seguir.
 
@@ -87,7 +87,7 @@ Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a desc
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image12.jpg)
 
-## **4.Usando o Covid19Tab**
+## **4. Usando o Covid19Tab**
 
 Se o usuário tiver optado pela instalação do programa, basta acessá-lo por um atalho na área de trabalho, caso contrário, se tiver optado pela transferência de uma pasta com os executáveis e outros arquivos para o disco local C, basta procurar a pasta que foi transferido os arquivos e rodar o executável "Covid19Tab.exe".
 
