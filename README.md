@@ -140,6 +140,6 @@ No entanto, da mesma forma que na primeira opção, esses arquivos precisam ter 
 
 4.2.4. Copie os três arquivos e cole-os na subpasta "BaseDBF", criada conforme descrito e mostrado no item 4.2.1.
 
-
+![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image16.jpg)
 
 
