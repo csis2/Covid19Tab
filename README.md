@@ -91,3 +91,5 @@ Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a desc
 Se o usuário tiver optado pela instalação do programa, basta acessá-lo por um atalho na área de trabalho, caso contrário, se tiver optado pela transferência de uma pasta com os executáveis e outros arquivos para o disco local C, basta procurar a pasta que foi transferido os arquivos e rodar o executável "Covid19Tab.exe".
 
 A ilustração abaixo mostra a interface do usuário.
+
+![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image13.jpg)
