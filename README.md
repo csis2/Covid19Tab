@@ -149,7 +149,7 @@ Além disso, a partir da próxima versão, o Covid19Tab passará a processar out
 
 Segue então, para fins de registro o modelo padrão atualmente usado pelo e-SUS VE Notifica para exportação de dados, o MP1 versão 1.0.
 
-![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/1.2/Covid19Tab/doc/estrutura_MP1.xlsx)
+![Link para download do modelo padrão MP1 versão 1.0](https://github.com/csis2/Covid19Tab/blob/1.2/1.2/Covid19Tab/doc/estrutura_MP1.xlsx)
 
 
 
