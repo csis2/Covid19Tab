@@ -42,7 +42,7 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image5.jpg)
 
-6. Clique no botão "Próximo" para iniciar a instalação. Nessa versão, o usuário não escolhe o lugar onde o programa será instalado, devendo ser, de forma compulsória, no disco local C, na pasta "Covid19Tab". A única escolha que o usuário tem é de optar pela criação de um atalho para o programa na área de trabalho. Faça a sua escolha e clique no botão "Próximo".
+6. Clique no botão "Próximo" para iniciar a instalação. Nessa versão, o usuário não escolhe o lugar onde o programa será instalado, devendo ser, de forma compulsória, no disco local C, na pasta "Covid19Tab". A única escolha que o usuário tem é de optar pela criação de um atalho para o programa na área de trabalho (sugerimos que essa opção seja escolhida). Faça a sua escolha e clique no botão "Próximo".
 
       ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image6.jpg)
 
