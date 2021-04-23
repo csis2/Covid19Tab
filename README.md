@@ -133,18 +133,12 @@ Caso o usuário opte pela segunda opção, deve seguir os seguintes passos:
 
 4.2.2. Caso não seja você mesmo o operador do SINAN NET no seu município, regional ou estado, entre em contato com o(s) operador(es) desse sistema e solicite os seguintes arquivos: municnet.dbf, regionet.dbf, uf.dbf. 
 No entanto, da mesma forma que na primeira opção, esses arquivos precisam ter registros, ou seja, não podem estar vazios e desatualizados. Para isso é necessário que o operador do SINAN NET execute a operação de exportação de arquivos DBF. Assim, deve ser executados os procedimentos descritos nos itens 4.1.1 a 4.1.2.
-Depois de executados os procedimentos descritos, 
 
-
-
-
-
-
-4.1.3. Agora o operador do SINAN NET poderá fornecer ao usuário do Covid19Tab os arquivos atualizados necessários ao funcionamento do Covid19Tab. Os arquivos gerados ficam, geralmente, dentro da subpasta "BaseDBF" que está dentro da pasta "SinanNet" no disco local C.  
+4.2.3. Agora o operador do SINAN NET poderá fornecer ao usuário do Covid19Tab os arquivos atualizados necessários ao funcionamento do Covid19Tab. Os arquivos gerados ficam, geralmente, dentro da subpasta "BaseDBF" que está dentro da pasta "SinanNet" no disco local C.  
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/sinan04.jpg)
 
-
+4.2.4. Copie os três arquivos e cole-os na subpasta "BaseDBF", criada conforme descrito e mostrado no item 4.2.1.
 
 
 
