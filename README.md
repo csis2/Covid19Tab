@@ -35,7 +35,7 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image3.jpg)
 
-3.1.4. Procure a pasta onde o arquivo "Covid19Tab_setup.exe" foi salva.
+3.1.4. Procure a pasta onde o arquivo "Covid19Tab_setup.exe" foi salvo.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image4a.jpg)
 
