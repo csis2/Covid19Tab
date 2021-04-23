@@ -103,7 +103,14 @@ Acessando o módulo de Configuração, o usuário deverá selecionar a UF em que
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image15.jpg)
 
 Para indicar onde os arquivos DBF do SINAN NET estão, o usuário tem duas opções:
-1. 
+
+1. Pasta "SinanNet" no disco local C, subpasta "BaseDBF";
+2. Pasta "Covid19Tab" no disco local C, subpasta "baseDBF";
+
+A primeira opção pode ser usada pelos usuários que possuem o programa "SINAN NET" instalado no mesmo computador onde está o Covid919Tab. Nesse caso, os arquivos "MUNICNET.DBF, "UF.DBF" e "REGIONET.DBF" devem estar na subpasta "BaseDBF" do diretório "SinanNet" no disco local C. Essa subpasta é onde os arquivos com extensão DBF do SINAN NET costumam ficar armazenadas.
+Além disso, 
+
+
 
 
 
