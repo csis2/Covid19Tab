@@ -98,4 +98,13 @@ Da primeira vez que o programa é aberto, é necessário realizar a configuraç�
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image14.jpg)
 
+Acessando o módulo de Configuração, o usuário deverá selecionar a UF em que está operando, e indicar, em duas opções disponíveis, onde está localizado os arquivos do SINAN NET, necessários para o correto funcionamento do programa.
+
+![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image15.jpg)
+
+
+
+
+
+
 
