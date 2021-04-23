@@ -94,7 +94,7 @@ A ilustração abaixo mostra a interface do usuário.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image13.jpg)
 
-Da primeira vez que o programa é aberto, é necessário realizar a configuração para que este funcione corretamente. Dessa forma é necessário que o usuário clique no botão "Menu"
+Da primeira vez que o programa é aberto, é necessário realizar a configuração para que este funcione corretamente. Dessa forma é necessário que o usuário clique no botão "Menu" e acesse o item "Configuração".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image14.jpg)
 
