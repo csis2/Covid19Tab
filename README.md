@@ -125,7 +125,18 @@ Além disso, esses arquivos precisam ter registros, ou seja, não podem estar va
 
 Essa operação deverá ser suficiente para os usuários que escolheram a primeira opção para indicar onde os arquivos do SINAN NET estão.
 
-Caso o usuário opte pela segunda opção, 
+Caso o usuário opte pela segunda opção, deve seguir os seguintes passos:
+
+4.2.1. Crie no disco local C uma nova pasta com o nome 'SinanNet". Dentro dessa pasta, crie uma subpasta com o nome "BaseDBF". O resultado deverá ficar da maneira como mostrado na ilustração abaixo.
+
+![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/setting01.jpg)
+
+4.2.2. Caso não seja você mesmo o operador do SINAN NET no seu município, regional ou estado, entre em contato com o(s) operador(es) desse sistema e solicite os seguintes arquivos: municnet.dbf, regionet.dbf, uf.dbf. 
+No entanto, da mesma forma que na primeira opção, esses arquivos precisam ter registros, ou seja, não podem estar vazios e desatualizados. Para isso é necessário que o operador do SINAN NET execute a operação de exportação de arquivos DBF. Assim, deve ser executados os procedimentos descritos nos itens 4.1.1 a 4.1.2.
+Depois de executados os procedimentos descritos, 
+
+
+
 
 
 
