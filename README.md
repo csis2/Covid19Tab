@@ -77,7 +77,7 @@ Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a desc
 
 3.2.4. Surgirá então uma nova janela, mostrando o conteúdo inicial da descompactação do arquivo "Covid19Tab.rar". Clique uma vez na pasta "Covid19Tab" para selecionar o arquivo, depois clique no botão "Extrair Para".
    
-      ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release4.jpg)
+![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release4.jpg)
    
 3.2.5. Na nova janela que surgirá, selecione "disco local C" e clique no botão "OK".
 
