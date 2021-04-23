@@ -108,9 +108,23 @@ Para indicar onde os arquivos DBF do SINAN NET estão, o usuário tem duas opç�
 2. Pasta "Covid19Tab" no disco local C, subpasta "baseDBF";
 
 A primeira opção pode ser usada pelos usuários que possuem o programa "SINAN NET" instalado no mesmo computador onde está o Covid919Tab. Nesse caso, os arquivos "MUNICNET.DBF, "UF.DBF" e "REGIONET.DBF" devem estar na subpasta "BaseDBF" do diretório "SinanNet" no disco local C. Essa subpasta é onde os arquivos com extensão DBF do SINAN NET costumam ficar armazenadas.
-Além disso, 
+Além disso, esses arquivos precisam ter registros, ou seja, não podem estar vazios e desatualizados. Para isso é necessário que o operador do SINAN NET execute a operação de exportação de arquivos DBF. Esse procedimento é feito da maneira apresentada a seguir.
 
+2. Dentro do SINAN NET, entre no módulo "Ferramentas" e escolha o item "Exportação (DBF)".
 
+![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/sinan01.jpg)
+
+3. Quando surgir a janela de Exportação, escolha os itens UF, MUNICÍPIO e REGIONAL. Depois clique no botão "Exportar".
+
+![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/sinan02.jpg)
+
+4. Assim que o processo estiver concluído, uma mensagem surgirá, informando que os arquivos foram processados.
+
+![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/sinan03.jpg)
+
+5. Agora o operador do SINAN NET poderá fornecer ao usuário do Covid19Tab os arquivos atualizados necessários ao funcionamento do Covid19Tab. Os arquivos gerados ficam, geralmente, dentro da subpasta "BaseDBF" que está dentro da pasta "SinanNet" no disco local C.  
+
+![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/sinan04.jpg)
 
 
 
