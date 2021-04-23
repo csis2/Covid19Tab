@@ -115,11 +115,11 @@ Além disso, esses arquivos precisam ter registros, ou seja, não podem estar va
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/sinan01.jpg)
 
-3. Quando surgir a janela de Exportação, escolha os itens UF, MUNICÍPIO e REGIONAL. Depois clique no botão "Exportar".
+4.1.2. Quando surgir a janela de Exportação, escolha os itens UF, MUNICÍPIO e REGIONAL. Depois clique no botão "Exportar".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/sinan02.jpg)
 
-4.1.2. Assim que o processo estiver concluído, uma mensagem surgirá, informando que os arquivos foram processados.
+4.1.3. Assim que o processo estiver concluído, uma mensagem surgirá, informando que os arquivos foram processados.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/sinan03.jpg)
 
@@ -132,7 +132,7 @@ Caso o usuário opte pela segunda opção, deve seguir os seguintes passos:
 ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/setting01.jpg)
 
 4.2.2. Caso não seja você mesmo o operador do SINAN NET no seu município, regional ou estado, entre em contato com o(s) operador(es) desse sistema e solicite os seguintes arquivos: municnet.dbf, regionet.dbf, uf.dbf. 
-No entanto, da mesma forma que na primeira opção, esses arquivos precisam ter registros, ou seja, não podem estar vazios e desatualizados. Para isso é necessário que o operador do SINAN NET execute a operação de exportação de arquivos DBF. Assim, deve ser executados os procedimentos descritos nos itens 4.1.1 a 4.1.2.
+No entanto, da mesma forma que na primeira opção, esses arquivos precisam ter registros, ou seja, não podem estar vazios e desatualizados. Para isso é necessário que o operador do SINAN NET execute a operação de exportação de arquivos DBF. Assim, deve ser executados os procedimentos descritos nos itens 4.1.1 a 4.1.3.
 
 4.2.3. Agora o operador do SINAN NET poderá fornecer ao usuário do Covid19Tab os arquivos atualizados necessários ao funcionamento do Covid19Tab. Os arquivos gerados ficam, geralmente, dentro da subpasta "BaseDBF" que está dentro da pasta "SinanNet" no disco local C.  
 
