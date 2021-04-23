@@ -125,6 +125,10 @@ Além disso, esses arquivos precisam ter registros, ou seja, não podem estar va
 
 Essa operação deverá ser suficiente para os usuários que escolheram a primeira opção para indicar onde os arquivos do SINAN NET estão.
 
+Caso o usuário opte pela segunda opção, 
+
+
+
 4.1.3. Agora o operador do SINAN NET poderá fornecer ao usuário do Covid19Tab os arquivos atualizados necessários ao funcionamento do Covid19Tab. Os arquivos gerados ficam, geralmente, dentro da subpasta "BaseDBF" que está dentro da pasta "SinanNet" no disco local C.  
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/sinan04.jpg)
