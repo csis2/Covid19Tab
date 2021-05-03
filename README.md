@@ -203,7 +203,8 @@ Para o desenvolvimento da versão 1.2 do Covid19Tab foram utilizadas três lingu
 
 - **Harbour** (https://harbour.github.io): compõe a maioria do código usado para construir o programa. É uma linguagem open source que utiliza o padrão xBase e compila o código fonte usando o compilador hbmk2. Utiliza nesse programa o paradigma de programação estruturada.
 
-
+![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/c_sharp.jpg)
+- **C#** (https://docs.microsoft.com/pt-br/dotnet/csharp/): 
 
 
 
