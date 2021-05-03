@@ -168,6 +168,10 @@ Após selecionar o tipo de arquivo e apontar onde este está localizado, clique 
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image20.jpg)
 
+Isso iniciará o processamento do arquivo e o avanço das etapas poderá ser acompanhado na caixa "Andamento do processo", na parte inferior da janela principal do programa.
+
+![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image21.jpg)
+
 
 
 
