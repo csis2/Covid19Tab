@@ -189,6 +189,10 @@ Clique duas vezes na subpasta "BaseDBF" conforme mostrado na figura abaixo e ent
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image25.jpg)
 
+Em seguida escolha o arquivo gerado no Covid19Tab que deseja tabular e pronto!
+
+![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image26.jpg)
+
 
 
 
