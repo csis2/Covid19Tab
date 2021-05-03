@@ -151,7 +151,7 @@ Segue então, para fins de registro, o modelo padrão atualmente usado pelo e-SU
 
 ![Link para download do modelo padrão MP1 versão 1.0](https://github.com/csis2/Covid19Tab/blob/1.2/1.2/Covid19Tab/doc/estrutura_MP1.xlsx)
 
-Uma vez configurado o programa, o usuário estará pronto para processar os arquivos, desde que tal arquivo, seja um dos modelos permitidos pelo Covid19Tab.
+Uma vez configurado o programa, o usuário estará pronto para processar um arquivo, desde que tal arquivo, seja um dos modelos permitidos pelo Covid19Tab.
 Dessa forma, primeiramente o usuário deve escolher o tipo de arquivo que será processado, escolhendo uma das opções disponíveis.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image17.jpg)
