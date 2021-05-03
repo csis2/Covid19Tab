@@ -212,7 +212,7 @@ Para o desenvolvimento da versão 1.2 do Covid19Tab foram utilizadas três lingu
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/visual_studio.jpg)
 
-As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento (IDE) o HMG (https://sites.google.com/site/hmgweb/). A partir da versão 1.2 o IDE utilizado passou a ser o Visual Studio 2019. Para abrir o projeto Covid19Tab nesse ambiente de desenvolvimento, o desenvolvedor deve usar o arquivo "1.2.sln" presente no código fonte.
+As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento (IDE) o HMG (https://sites.google.com/site/hmgweb/). A partir da versão 1.2 o IDE utilizado passou a ser o Visual Studio 2019, versão Community. Para abrir o projeto Covid19Tab nesse ambiente de desenvolvimento, o desenvolvedor deve usar o arquivo "1.2.sln" presente no código fonte.
 
 
 
