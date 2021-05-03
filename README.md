@@ -172,6 +172,18 @@ Isso iniciará o processamento do arquivo e o avanço das etapas poderá ser aco
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image21.jpg)
 
+Ao final do processamento aparecerá uma caixa de diálogo informando o fim do processo, a quantidade de registros processados, percentual de aproveitamento, o nome do arquivo gerado e quanto tempo levou para processar o arquivo apontado pelo usuário.
+
+![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image22.jpg)
+
+
+
+
+
+
+
+
+
 
 
 
