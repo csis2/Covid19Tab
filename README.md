@@ -193,7 +193,33 @@ Em seguida escolha o arquivo gerado no Covid19Tab que deseja tabular e pronto!
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image26.jpg)
 
+## **6. Notas para desenvolvedores**
 
+O Covid19Tab foi desenvolvido usando o paradigma de programação estruturada, ou seja, possui estruturas de sequência, decisão e iteração.
+
+Para desenvolver o Covid19Tab foram utilizadas três linguagens:
+
+![](https://github.com/csis2/Covid19Tab/blob/master/img/harbour.jpg)
+
+- **Harbour** (https://harbour.github.io): compõe a maioria do código usado para construir o programa. É uma linguagem open source que utiliza o padrão xBase e compila o código fonte usando o compilador hbmk2.
+
+![](https://github.com/csis2/Covid19Tab/blob/master/img/autohotkey.jpg)
+
+- **AutoHotKey** (https://www.autohotkey.com): linguagem de script de código aberto muito usada para automatização de tarefas. Aqui ela foi utilizada para manipulação de arquivos texto e strings usando a biblioteca TF (https://github.com/hi5/TF).
+
+![](https://github.com/csis2/Covid19Tab/blob/master/img/object_pascal.jpg)
+
+- **Object Pascal** (https://www.remobjects.com/ps.aspx): linguagem de script em Pascal usada no Inno Setup (https://jrsoftware.org/isdl.php) para criar o arquivo de setup do Covid19Tab, o "InnoScript_for_Covid19Tab.iss".
+
+![](https://github.com/csis2/Covid19Tab/blob/master/img/HMG.jpg)
+
+O ambiente de desenvolvimento (IDE) utilizado foi o HMG (https://sites.google.com/site/hmgweb/). Para abrir o projeto Covid19Tab no HMG, o desenvolvedor deve usar o arquivo "Covid19Tab.hbp" presente no código fonte.
+
+Até agora, a maior causa de mudanças das versões do Covid19Tab, foi devido à mudanças da estrutura dos arquivos do formato CSV, que são exportados pelo e-SUS VE Notifica quando o usuário solicita a exportação de dados. Por ser um programa relativamente novo (menos de um ano de existência), o e-SUS VE Notifica vem sendo constantemente modificado, essas mudanças também se refletem nos arquivos exportados pelo programa para se adequar às mudanças ocorridas durante o seu ciclo de vida.
+
+O Covid19Tab contém uma proteção que detecta mudança na estrutura do arquivos de exportação gerados pelo e-SUS VE. Dessa forma, quando esses arquivos sofrem uma mudança estrutural, como acréscimo de campos, subtração de campos, mudança do nome de campos, etc, o programa não valida o arquivo e o processamento é finalizado.
+
+Para que o arquivo seja novamente validado, o Covid19Tab possui um módulo para realizar essa tarefa. Esse módulo quando executado gera o arquivo "heading_model.c19" que contém o cabeçalho do arquivo CSV exportado pelo e-SUS VE Notifica, ou seja, o nome dos campos do arquivo. Para usá-lo, o desenvolvedor deve acessar o diretório onde o executável principal do programa está (Covid9Tab.exe), e, usando o prompt de comando, usar o parâmetro "--heading_model".
 
 
 
