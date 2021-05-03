@@ -160,11 +160,13 @@ Depois de escolhido o tipo do arquivo, o usuário deve mostrar onde está o arqu
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image18.jpg)
 
-Clicando no botão "Seleionar", uma janela será aberta para que o usuário mostre onde o arquivo a ser processado se encontra. Depois de selecionar o arquivo, clique no botão "Abrir";
+Clicando no botão "Selecionar", uma janela será aberta para que o usuário mostre onde o arquivo a ser processado se encontra. Depois de selecionar o arquivo, clique no botão "Abrir";
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image19.jpg)
 
+Após selecionar o tipo de arquivo e o onde está localizado, clique no botão "OK";
 
+![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image20.jpg)
 
 
 
