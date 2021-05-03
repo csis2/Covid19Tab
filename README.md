@@ -195,17 +195,17 @@ Em seguida escolha o arquivo gerado no Covid19Tab que deseja tabular e pronto!
 
 ## **6. Notas para desenvolvedores**
 
-O Covid19Tab até a versão 1.1 foi desenvolvido inteiramente usando o paradigma de programação estruturada, ou seja, possuia apenas estruturas de sequência, decisão e iteração. Da versão 1.2 em diante o projeto se tornou híbrido, utilizando tanto o paradigma de programção estruturada quanto o de programação orientado a objetos (OOP). Essa mudança na arquitetura do programa se tornou necessário após serem detectados problemas na sincronia 
+O Covid19Tab até a versão 1.1 foi desenvolvido inteiramente usando o paradigma de programação estruturada, ou seja, possuia apenas estruturas de sequência, decisão e iteração. Da versão 1.2 em diante o projeto se tornou híbrido, utilizando tanto o paradigma de programção estruturada quanto o de programação orientado a objetos (OOP). Essa mudança na arquitetura do programa se tornou necessário após serem detectados erros resultantes da sobreposição de tarefas dos módulos. Esse problema foi resolvido utilizando a linguagem C# (orientada a objetos) que, por meio da utilização da classe "Task" e do método "Process.WaitForExit" resolveu o problema de travamentos e erros causados pela sobreposição de tarefas, harmonizando os processos e estabilizando o programa.
 
-Para desenvolver o Covid19Tab foram utilizadas três linguagens:
+Para o desenvolvimento da versão 1.2 do Covid19Tab foram utilizadas três linguagens:
 
 ![](https://github.com/csis2/Covid19Tab/blob/master/img/harbour.jpg)
 
-- **Harbour** (https://harbour.github.io): compõe a maioria do código usado para construir o programa. É uma linguagem open source que utiliza o padrão xBase e compila o código fonte usando o compilador hbmk2.
+- **Harbour** (https://harbour.github.io): compõe a maioria do código usado para construir o programa. É uma linguagem open source que utiliza o padrão xBase e compila o código fonte usando o compilador hbmk2. Utiliza nesse programa o paradigma de programação estruturada.
 
-![](https://github.com/csis2/Covid19Tab/blob/master/img/autohotkey.jpg)
 
-- **AutoHotKey** (https://www.autohotkey.com): linguagem de script de código aberto muito usada para automatização de tarefas. Aqui ela foi utilizada para manipulação de arquivos texto e strings usando a biblioteca TF (https://github.com/hi5/TF).
+
+
 
 ![](https://github.com/csis2/Covid19Tab/blob/master/img/object_pascal.jpg)
 
