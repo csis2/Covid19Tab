@@ -195,7 +195,7 @@ Em seguida escolha o arquivo gerado no Covid19Tab que deseja tabular e pronto!
 
 ## **6. Notas para desenvolvedores**
 
-O Covid19Tab foi desenvolvido usando o paradigma de programação estruturada, ou seja, possui estruturas de sequência, decisão e iteração.
+O Covid19Tab até a versão 1.1 foi desenvolvido inteiramente usando o paradigma de programação estruturada, ou seja, possuia apenas estruturas de sequência, decisão e iteração. Da versão 1.2 em diante o projeto se tornou híbrido, utilizando tanto o paradigma de programção estruturada quanto o de programação orientado a objetos (OOP). Essa mudança na arquitetura do programa se tornou necessário após serem detectados problemas na sincronia 
 
 Para desenvolver o Covid19Tab foram utilizadas três linguagens:
 
