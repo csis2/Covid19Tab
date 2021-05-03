@@ -164,7 +164,7 @@ Clicando no botão "Selecionar", uma janela será aberta para que o usuário mos
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image19.jpg)
 
-Após selecionar o tipo de arquivo e o onde está localizado, clique no botão "OK";
+Após selecionar o tipo de arquivo e apontar onde este está localizado, clique no botão "OK";
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image20.jpg)
 
