@@ -176,7 +176,7 @@ Ao final do processamento aparecerá uma caixa de diálogo informando o fim do p
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image22.jpg)
 
-O arquivo resultante desse processo (que sempre será um arquivo com extensão DBF) estará na subpasta "baseDBF". Veja que o novo arquivo terá o código do tipo de arquivo escolhido (nesse exemplo mostrado, MP1), um caracter underline seguido do nome do arquivo CSV que o usuário apontou no início do processo.
+O arquivo resultante desse processo (que sempre será um arquivo com extensão DBF) estará na subpasta "baseDBF". Veja que o novo arquivo terá o código do tipo de arquivo escolhido (nesse exemplo mostrado, MP1), e um caracter underline seguido do nome do arquivo CSV que o usuário apontou no início do processo.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image23.jpg)
 
