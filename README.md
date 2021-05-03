@@ -185,6 +185,7 @@ Uma vez que o arquivo DBF foi criado, basta agora o usuário acessar o TabWin, e
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image24.jpg)
 
 Quando a janela "Executa Tabulação - Abre arquivos de definição" surgir, escolha no painel "Diretórios", o local onde estão os modelos padrão do e-SUS VE Notifica e dos dados unificados. Pelo nosso exemplo, ele foi instalado no disco local C, pasta "Covid19Tab", subpasta "1.2\Covid19Tab\baseDBF".
+Clique duas vezes na subpasta "BaseDBF" conforme mostrado na figura abaixo e então selecione no painel "Arquivos de definição", o modelo padrão que corresponde ao tipo de arquivo gerado, no nosso exemplo, foi gerado um arquivo do tipo MP1, então o arquivo de definição será o "MP1_eSUS_VE_Notifica.def". Em seguida clique no botão "Abre DEF".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image25.jpg)
 
@@ -200,8 +201,6 @@ Quando a janela "Executa Tabulação - Abre arquivos de definição" surgir, esc
 
 
 
-
-Clique duas vezes na subpasta "BaseDBF" conforme mostrado na figura abaixo e então selecione no painel "Arquivos de definição", o item "eSUS_VE_Notifica.def". Em seguida clique no botão "Abre DEF".
 
 
 
