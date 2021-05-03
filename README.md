@@ -156,7 +156,9 @@ Dessa forma, primeiramente o usuário deve escolher o tipo de arquivo que será 
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image17.jpg)
 
+Depois de escolhido o tipo do arquivo 
 
+![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image18.jpg)
 
 
 
