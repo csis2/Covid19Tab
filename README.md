@@ -176,7 +176,9 @@ Ao final do processamento aparecerá uma caixa de diálogo informando o fim do p
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image22.jpg)
 
+O arquivo resultante desse processo estará na subpasta "baseDBF"
 
+![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/image23.jpg)
 
 
 
