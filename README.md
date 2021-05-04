@@ -195,28 +195,31 @@ Em seguida escolha o arquivo gerado no Covid19Tab que deseja tabular e pronto!
 
 ## **6. Notas para desenvolvedores**
 
-O Covid19Tab até a versão 1.1 foi desenvolvido inteiramente usando o paradigma de programação estruturada, ou seja, possuia apenas estruturas de sequência, decisão e iteração. Da versão 1.2 em diante o projeto se tornou híbrido, utilizando tanto o paradigma de programção estruturada quanto o de programação orientado a objetos (OOP). Essa mudança na arquitetura do programa se tornou necessário após serem detectados erros resultantes da sobreposição de tarefas dos módulos. Esse problema foi resolvido utilizando a linguagem C# (orientada a objetos) que, por meio da utilização da classe "Task" e do método "Process.WaitForExit" resolveu o problema de travamentos e erros causados pela sobreposição de tarefas, harmonizando os processos e estabilizando o programa.
+O Covid19Tab até a versão 1.1 foi desenvolvido inteiramente usando o paradigma de programação estruturada, ou seja, possuia apenas estruturas de sequência, decisão e iteração. Da versão 1.2 em diante, o projeto se tornou híbrido, utilizando tanto o paradigma de programção estruturada quanto o de programação orientado a objetos (OOP). Essa mudança na arquitetura do programa se tornou necessário após serem detectados erros resultantes da sobreposição de tarefas dos módulos. Esse problema foi resolvido utilizando a linguagem C# (orientada a objetos) que, por meio da utilização da classe "Task" e do método "Process.WaitForExit", resolveu o problema de travamentos e erros causados pela sobreposição de tarefas, harmonizando os processos e estabilizando o programa.
 
 Para o desenvolvimento da versão 1.2 do Covid19Tab foram utilizadas três linguagens:
 
 ![](https://github.com/csis2/Covid19Tab/blob/master/img/harbour.jpg)
-
 - **Harbour** (https://harbour.github.io): compõe a maioria do código usado para construir o programa. É uma linguagem open source que utiliza o padrão xBase e compila o código fonte usando o compilador hbmk2. Utiliza nesse programa o paradigma de programação estruturada.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/c_sharp.jpg)
 - **C#** (https://docs.microsoft.com/pt-br/dotnet/csharp/): é uma linguagem de programação desenvolvida pela Microsoft como parte da plataforma .NET. Nesse projeto foi utilizado o framework .NET Desktop Runtime versão 3.1.
 
 ![](https://github.com/csis2/Covid19Tab/blob/master/img/object_pascal.jpg)
-
 - **Object Pascal** (https://www.remobjects.com/ps.aspx): linguagem de script em Pascal usada no Inno Setup (https://jrsoftware.org/isdl.php) para criar o arquivo de setup do Covid19Tab, o "InnoScript_for_Covid19Tab.iss".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.2/img/visual_studio.jpg)
+As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento (IDE) o HMG (https://sites.google.com/site/hmgweb/). A partir da versão 1.2 o IDE utilizado passou a ser o Visual Studio 2019, versão Community (https://visualstudio.microsoft.com/pt-br/). Para abrir o projeto Covid19Tab nesse ambiente de desenvolvimento, o desenvolvedor deve usar o arquivo "1.2.sln" presente no código fonte.
 
-As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento (IDE) o HMG (https://sites.google.com/site/hmgweb/). A partir da versão 1.2 o IDE utilizado passou a ser o Visual Studio 2019, versão Community. Para abrir o projeto Covid19Tab nesse ambiente de desenvolvimento, o desenvolvedor deve usar o arquivo "1.2.sln" presente no código fonte.
+## **7. Comentários sobre essa versão**
 
-
-
-
+A versão 1.2 possui algumas diferenças relevantes com relação às versões anteriores:
+O utilitário sed.exe (http://gnuwin32.sourceforge.net/packages/sed.htm), usado como ferramenta para o processamento de entrada e saída de texto nesse projeto deixou de ser utilizado, pois foi observado uma limitação dos registros processados em relação ao total de registros do arquivo base;
+A linguagem de programação AHK (https://www.autohotkey.com/) deixou de ser utilizada nesse projeto. Isso se deve a enorme quantidade de falsos positivos gerados pelos antivirus (principalmente McAfee) ao realizar varreduras nos executáveis criados nessa linguagem;
+O ambiente de desenvolvimento (IDE) HMG (https://sites.google.com/site/hmgweb/), não está sendo mais usado no projeto, sendo substituído pelo Visual Studio;
+A organização estrutural dos diretórios e pastas sofreu alteração tanto a nível de projeto quanto à nível de implantação para o usuário final (foram acrescentados mais níveis);
+Implementação do conceito de MP (modelos padrão). Assim, todo arquivo selecionado pelo usuário deve possuir um modelo correspondente que o usuário deve indicar antes de dar continuidade ao processamento do arquivo;
+Fim da ferrramenta de diagnóstico, essa agora é executada em segundo plano sem que o usuário habilite essa funcionalidade. Se algum problema for encontrado o usuário é informado por meio de mensagens.
 
 
 
