@@ -220,7 +220,6 @@ O ambiente de desenvolvimento (IDE) HMG (https://sites.google.com/site/hmgweb/),
 A organização estrutural dos diretórios e pastas sofreu alteração tanto a nível de projeto quanto à nível de implantação para o usuário final (foram acrescentados mais níveis);
 Implementação do conceito de MP (modelos padrão). Assim, todo arquivo selecionado pelo usuário deve possuir um modelo correspondente que o usuário deve indicar antes de dar continuidade ao processamento do arquivo;
 Fim da ferrramenta de diagnóstico, essa agora é executada em segundo plano sem que o usuário habilite essa funcionalidade. Se algum problema for encontrado o usuário é informado por meio de mensagens.
-
-
-
+O algoritmo que separava campos com inconsistencia não está sendo mais utilizado, pois ocorreu um deadlock no processamento de um arquivo e o programa não conseguiu ser finalizado. Nas próximas versões, um novo algoritmo será desenvolvido para resolver o problema;
+Na ferramenta Configurações, o campo que permitia que o usuário indicasse um tempo máximo de espera entre um processo e outro foi descontinuado. Com o uso da classe "Task" e do método "Process.WaitForExit" da linguagem C#, essa falta de sincronismo entre um processo e outro deixou de existir.
 
