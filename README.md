@@ -215,7 +215,7 @@ As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento
 
 A versão 1.2 possui algumas diferenças relevantes com relação às versões anteriores:
 * O utilitário sed.exe (http://gnuwin32.sourceforge.net/packages/sed.htm), usado como ferramenta para o processamento de entrada e saída de texto nesse projeto deixou de ser utilizado, pois foi observado uma limitação dos registros processados em relação ao total de registros do arquivo base;
-* A linguagem de programação AHK (https://www.autohotkey.com/) deixou de ser utilizada nesse projeto. Isso se deve a enorme quantidade de falsos positivos gerados * pelos antivirus (principalmente McAfee) ao realizar varreduras nos executáveis criados nessa linguagem;
+* A linguagem de programação AHK (https://www.autohotkey.com/) deixou de ser utilizada nesse projeto. Isso se deve a enorme quantidade de falsos positivos gerados  pelos antivirus (principalmente McAfee) ao realizar varreduras nos executáveis criados nessa linguagem;
 * O ambiente de desenvolvimento (IDE) HMG (https://sites.google.com/site/hmgweb/), não está sendo mais usado no projeto, sendo substituído pelo Visual Studio;
 * A organização estrutural dos diretórios e pastas sofreu alteração tanto a nível de projeto quanto à nível de implantação para o usuário final (foram acrescentados mais níveis);
 * Implementação do conceito de MP (modelos padrão). Assim, todo arquivo selecionado pelo usuário deve possuir um modelo correspondente que o usuário deve indicar antes de dar continuidade ao processamento do arquivo;
