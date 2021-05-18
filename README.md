@@ -214,12 +214,5 @@ As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento
 ## **7. Comentários sobre essa versão**
 
 A versão 1.3 possui algumas diferenças relevantes com relação às versões anteriores:
-* O utilitário sed.exe (http://gnuwin32.sourceforge.net/packages/sed.htm), usado como ferramenta para o processamento de entrada e saída de texto nesse projeto deixou de ser utilizado, pois foi observado uma limitação dos registros processados em relação ao total de registros do arquivo base;
-* A linguagem de programação AHK (https://www.autohotkey.com/) deixou de ser utilizada nesse projeto. Isso se deve a enorme quantidade de falsos positivos gerados  pelos antivirus (principalmente McAfee) ao realizar varreduras nos executáveis criados nessa linguagem;
-* O ambiente de desenvolvimento (IDE) HMG (https://sites.google.com/site/hmgweb/), não está sendo mais usado no projeto, sendo substituído pelo Visual Studio;
-* A organização estrutural dos diretórios e pastas sofreu alteração tanto a nível de projeto quanto à nível de implantação para o usuário final (foram acrescentados mais níveis);
-* Implementação do conceito de MP (modelos padrão). Assim, todo arquivo selecionado pelo usuário deve possuir um modelo correspondente que o usuário deve indicar antes de dar continuidade ao processamento do arquivo;
-* Fim da ferrramenta de diagnóstico, essa agora é executada em segundo plano sem que o usuário habilite essa funcionalidade. Se algum problema for encontrado, o usuário é informado por meio de mensagens;
-* O algoritmo que separava campos com inconsistencia não está sendo mais utilizado, pois ocorreu um deadlock no processamento de um arquivo e o programa não conseguiu ser finalizado. Nas próximas versões, um novo algoritmo será desenvolvido para resolver o problema;
-* Na ferramenta Configurações, o campo que permitia que o usuário indicasse um tempo máximo de espera entre um processo e outro foi descontinuado. Com o uso da classe "Task" e do método "Process.WaitForExit" da linguagem C#, essa falta de sincronismo entre um processo e outro deixou de existir.
+
 
