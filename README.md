@@ -213,6 +213,9 @@ As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento
 
 ## **7. Comentários sobre essa versão**
 
-A versão 1.3 possui algumas diferenças relevantes com relação às versões anteriores:
+Algumas novidades com relação às versões anteriores:
+* Suporte aos arquivos do padrão MP2 (dados unificados do COE);
+* A ferrmenta "diagnóstico" presente nas versões anteriores, foi 100% implementada para rodar em segundo plano, sem intervenção do usuário;
+* Implementação de uma barra progressiva para que o usuário possa acompanhar o andamento do processamento.
 
 
