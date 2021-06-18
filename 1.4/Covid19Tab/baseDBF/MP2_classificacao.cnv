@@ -1,0 +1,8 @@
+; MP2_CLASSIFICACAO.CNV
+6 1
+      1  Confirmado                                         1                                         
+      2  Descartado                                         2
+      3  Sindrome gripal não especificada                   3
+      4  SRAG não especificado                              4
+      5  Suspeito                                           5
+      6  Ignorado/em branco                                 9

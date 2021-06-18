@@ -1,0 +1,219 @@
+; MP2 Dados Unificados COE
+; Modelo padrao que une em um só arquivo dados do e-SUS VE Notifica e do SIVEP Gripe (ConectaSUS/SES-GO)
+
+; ********************** Leitura do arquivo *****************************
+Ac:\Covid19Tab\1.2\Covid19Tab\baseDBF\*.DBF
+
+;Definições para Ano, Mes, Semana e Trimestre da Notificação
+XAno da Notific,DT_NOTIFIC,1,ANOS.CNV
+LMes da Notific,DT_NOTIFIC,5,MESES.CNV
+CMes da Notific,DT_NOTIFIC,5,MESESC.CNV
+SMes da Notific,DT_NOTIFIC,5,MESES.CNV
+XTrim da Notific,DT_NOTIFIC,5,TRIME.CNV
+
+;Definições para Ano, Trimestre, Mes do Inicio dos Sintomas
+XAno Inic.Sintomas,DT_SIN_PRI,1,ANOS.CNV
+LMes Inic.Sintomas,DT_SIN_PRI,5,MESES.CNV
+CMes Inic.Sintomas,DT_SIN_PRI,5,MESESC.CNV
+SMes Inic.Sintomas,DT_SIN_PRI,5,MESES.CNV
+XTrim.Inic.Sintomas,DT_SIN_PRI,5,TRIME.CNV
+
+;Definições para Ano, Trimestre, Mes da evolução em caso de óbito ou alta.
+XAno Evolucao,DT_EVOLUC,1,ANOS.CNV
+LMes Evolucao,DT_EVOLUC,5,MESES.CNV
+CMes Evolucao,DT_EVOLUC,5,MESESC.CNV
+SMes Evolucao,DT_EVOLUC,5,MESES.CNV
+XTrim.Evolucao,DT_EVOLUC,5,TRIME.CNV
+
+;Definições para Ano, Trimestre, Mes da internação.
+XAno Internação,DT_INTER,1,ANOS.CNV
+LMes Internação,DT_INTER,5,MESES.CNV
+CMes Internação,DT_INTER,5,MESESC.CNV
+SMes Internação,DT_INTER,5,MESES.CNV
+XTrim.Internação,DT_INTER,5,TRIME.CNV
+
+;Definições para Ano, Trimestre, Mes da internação na UTI.
+XAno Internação UTI,DT_INT_UTI,1,ANOS.CNV
+LMes Internação UTI,DT_INT_UTI,5,MESES.CNV
+CMes Internação UTI,DT_INT_UTI,5,MESESC.CNV
+SMes Internação UTI,DT_INT_UTI,5,MESES.CNV
+XTrim.Internação UTI,DT_INT_UTI,5,TRIME.CNV
+
+;Definições para Ano, Trimestre, Mes de saida da UTI.
+XAno Saída UTI,DT_SAI_UTI,1,ANOS.CNV
+LMes Saída UTI,DT_SAI_UTI,5,MESES.CNV
+CMes Saída UTI,DT_SAI_UTI,5,MESESC.CNV
+SMes Saída UTI,DT_SAI_UTI,5,MESES.CNV
+XTrim.Saída UTI,DT_SAI_UTI,5,TRIME.CNV
+
+;Definições para Ano e Semana epidemiologica de notificação
+xSem.Epid Notific,SEM_NOT,5,SEMANAEP.CNV
+xAno Epid notific,SEM_NOT,1,ANOS.CNV
+
+;Definições para Ano e Semana epidemiologica de inícios de sintomas
+xSem.Epid.Sintomas,SEM_PRI,5,SEMANAEP.CNV
+XAno Epid.Sintomas,SEM_PRI,1,ANOS.CNV
+
+;Definições para Ano e Semana epidemiologica de evolução do caso.
+xSem.Epid. Evolução,SEM_EVOLUC,5,SEMANAEP.CNV
+XAno Epid. Evolução,SEM_EVOLUC,1,ANOS.CNV
+
+;Definições para Ano e Semana epidemiologica de internação.
+xSem.Epid. Internação,SEM_INTER,5,SEMANAEP.CNV
+XAno Epid. Internação,SEM_INTER,1,ANOS.CNV
+
+;Definições para Faixa Etaria do paciente por ocasião da Notificação
+XFx Etária RIPSA6, NU_IDADE_N,1,FXRIPSA6NET.CNV
+XFx Etaria (5),    NU_IDADE_N,1,FXIDAD5NET.CNV
+XFx Etaria (9),    NU_IDADE_N,1,FXIDAD9NET.CNV
+XFx Etaria SINAN,  NU_IDADE_N,1,FXIDAD10NET.CNV
+XFx Etaria (13),   NU_IDADE_N,1,FXIDAD13NET.CNV
+XIdade detalhada,  NU_IDADE_N,1,IDADEDETNET.CNV
+
+;Definições para Raça/Cor.
+XRaça,ID_RACACOR,1,RACA.CNV
+
+;Definições para critério de classificação.
+XCritério Class,ID_CRITER,1,MP2_CRITERIO_CLASS.CNV
+
+;Definições para evolução.
+XEvolução,ID_EVOLUC,1,MP2_EVOLUCAO.CNV 
+
+;Definições para o resultado do teste.
+XResult.Teste,ID_RES_TST,1,MP2_RESULT_TESTE.CNV
+
+;Definições para o tipo de teste.
+XTipo do Teste,ID_TP_TST,1,MP2_TIPO_TESTE.CNV
+
+;Definições para estado do teste.
+XEstado do teste,ID_EST_TST,1,MP2_ESTADO_TESTE.CNV
+
+;Definições para a fonte dos dados.
+XFonte dos dados,ID_FONTE,1,MP2_FONTE.CNV
+
+;Definições para a classificação do SIVEP Gripe.
+XClass.SIVEP Gripe,CLS_SIVEP,1,MP2_CLASS_SIVEP.CNV
+
+;Definições para o campo classificação.
+XClassificação,ID_CLASS,1,MP2_CLASSIFICACAO.CNV
+
+;Definições para Sexo
+XSexo,SEXO,1,SEXO.CNV
+
+;Definições para região de residência do Brasil
+Lregião Residência,ID_MN_RESI,1,regiao.CNV
+
+;Definições Unidade federada de residência
+LUF Residência,ID_MN_RESI,1,UFcodigo.CNV
+CUF Residência,ID_MN_RESI,1,UFCcodig.CNV
+SUF Residência,ID_MN_RESI,1,UFcodigo.CNV
+
+;Definições estados que fazem fronteira com paises do MERCOSUL
+DUF Mercosul,ID_MN_RESI,1,UFMSUL.CNV
+CUF Mercosul,ID_MN_RESI,1,UFMSULC.CNV
+SUF Mercosul,ID_MN_RESI,1,UFMSUL.CNV
+
+;Definições para regional de saúde de residência
+LRegional Residência,ID_RG_RESI,NM_REGIONA,regionet.dbf
+SRegional Residência,ID_RG_RESI,NM_REGIONA,regionet.dbf
+
+;Definições para região metropolitana de residência
+LReg Metrop Residência,ID_MN_RESI,1,RMETRIDB2011.CNV
+SReg Metrop Residência,ID_MN_RESI,1,RMETRIDB2011.CNV
+
+;Definição para os município de residência
+DMun Resid AC,ID_MN_RESI,1,MUNICAC.CNV
+SMun Resid AC,ID_MN_RESI,1,MUNICAC.CNV
+DMun Resid AL,ID_MN_RESI,1,MUNICAL.CNV
+SMun Resid AL,ID_MN_RESI,1,MUNICAL.CNV
+DMun Resid AM,ID_MN_RESI,1,MUNICAM.CNV
+SMun Resid AM,ID_MN_RESI,1,MUNICAM.CNV
+DMun Resid AP,ID_MN_RESI,1,MUNICAP.CNV
+SMun Resid AP,ID_MN_RESI,1,MUNICAP.CNV
+DMun Resid BA,ID_MN_RESI,1,MUNICBA.CNV
+SMun Resid BA,ID_MN_RESI,1,MUNICBA.CNV
+DMun Resid BR,ID_MN_RESI,1,MUNICBR.CNV
+SMun Resid BR,ID_MN_RESI,1,MUNICBR.CNV
+DMun Resid CE,ID_MN_RESI,1,MUNICCE.CNV
+SMun Resid CE,ID_MN_RESI,1,MUNICCE.CNV
+DMun Resid DF,ID_MN_RESI,1,MUNICDF.CNV
+SMun Resid DF,ID_MN_RESI,1,MUNICDF.CNV
+DMun Resid ES,ID_MN_RESI,1,MUNICES.CNV
+SMun Resid ES,ID_MN_RESI,1,MUNICES.CNV
+DMun Resid GO,ID_MN_RESI,1,MUNICGO.CNV
+SMun Resid GO,ID_MN_RESI,1,MUNICGO.CNV
+DMun Resid MA,ID_MN_RESI,1,MUNICMA.CNV
+SMun Resid MA,ID_MN_RESI,1,MUNICMA.CNV
+DMun Resid MG,ID_MN_RESI,1,MUNICMG.CNV
+SMun Resid MG,ID_MN_RESI,1,MUNICMG.CNV
+DMun Resid MS,ID_MN_RESI,1,MUNICMS.CNV
+SMun Resid MS,ID_MN_RESI,1,MUNICMS.CNV
+DMun Resid MT,ID_MN_RESI,1,MUNICMT.CNV
+SMun Resid MT,ID_MN_RESI,1,MUNICMT.CNV
+DMun Resid PA,ID_MN_RESI,1,MUNICPA.CNV
+SMun Resid PA,ID_MN_RESI,1,MUNICPA.CNV
+DMun Resid PB,ID_MN_RESI,1,MUNICPB.CNV
+SMun Resid PB,ID_MN_RESI,1,MUNICPB.CNV
+DMun Resid PE,ID_MN_RESI,1,MUNICPE.CNV
+SMun Resid PE,ID_MN_RESI,1,MUNICPE.CNV
+DMun Resid PI,ID_MN_RESI,1,MUNICPI.CNV
+SMun Resid PI,ID_MN_RESI,1,MUNICPI.CNV
+DMun Resid PR,ID_MN_RESI,1,MUNICPR.CNV
+SMun Resid PR,ID_MN_RESI,1,MUNICPR.CNV
+DMun Resid RJ,ID_MN_RESI,1,MUNICRJ.CNV
+SMun Resid RJ,ID_MN_RESI,1,MUNICRJ.CNV
+DMun Resid RN,ID_MN_RESI,1,MUNICRN.CNV
+SMun Resid RN,ID_MN_RESI,1,MUNICRN.CNV
+DMun Resid RO,ID_MN_RESI,1,MUNICRO.CNV
+SMun Resid RO,ID_MN_RESI,1,MUNICRO.CNV
+DMun Resid RR,ID_MN_RESI,1,MUNICRR.CNV
+SMun Resid RR,ID_MN_RESI,1,MUNICRR.CNV
+DMun Resid RS,ID_MN_RESI,1,MUNICRS.CNV
+SMun Resid RS,ID_MN_RESI,1,MUNICRS.CNV
+DMun Resid SC,ID_MN_RESI,1,MUNICSC.CNV
+SMun Resid SC,ID_MN_RESI,1,MUNICSC.CNV
+DMun Resid SE,ID_MN_RESI,1,MUNICSE.CNV
+SMun Resid SE,ID_MN_RESI,1,MUNICSE.CNV
+DMun Resid SP,ID_MN_RESI,1,MUNICSP.CNV
+SMun Resid SP,ID_MN_RESI,1,MUNICSP.CNV
+DMun Resid TO,ID_MN_RESI,1,MUNICTO.CNV
+SMun Resid TO,ID_MN_RESI,1,MUNICTO.CNV
+
+;Definições para Capitais de Residência
+DCapitais Residência,ID_MN_RESI,1,CAPITAL.CNV
+SCapitais Residência,ID_MN_RESI,1,CAPITAL.CNV
+
+;Definições para Sintomas
+XSintomas:Dor garg,  DOR_GARGAN, 1, Sim_nao.cnv
+XSintomas:Dispneia,  DISPNEIA,   1, Sim_nao.cnv
+XSintomas:Febre,     FEBRE,      1, Sim_nao.cnv
+XSintomas:Tosse,     TOSSE,      1, Sim_nao.cnv
+XSintomas:Outros,    OUT_SINT,   1, Sim_nao.cnv
+XSintomas:Desc.Resp, DESC_RESP,  1, Sim_nao.cnv
+XSintomas:Saturacao, SATURACAO,  1, Sim_nao.cnv
+XSintomas:Diarréia,  DIARREIA,   1, Sim_nao.cnv
+XSintomas:Vômito,    VOMITO,     1, Sim_nao.cnv
+XSintomas:Out.Sint., OUT_SINT,   1, Sim_nao.cnv
+
+;Definições para Condições
+XCondições:Diabetes,    DIABETES,   1, Sim_nao.cnv
+XCondições:D.respirat,  D_RESP,     1, Sim_nao.cnv
+XCondições:D.cardiaca,  CARDIO,     1, Sim_nao.cnv
+XCondições:Imunosuprim, IMUNOSUP,   1, Sim_nao.cnv
+XCondições:Gestante,    GESTANTE,   1, Sim_nao.cnv
+XCondições:Sindr.Down,  SIND_DOWN,  1, Sim_nao.cnv
+XCondições:Puerpera,    PUERPERA,   1, Sim_nao.cnv
+XCondições:Obesidade,   OBESIDADE,  1, Sim_nao.cnv
+XCondições:Hemato cron, HEMATO,     1, Sim_nao.cnv
+XCondições:Hepat. cron, HEPAT_CRON, 1, Sim_nao.cnv
+XCondições:Neuro. cron, NEURO_CRON, 1, Sim_nao.cnv
+XCondições:Renal. cron, RENAL_CRON, 1, Sim_nao.cnv
+XCondições:Doenc.renal, DOEN_RENAL, 1, Sim_nao.cnv
+XCondições:Doenc.crom., DOEN_CROMO, 1, Sim_nao.cnv
+
+;Definição para Internação
+XHouve internação?,     INTERNACAO, 1, Sim_nao.cnv
+;Definição para Internação em UTI
+XInternação em UTI?,    INTER_UTI,  1, Sim_nao.cnv
+;Definições para profissional de saúde.
+XProfissional saude, PROFISSIO,  1, Sim_nao.cnv
