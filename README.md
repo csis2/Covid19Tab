@@ -197,7 +197,7 @@ Em seguida escolha o arquivo gerado no Covid19Tab que deseja tabular e pronto!
 
 O Covid19Tab até a versão 1.1 foi desenvolvido inteiramente usando o paradigma de programação estruturada, ou seja, possuia apenas estruturas de sequência, decisão e iteração. Da versão 1.2 em diante, o projeto se tornou híbrido, utilizando tanto o paradigma de programção estruturada quanto o de programação orientado a objetos (OOP). Essa mudança na arquitetura do programa se tornou necessário após serem detectados erros resultantes da sobreposição de tarefas dos módulos. Esse problema foi resolvido utilizando a linguagem C# (orientada a objetos) que, por meio da utilização da classe "Task" e do método "Process.WaitForExit", resolveu o problema de travamentos e erros causados pela sobreposição de tarefas, harmonizando os processos e estabilizando o programa.
 
-Para o desenvolvimento da versão 1.3 do Covid19Tab foram utilizadas três linguagens:
+Para o desenvolvimento da versão 1.4 do Covid19Tab foram utilizadas três linguagens:
 
 ![](https://github.com/csis2/Covid19Tab/blob/master/img/harbour.jpg)
 
@@ -212,7 +212,7 @@ Para o desenvolvimento da versão 1.3 do Covid19Tab foram utilizadas três lingu
 - **Object Pascal** (https://www.remobjects.com/ps.aspx): linguagem de script em Pascal usada no Inno Setup (https://jrsoftware.org/isdl.php) para criar o arquivo de setup do Covid19Tab, o "InnoScript_for_Covid19Tab.iss".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/visual_studio.jpg)
-As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento (IDE) o HMG (https://sites.google.com/site/hmgweb/). A partir da versão 1.2 o IDE utilizado passou a ser o Visual Studio 2019, versão Community (https://visualstudio.microsoft.com/pt-br/). Para abrir o projeto Covid19Tab nesse ambiente de desenvolvimento, o desenvolvedor deve usar o arquivo "1.3.sln" presente no código fonte.
+As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento (IDE) o HMG (https://sites.google.com/site/hmgweb/). A partir da versão 1.2 o IDE utilizado passou a ser o Visual Studio 2019, versão Community (https://visualstudio.microsoft.com/pt-br/). Para abrir o projeto Covid19Tab nesse ambiente de desenvolvimento, o desenvolvedor deve usar o arquivo "1.4.sln" presente no código fonte.
 
 ## **7. Comentários sobre essa versão**
 
