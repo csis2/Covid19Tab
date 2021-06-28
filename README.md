@@ -216,4 +216,4 @@ As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento
 
 ## **7. Comentários sobre essa versão**
 
-Implementado e testado o processamento de arquivos do tipo dados unificados padrão MP3.
+Nessa versão foi implementado e testado o processamento de arquivos do tipo dados unificados padrão MP3.
