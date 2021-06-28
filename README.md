@@ -23,11 +23,11 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/warning.jpg) Atenção!  Utilize sempre o release que estiver mais atualizado no repositório. Atualmente, é o release "Covid19Tab versão 1.4".
 
-3.1.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_setup.exe". Esse arquivo está disponível no release "Covid19Tab versao 1.4". Procure na página do repositório e clique no link.
+3.1.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_setup_V1.4.exe". Esse arquivo está disponível no release "Covid19Tab versao 1.4". Procure na página do repositório e clique no link.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image1.jpg)
 
-3.1.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_setup.exe".
+3.1.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_setup_V1.4.exe".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image2.jpg)
 
@@ -35,11 +35,11 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image3.jpg)
 
-3.1.4. Procure a pasta onde o arquivo "Covid19Tab_setup.exe" foi salvo.
+3.1.4. Procure a pasta onde o arquivo "Covid19Tab_setup_V1.4.exe" foi salvo.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image4a.jpg)
 
-3.1.5. Execute o arquivo "Covid19Tab_setup.exe".
+3.1.5. Execute o arquivo "Covid19Tab_setup_V1.4.exe".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image5.jpg)
 
@@ -63,11 +63,11 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a descompactação de arquivos. No exemplo mostrado a seguir, utilizamos o WinRAR (https://www.win-rar.com). Caso o usuário tenha dificuldade em operações de descompactação de arquivos, recomendamos que antes de começar esse tópico, instale o WinRAR no seu PC para facilitar o entendimento do conteúdo descrito a seguir.
 
-3.2.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_1.3.rar". Esse arquivo está disponível no release "Covid19Tab versao 1.3". Procure na página do repositório e clique no link.
+3.2.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_1.4.rar". Esse arquivo está disponível no release "Covid19Tab versao 1.4". Procure na página do repositório e clique no link.
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image1.jpg)
 
-3.2.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.3.rar".
+3.2.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.4.rar".
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image10.jpg)
 
@@ -75,7 +75,7 @@ Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a desc
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image11.jpg)
 
-3.2.4. Surgirá então uma nova janela, mostrando o conteúdo inicial da descompactação do arquivo "Covid19Tab.rar". Clique uma vez na pasta "Covid19Tab" para selecionar o arquivo, depois clique no botão "Extrair Para".
+3.2.4. Surgirá então uma nova janela, mostrando o conteúdo inicial da descompactação do arquivo "Covid19Tab_1.4.rar". Clique uma vez na pasta "Covid19Tab" para selecionar o arquivo, depois clique no botão "Extrair Para".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release4.jpg)
 
@@ -145,9 +145,9 @@ No entanto, da mesma forma que na primeira opção, esses arquivos precisam ter 
 ## **5. Processando arquivos no Covid19Tab**
 
 A partir da versão 1.2, o Covid19Tab passa a trabalhar com o conceito de MP (modelos padrão). Assim, como a estrutura dos arquivos de exportação do e-SUS VE Notifica costuma ter variações ao longo de seu ciclo de vida, será interessante que a estrutura desses arquivos seja documentada e catalogada a fim de se evitar confusões com arquivos de exportação que tiveram sua estrutura alterada e não são mais usados atualmente.
-Além disso, a partir da próxima versão, o Covid19Tab passará a processar outros arquivos com dados e estrutura criados de outras fontes, como exemplo temos os arquivos criados pela GTI-SESGO, os arquivos de dados unificados que unem as bases de dados do e-SUS VE Notifica e do SIVEP Gripe.
+Atualmente, além do arquivo de exportação gerado pelo e-SUS VE Notifica (MP1), o Covid19Tab também é capaz de processar os arquivos criados pela GTI-SESGO, os arquivos de dados unificados que unem as bases de dados do e-SUS VE Notifica e do SIVEP Gripe. Esses dois últimos tipos são: arquivo de dados unificados COE - MP2 e arquivo de dados unificados - MP3.
 
-Segue então, para fins de registro, o modelo padrão atualmente usado pelo e-SUS VE Notifica para exportação de dados, o MP1 versão 1.0.
+Segue então, para fins de registro, os modelos padrão atualmente usado pelo e-SUS VE Notifica para exportação de dados, o MP1 versão 1.0.
 
 ![Link para download do modelo padrão MP1 versão 1.0](https://github.com/csis2/Covid19Tab/blob/1.3/1.3/Covid19Tab/doc/estrutura_MP1.xlsx)
 
