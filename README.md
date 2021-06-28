@@ -21,9 +21,9 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 ### 3.1. Instalando o Covid19Tab
 
-![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/warning.jpg) Atenção!  Utilize sempre o release que estiver mais atualizado no repositório. Atualmente, é o release "Covid19Tab versão 1.3".
+![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/warning.jpg) Atenção!  Utilize sempre o release que estiver mais atualizado no repositório. Atualmente, é o release "Covid19Tab versão 1.4".
 
-3.1.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_setup.exe". Esse arquivo está disponível no release "Covid19Tab versao 1.3". Procure na página do repositório e clique no link.
+3.1.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_setup.exe". Esse arquivo está disponível no release "Covid19Tab versao 1.4". Procure na página do repositório e clique no link.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image1.jpg)
 
