@@ -144,7 +144,7 @@ No entanto, da mesma forma que na primeira opção, esses arquivos precisam ter 
 
 ## **5. Processando arquivos no Covid19Tab**
 
-A partir da versão 1.2, o Covid19Tab passa a trabalhar com o conceito de MP (modelos padrão). Assim, como a estrutura dos arquivos de exportação do e-SUS VE Notifica costuma ter variações ao longo de seu ciclo de vida, será interessante que a estrutura desses arquivos seja documentada e catalogada a fim de se evitar confusões com arquivos de exportação que tiveram sua estrutura alterada e não são mais usados atualmente.
+A partir da versão 1.2, o Covid19Tab passa a trabalhar com o conceito de MP (modelos padrão). Assim, como a estrutura dos arquivos de exportação do e-SUS VE Notifica costuma ter variações ao longo de seu ciclo de vida, será interessante que a estrutura desses arquivos seja documentada e catalogada a fim de se evitar confusões com arquivos de exportação que tiveram sua estrutura alterada e que não são mais usados.
 Atualmente, além do arquivo de exportação gerado pelo e-SUS VE Notifica (MP1), o Covid19Tab também é capaz de processar os arquivos criados pela GTI-SESGO, os arquivos de dados unificados que unem as bases de dados do e-SUS VE Notifica e do SIVEP Gripe. Esses dois últimos tipos são: arquivo de dados unificados COE - MP2 e arquivo de dados unificados - MP3.
 
 Segue então, para fins de registro, os modelos padrão atualmente usado pelo e-SUS VE Notifica para exportação de dados, o MP1 versão 1.0.
