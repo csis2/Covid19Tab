@@ -21,13 +21,13 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 ### 3.1. Instalando o Covid19Tab
 
-![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/warning.jpg) Atenção!  Utilize sempre o release que estiver mais atualizado no repositório. Atualmente, é o release "Covid19Tab versão 1.4".
+![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/warning.jpg) Atenção!  Utilize sempre o release que estiver mais atualizado no repositório. Atualmente, é o release "Covid19Tab versão 1.5".
 
-3.1.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_setup_V1.4.exe". Esse arquivo está disponível no release "Covid19Tab versao 1.4". Procure na página do repositório e clique no link.
+3.1.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_1.5_setup.exe". Esse arquivo está disponível no release "Covid19Tab versao 1.5". Procure na página do repositório e clique no link.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image1.jpg)
 
-3.1.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_setup_V1.4.exe".
+3.1.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.5_setup.exe".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image2.jpg)
 
@@ -35,11 +35,11 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image3.jpg)
 
-3.1.4. Procure a pasta onde o arquivo "Covid19Tab_setup_V1.4.exe" foi salvo.
+3.1.4. Procure a pasta onde o arquivo "Covid19Tab_1.5_setup.exe" foi salvo.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image4a.jpg)
 
-3.1.5. Execute o arquivo "Covid19Tab_setup_V1.4.exe".
+3.1.5. Execute o arquivo "Covid19Tab_1.5_setup.exe".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image5.jpg)
 
@@ -63,11 +63,11 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a descompactação de arquivos. No exemplo mostrado a seguir, utilizamos o WinRAR (https://www.win-rar.com). Caso o usuário tenha dificuldade em operações de descompactação de arquivos, recomendamos que antes de começar esse tópico, instale o WinRAR no seu PC para facilitar o entendimento do conteúdo descrito a seguir.
 
-3.2.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_1.4.rar". Esse arquivo está disponível no release "Covid19Tab versao 1.4". Procure na página do repositório e clique no link.
+3.2.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_1.5.rar". Esse arquivo está disponível no release "Covid19Tab versao 1.5". Procure na página do repositório e clique no link.
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image1.jpg)
 
-3.2.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.4.rar".
+3.2.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.5.rar".
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image10.jpg)
 
@@ -75,7 +75,7 @@ Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a desc
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image11.jpg)
 
-3.2.4. Surgirá então uma nova janela, mostrando o conteúdo inicial da descompactação do arquivo "Covid19Tab_1.4.rar". Clique uma vez na pasta "Covid19Tab" para selecionar o arquivo, depois clique no botão "Extrair Para".
+3.2.4. Surgirá então uma nova janela, mostrando o conteúdo inicial da descompactação do arquivo "Covid19Tab_1.5.rar". Clique uma vez na pasta "Covid19Tab" para selecionar o arquivo, depois clique no botão "Extrair Para".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release4.jpg)
 
@@ -146,17 +146,21 @@ No entanto, da mesma forma que na primeira opção, esses arquivos precisam ter 
 
 A partir da versão 1.2, o Covid19Tab passa a trabalhar com o conceito de MP (modelos padrão). Assim, como a estrutura dos arquivos de exportação do e-SUS VE Notifica costuma ter variações ao longo de seu ciclo de vida, será interessante que a estrutura desses arquivos seja documentada e catalogada a fim de se evitar confusões com arquivos de exportação que tiveram sua estrutura alterada e que não são mais usados.
 Atualmente, além do arquivo de exportação gerado pelo e-SUS VE Notifica (MP1), o Covid19Tab também é capaz de processar os arquivos criados pela GTI-SESGO, os arquivos de dados unificados que unem as bases de dados do e-SUS VE Notifica e do SIVEP Gripe. Esses dois últimos tipos são: arquivo de dados unificados COE - MP2 e arquivo de dados unificados - MP3.
+Atualmente também processa o arquivo de exportação, gerado pelo e-SUS VE Notifica, de monitoramento de contatos. Trata-se de um novo modelo padrão, o MP4.
 
 Segue então, para fins de registro, os modelos padrão atualmente usados pelo Covid19Tab:
 
 Modelo para arquivos exportados pelo e-SUS VE Notifica:
 ![Link para download do modelo padrão MP1 versão 1.0](https://github.com/csis2/Covid19Tab/blob/1.4/1.4/Covid19Tab/doc/estrutura_MP1_versao_1.0.xlsx)
 
-Modelo para arquivos para dados unificados COE:
+Modelo para arquivos de dados unificados COE:
 ![Link para download do modelo padrão MP2 versão 1.0](https://github.com/csis2/Covid19Tab/blob/1.4/1.4/Covid19Tab/doc/estrutura_MP2_versao_1.0.xlsx)
 
-Modelo para arquivos para dados unificados:
+Modelo para arquivos de dados unificados:
 ![Link para download do modelo padrão MP3 versão 1.0](https://github.com/csis2/Covid19Tab/blob/1.4/1.4/Covid19Tab/doc/estrutura_MP3_versao_1.0.xlsx)
+
+Modelo para arquivos de monitoramento de contatos:
+![Link para download do modelo padrão MP4 versão 1.0](https://github.com/csis2/Covid19Tab/blob/1.4/1.4/Covid19Tab/doc/estrutura_MP4_versao_1.0.xlsx)
 
 Uma vez configurado o programa, o usuário estará pronto para processar um arquivo, desde que tal arquivo, seja um dos modelos permitidos pelo Covid19Tab.
 Dessa forma, primeiramente o usuário deve escolher o tipo de arquivo que será processado, escolhendo uma das opções disponíveis.
