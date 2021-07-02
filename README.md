@@ -227,6 +227,6 @@ As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento
 
 ## **7. Comentários sobre essa versão**
 
-Disponível um novo módulo para processar arquivos de monitoramento de contatos (arquivo padrão MP4).
-Realizada uma refatoração no processamento dos arquivos, melhorando o desempenho em cerca de 12%.
+* Disponível um novo módulo para processar arquivos de monitoramento de contatos (arquivo padrão MP4).
+* Realizada uma refatoração no processamento dos arquivos, melhorando o desempenho em cerca de 12%.
 
