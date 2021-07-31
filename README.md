@@ -267,4 +267,4 @@ Nesses modelos foram inclusos quatro novos campos, dois no modelo MP2 e dois no 
 Dessa forma, além das mudanças no core do programa, foi necessário atualizar os arquivos que estão no formato c19 como também atualizar os arquivos de extensão DEF para que os novos campos pudessem ser tabulados no TabWin.
 Com essa mudança, essa versão só aceitará arquivos MP2/MP3 que estiverem no formato estrutural MP2 versão 1.1 e MP3 versão 1.1. Ambos os formatos podem ser encontrados no diretório "doc": estrutura_MP2_versao_1.1.xlsx e estrutura_MP3_versao_1.1.xlsx.
 
-* Também foram incluídos novos algoritmos para tratar de registros inconsistentes. Foram criadas funções para detecção, correção e geração de relatórios abrangendo inconsistencia de dados. Um novo tópico foi incluído no README.md descrevendo como essas novas features funcionam.
+* Também foram incluídos novos algoritmos para tratamento de registros inconsistentes. Foram criadas funções para detecção, correção e geração de relatórios abrangendo inconsistencia de dados. Um novo tópico foi incluído no README.md descrevendo como essas novas features funcionam.
