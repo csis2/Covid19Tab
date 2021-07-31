@@ -21,13 +21,13 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 ### 3.1. Instalando o Covid19Tab
 
-![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/warning.jpg) Atenção!  Utilize sempre o release que estiver mais atualizado no repositório. Atualmente, é o release "Covid19Tab versão 1.6".
+![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/warning.jpg) Atenção!  Utilize sempre o release que estiver mais atualizado no repositório. Atualmente, é o release "Covid19Tab versão 1.5".
 
-3.1.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_1.6_setup.exe". Esse arquivo está disponível no release "Covid19Tab versao 1.6". Procure na página do repositório e clique no link.
+3.1.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_1.5_setup.exe". Esse arquivo está disponível no release "Covid19Tab versao 1.5". Procure na página do repositório e clique no link.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image1.jpg)
 
-3.1.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.6_setup.exe".
+3.1.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.5_setup.exe".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image2.jpg)
 
@@ -35,11 +35,11 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image3.jpg)
 
-3.1.4. Procure a pasta onde o arquivo "Covid19Tab_1.6_setup.exe" foi salvo.
+3.1.4. Procure a pasta onde o arquivo "Covid19Tab_1.5_setup.exe" foi salvo.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image4a.jpg)
 
-3.1.5. Execute o arquivo "Covid19Tab_1.6_setup.exe".
+3.1.5. Execute o arquivo "Covid19Tab_1.5_setup.exe".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image5.jpg)
 
@@ -63,11 +63,11 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a descompactação de arquivos. No exemplo mostrado a seguir, utilizamos o WinRAR (https://www.win-rar.com). Caso o usuário tenha dificuldade em operações de descompactação de arquivos, recomendamos que antes de começar esse tópico, instale o WinRAR no seu PC para facilitar o entendimento do conteúdo descrito a seguir.
 
-3.2.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_1.6.rar". Esse arquivo está disponível no release "Covid19Tab versao 1.6". Procure na página do repositório e clique no link.
+3.2.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_1.5.rar". Esse arquivo está disponível no release "Covid19Tab versao 1.5". Procure na página do repositório e clique no link.
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image1.jpg)
 
-3.2.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.6.rar".
+3.2.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.5.rar".
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image10.jpg)
 
@@ -75,7 +75,7 @@ Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a desc
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image11.jpg)
 
-3.2.4. Surgirá então uma nova janela, mostrando o conteúdo inicial da descompactação do arquivo "Covid19Tab_1.6.rar". Clique uma vez na pasta "Covid19Tab" para selecionar o arquivo, depois clique no botão "Extrair Para".
+3.2.4. Surgirá então uma nova janela, mostrando o conteúdo inicial da descompactação do arquivo "Covid19Tab_1.5.rar". Clique uma vez na pasta "Covid19Tab" para selecionar o arquivo, depois clique no botão "Extrair Para".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release4.jpg)
 
@@ -154,10 +154,10 @@ Modelo para arquivos exportados pelo e-SUS VE Notifica:
 ![Link para download do modelo padrão MP1 versão 1.0](https://github.com/csis2/Covid19Tab/blob/1.6/1.6/Covid19Tab/doc/estrutura_MP1_versao_1.0.xlsx)
 
 Modelo para arquivos de dados unificados COE:
-![Link para download do modelo padrão MP2 versão 1.1](https://github.com/csis2/Covid19Tab/blob/1.6/1.6/Covid19Tab/doc/estrutura_MP2_versao_1.1.xlsx)
+![Link para download do modelo padrão MP2 versão 1.0](https://github.com/csis2/Covid19Tab/blob/1.6/1.6/Covid19Tab/doc/estrutura_MP2_versao_1.0.xlsx)
 
 Modelo para arquivos de dados unificados:
-![Link para download do modelo padrão MP3 versão 1.1](https://github.com/csis2/Covid19Tab/blob/1.6/1.6/Covid19Tab/doc/estrutura_MP3_versao_1.1.xlsx)
+![Link para download do modelo padrão MP3 versão 1.0](https://github.com/csis2/Covid19Tab/blob/1.6/1.6/Covid19Tab/doc/estrutura_MP3_versao_1.0.xlsx)
 
 Modelo para arquivos de monitoramento de contatos:
 ![Link para download do modelo padrão MP4 versão 1.0](https://github.com/csis2/Covid19Tab/blob/1.6/1.6/Covid19Tab/doc/estrutura_MP4_versao_1.0.xlsx)
@@ -204,47 +204,7 @@ Em seguida escolha o arquivo gerado no Covid19Tab que deseja tabular e pronto!
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image26.jpg)
 
-## **6. Registros inconsistentes**
-
-Em tecnologia da informação, a inconsistência de dados pode significar muitas coisas, no caso em questão, está relacionado à imprecisão ou um erro introduzido em um banco de dados decorrente de falha humana ao digitar, por exemplo, um formulário de notificação no e-SUS VE Notifica.
-
-Para fins didáticos, vamos dividir as inconsistencias dos dados apresentados no processamento de arquivos no Covid19Tab em dois tipos: inconsistência de nível 1 e de nível 2.
-
-A inconsistencia de nível 1 é a mais crítica, podendo travar o Covid19Tab e travar até mesmo programas mais robustos que processam os dados em sistemas de B.I. (Bussiness Inteligence) para apresentação em painéis públicos na web para divulgação e atualização de informações sobre Coronavirus.
-
-A inconsistência de nível 2 é menos crítica, porém, pode causar erros na interpretação dos dados após o processamento, acarretando perda da qualidade da informação no resultado final.
-
-Os resultados encontrados com a implementação da funcionalidade para detecção de inconsistência de nível 2 pode ser visualizada na figura abaixo:
-![alt text](https://github.com/csis2/Covid19Tab/blob/1.6/img/table1.jpg)
-
-Um exemplo de inconsistencia do tipo 1 foi introduzida certa vez por um usuário que, ao incluir os dados de um paciente no e-SUS VE Notifica, introduziu em um campo de endereço, além do endereço do paciente, um texto de mais de 300 caracteres.
-Entrando no campo das suposições o texto pode ter sido introduzido por engano durante o processo de copiar os dados de endereço do paciente e erronemante copiou-se um bloco de texto maior do que se queria, a princípio.
-De qualquer forma, de forma acidental ou proposital, como não havia uma função na aplicação que limitava a entrada de dados a um certo número de caracteres, esse valor absurdo foi gravado no banco de dados.
-O problema vem posteriormente quando os dados são exportados, seja pelo próprio recurso de exportação do e-SUS VE Notifica ou por meio da API.
-Quando essa inconsistência é processada por algum programa, a forma padronizada em que os dados normalmente são escritos no arquivo é, em algum ponto interrompida, e ocorre um erro de buffer overflow de strings durante o processamento, ocorrendo uma interrupção inesperada do programa ou até uma condição de deadlock (situação em que dois ou mais processos ficam impedidos de continuar suas execuções), nesse último caso, o programa nunca termina de executar a tarefa, entrando em um loop infinito.
-
-A partir dessa versão (1.6), foi introduzido um algoritmo capaz de identificar uma inconsistencia de nível 1 no arquivo que o usuário indicar para processamento. O algoritmo busca por uma diferença de padrão na ordem em que os registros foram escritos no arquivo e quando essa diferença é detectada, uma mensagem aparece
-para o usuário informando-o do problema, também é gerado o arquivo "relatorio_nivel1.txt" no diretório "rel", onde é mostrado o número da linha no arquivo em que foi encontrada a inconsistência.
-
-Ao informar o usuário da presença de uma inconsistência de nível 1 no arquivo, o programa pergunta ao usuário se deseja continuar ou não com o processamento.
-Caso opte por não continuar, o programa é encerrado. Se optar por continuar, o usuário deve observar se a inconsistência detectada é capaz de interromper ou travar o programa, caso isso aconteça, será necessário tratar esse registro para que o programa consiga processar esse dado no arquivo.
-Em ambos os casos, será necessário identificar onde está o registro inconsistente e tratá-lo, se possível.
-Nos passos seguintes iremos demonstrar como isso pode ser feito.
-
-1. Procure no diretório o arquivo CSV que você selecionou para o Covid19Tab processar;
-2. Altere a extensão desse arquivo de CSV para TXT. Se o sistema operacional que você estiver usando estiver configurado para não mostrar extensão de arquivos, será necessário alterar essa configuração para que as extensões dos arquivos possam ser vistas;
-3. Um arquivo de formato CSV (comma-separated values) é basicamente um arquivo texto com dados separados pelo caracter ";". Dessa forma, precisamos de um programa para ler arquivos nesse formato, usar o bloco de notas do Windows não é recomendado, pois a visualização das linhas de texto nesse programa é limitada
-e em arquivos muito grandes, o registro com inconsistencia pode não aparecer.
-Dessa forma, sugerimos que o usuário faça uso de um programa de leitura de arquivos de log para visualizar o conteúdo do arquivo de texto que foi alterado no passo 2.
-Utilizamos para essa finalidade o programa Klogg (https://klogg.filimonov.dev/). É um programa de código aberto, rápido e capaz de visualizar o conteúdo de arquivos de texto com vários gigabytes de tamanho.
-4. Abra o arquivo de texto que foi alterado no passo 2 no Klogg.
-5. Também abra o arquivo de texto "relatorio_nivel1.txt" no diretório "rel". Esse pode ser aberto no bloco de notas mesmo.
-6. Procure no relatório o número que aparece abaixo do campo "num.registro";
-7. Dentro do Klogg, pressione a combinação de teclas Ctrl + F;
-8. Na parte inferior da tela surgirá um campo de texto. Digite o número visualizado no passo 6;
-9. Depois, clique no botão "Next" que aparece à direita do campo;
-
-## **7. Notas para desenvolvedores**
+## **6. Notas para desenvolvedores**
 
 O Covid19Tab até a versão 1.1 foi desenvolvido inteiramente usando o paradigma de programação estruturada, ou seja, possuia apenas estruturas de sequência, decisão e iteração. Da versão 1.2 em diante, o projeto se tornou híbrido, utilizando tanto o paradigma de programção estruturada quanto o de programação orientado a objetos (OOP). Essa mudança na arquitetura do programa se tornou necessário após serem detectados erros resultantes da sobreposição de tarefas dos módulos. Esse problema foi resolvido utilizando a linguagem C# (orientada a objetos) que, por meio da utilização da classe "Task" e do método "Process.WaitForExit", resolveu o problema de travamentos e erros causados pela sobreposição de tarefas, harmonizando os processos e estabilizando o programa.
 
@@ -265,14 +225,11 @@ Para o desenvolvimento da versão 1.4 do Covid19Tab foram utilizadas três lingu
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/visual_studio.jpg)
 As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento (IDE) o HMG (https://sites.google.com/site/hmgweb/). A partir da versão 1.2 o IDE utilizado passou a ser o Visual Studio 2019, versão Community (https://visualstudio.microsoft.com/pt-br/). Para abrir o projeto Covid19Tab nesse ambiente de desenvolvimento, o desenvolvedor deve usar o arquivo "1.4.sln" presente no código fonte.
 
-## **8. Comentários sobre essa versão**
+## **7. Comentários sobre essa versão**
 
-* Essa versão ajusta o programa para as mudanças ocorridas nos arquivos modelo MP2 e MP3;
-Nesses modelos foram inclusos quatro novos campos, dois no modelo MP2 e dois no modelo MP3.
-Dessa forma, além das mudanças no core do programa, foi necessário atualizar os arquivos que estão no formato c19 como também atualizar os arquivos de extensão DEF para que os novos campos pudessem ser tabulados no TabWin.
-Com essa mudança, essa versão só aceitará arquivos MP2/MP3 que estiverem no formato estrutural MP2 versão 1.1 e MP3 versão 1.1. Ambos os formatos podem ser encontrados no diretório doc:
-estrutura_MP2_versao_1.1.xlsx
-estrutura_MP3_versao_1.1.xlsx
+* Disponível um novo módulo para processar arquivos de monitoramento de contatos (arquivo padrão MP4).
 
-* Também foram incluídos novos algoritmos para tratar de registros inconsistentes. Foram criadas funções para detecção, correção e geração de relatórios abrangendo inconsistencia de dados.
-* Um novo tópico foi incluído no README.md descrevendo como essas novas features funcionam.
+![](https://github.com/csis2/Covid19Tab/blob/master/img/object_pascal.jpg)
+
+* Realizada uma refatoração no processamento dos arquivos, melhorando o desempenho em cerca de 12%.
+
