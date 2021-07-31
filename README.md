@@ -229,7 +229,7 @@ As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento
 
 * Disponível um novo módulo para processar arquivos de monitoramento de contatos (arquivo padrão MP4).
 
-![](https://github.com/csis2/Covid19Tab/blob/master/img/object_pascal.jpg)
+![](https://github.com/csis2/Covid19Tab/blob/master/img/monit_contat.jpg)
 
 * Realizada uma refatoração no processamento dos arquivos, melhorando o desempenho em cerca de 12%.
 
