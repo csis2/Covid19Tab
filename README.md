@@ -266,9 +266,6 @@ As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento
 
 ## **8. Comentários sobre essa versão**
 
-* Essa versão ajusta o programa para as mudanças ocorridas nos arquivos modelo MP2 e MP3;
-Nesses modelos foram inclusos quatro novos campos, dois no modelo MP2 e dois no modelo MP3.
-Dessa forma, além das mudanças no core do programa, foi necessário atualizar os arquivos que estão no formato c19 como também atualizar os arquivos de extensão DEF para que os novos campos pudessem ser tabulados no TabWin.
-Com essa mudança, essa versão só aceitará arquivos MP2/MP3 que estiverem no formato estrutural MP2 versão 1.1 e MP3 versão 1.1. Ambos os formatos podem ser encontrados no diretório "doc": estrutura_MP2_versao_1.1.xlsx e estrutura_MP3_versao_1.1.xlsx.
+* Um bug no módulo que processa os arquivos tipo MP4 (monitoramento de contatos) foi corrigido e agora este módulo está operante novamente;
+* Os arquivos de definição (MP2_dados_unificados_COE.def e MP3_dados_unificados.def) estão presentes e atualizados nessa versão.
 
-* Também foram incluídos novos algoritmos para tratamento de registros inconsistentes. Foram criadas funções para detecção, correção e geração de relatórios abrangendo inconsistencia de dados. Um novo tópico foi incluído no README.md (6.Registros inconsistentes) descrevendo como essas novas features funcionam.
