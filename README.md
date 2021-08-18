@@ -21,13 +21,13 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 ### 3.1. Instalando o Covid19Tab
 
-![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/warning.jpg) Atenção!  Utilize sempre o release que estiver mais atualizado no repositório. Atualmente, é o release "Covid19Tab versão 1.6".
+![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/warning.jpg) Atenção!  Utilize sempre o release que estiver mais atualizado no repositório. Atualmente, é o release "Covid19Tab versão 1.7".
 
-3.1.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_1.6_setup.exe". Esse arquivo está disponível no release "Covid19Tab versao 1.6". Procure na página do repositório e clique no link.
+3.1.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_1.7_setup.exe". Esse arquivo está disponível no release "Covid19Tab versao 1.7". Procure na página do repositório e clique no link.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image1.jpg)
 
-3.1.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.6_setup.exe".
+3.1.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.7_setup.exe".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image2.jpg)
 
@@ -35,11 +35,11 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image3.jpg)
 
-3.1.4. Procure a pasta onde o arquivo "Covid19Tab_1.6_setup.exe" foi salvo.
+3.1.4. Procure a pasta onde o arquivo "Covid19Tab_1.7_setup.exe" foi salvo.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image4a.jpg)
 
-3.1.5. Execute o arquivo "Covid19Tab_1.6_setup.exe".
+3.1.5. Execute o arquivo "Covid19Tab_1.7_setup.exe".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image5.jpg)
 
@@ -63,11 +63,11 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a descompactação de arquivos. No exemplo mostrado a seguir, utilizamos o WinRAR (https://www.win-rar.com). Caso o usuário tenha dificuldade em operações de descompactação de arquivos, recomendamos que antes de começar esse tópico, instale o WinRAR no seu PC para facilitar o entendimento do conteúdo descrito a seguir.
 
-3.2.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_1.6.rar". Esse arquivo está disponível no release "Covid19Tab versao 1.6". Procure na página do repositório e clique no link.
+3.2.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_1.7.rar". Esse arquivo está disponível no release "Covid19Tab versao 1.7". Procure na página do repositório e clique no link.
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image1.jpg)
 
-3.2.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.6.rar".
+3.2.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.7.rar".
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image10.jpg)
 
@@ -75,7 +75,7 @@ Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a desc
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image11.jpg)
 
-3.2.4. Surgirá então uma nova janela, mostrando o conteúdo inicial da descompactação do arquivo "Covid19Tab_1.6.rar". Clique uma vez na pasta "Covid19Tab" para selecionar o arquivo, depois clique no botão "Extrair Para".
+3.2.4. Surgirá então uma nova janela, mostrando o conteúdo inicial da descompactação do arquivo "Covid19Tab_1.7.rar". Clique uma vez na pasta "Covid19Tab" para selecionar o arquivo, depois clique no botão "Extrair Para".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release4.jpg)
 
@@ -216,11 +216,15 @@ Os resultados encontrados com a implementação da funcionalidade para detecçã
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.6/img/table1.jpg)
 
 Um exemplo de inconsistencia do tipo 1 foi introduzida certa vez por um usuário que, ao incluir os dados de um paciente no e-SUS VE Notifica, introduziu em um campo de endereço, além do endereço do paciente, um texto de mais de 300 caracteres.
+
 Entrando no campo das suposições o texto pode ter sido introduzido por engano durante o processo de copiar os dados de endereço do paciente e erronemante copiou-se um bloco de texto maior do que se queria, a princípio.
+
 De qualquer forma, de forma acidental ou proposital, como não havia uma função na aplicação que limitava a entrada de dados a um certo número de caracteres, esse valor absurdo foi gravado no banco de dados.
+
 O problema vem posteriormente quando os dados são exportados, seja pelo próprio recurso de exportação do e-SUS VE Notifica ou por meio da API.
 Quando essa inconsistência é processada por algum programa, a forma padronizada em que os dados normalmente são escritos no arquivo é, em algum ponto interrompida, e ocorre um erro de buffer overflow de strings durante o processamento, ocorrendo uma interrupção inesperada do programa ou até uma condição de deadlock (situação em que dois ou mais processos ficam impedidos de continuar suas execuções), nesse último caso, o programa nunca termina de executar a tarefa, entrando em um loop infinito.
-A partir dessa versão (1.6), foi introduzido um algoritmo capaz de identificar uma inconsistencia de nível 1 no arquivo que o usuário indicar para processamento. O algoritmo busca por uma diferença de padrão na ordem em que os registros foram escritos no arquivo e quando essa diferença é detectada, uma mensagem aparece
+
+A partir da versão 1.6, foi introduzido um algoritmo capaz de identificar uma inconsistencia de nível 1 no arquivo que o usuário indicar para processamento. O algoritmo busca por uma diferença de padrão na ordem em que os registros foram escritos no arquivo e quando essa diferença é detectada, uma mensagem aparece
 para o usuário informando-o do problema, também é gerado o arquivo "relatorio_nivel1.txt" no diretório "rel", onde é mostrado o número da linha no arquivo em que foi encontrada a inconsistência.
 
 Ao informar o usuário da presença de uma inconsistência de nível 1 no arquivo, o programa pergunta ao usuário se deseja continuar ou não com o processamento.
