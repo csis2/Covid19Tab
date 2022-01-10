@@ -264,6 +264,6 @@ As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento
 
 ## **8. Comentários sobre essa versão**
 
-* Um bug no módulo que processa os arquivos tipo MP4 (monitoramento de contatos) foi corrigido e agora este módulo está operante novamente;
-* Os arquivos de definição (MP2_dados_unificados_COE.def e MP3_dados_unificados.def) estão presentes e atualizados nessa versão.
+* Em 2021, houve alteração dos arquivos CSV usados para processamento dos arquivos do tipo MP2_dados_unificados_COE.def e MP3_dados_unificados.def. Essa versão atualiza esses tipos de arquivos permitindo que o programa volte a processá-los, por meio da atualização desses modelos e das regras de negócio dentro do Covid19Tab.
+
 
