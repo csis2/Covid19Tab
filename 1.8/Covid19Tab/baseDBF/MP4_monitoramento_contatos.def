@@ -1,0 +1,109 @@
+; MP4 - Modelo de monitoramento de contatos do E-SUS VE Notifica
+
+; ********************** Leitura do arquivo *****************************
+Ac:\Covid19Tab\1.7\Covid19Tab\BaseDBF\*.DBF
+
+;Definições para Ano, Mes, Semana e Trimestre da Notificação do caso base.
+XAno da Notific,DT_CONTATO,1,ANOS.CNV
+LMes da Notific,DT_CONTATO,5,MESES.CNV
+CMes da Notific,DT_CONTATO,5,MESESC.CNV
+SMes da Notific,DT_CONTATO,5,MESES.CNV
+XTrim da Notific,DT_CONTATO,5,TRIME.CNV
+
+;Definições para Ano e Semana epidemiologica de notificação do caso base.
+xSem.Epid Notific,SEM_CONTAT,5,SEMANAEP.CNV
+xAno Epid notific,SEM_CONTAT,1,ANOS.CNV
+
+;Definições Unidade federada de residência
+LUF Residência,UF_RESI,1,UFcodigo.CNV
+CUF Residência,UF_RESI,1,UFCcodig.CNV
+SUF Residência,UF_RESI,1,UFcodigo.CNV
+
+;Definições estados que fazem fronteira com paises do MERCOSUL
+DUF Mercosul,ID_MN_RESI,1,UFMSUL.CNV
+CUF Mercosul,ID_MN_RESI,1,UFMSULC.CNV
+SUF Mercosul,ID_MN_RESI,1,UFMSUL.CNV
+
+;Definições para regional de saúde de residência
+LRegional Residência,ID_RG_RESI,NM_REGIONA,regionet.dbf
+SRegional Residência,ID_RG_RESI,NM_REGIONA,regionet.dbf
+
+;Definições para região metropolitana de residência
+LReg Metrop Residência,ID_MN_RESI,1,RMETRIDB2011.CNV
+SReg Metrop Residência,ID_MN_RESI,1,RMETRIDB2011.CNV
+
+;Definição para os município de residência
+DMun Resid AC,ID_MN_RESI,1,MUNICAC.CNV
+SMun Resid AC,ID_MN_RESI,1,MUNICAC.CNV
+DMun Resid AL,ID_MN_RESI,1,MUNICAL.CNV
+SMun Resid AL,ID_MN_RESI,1,MUNICAL.CNV
+DMun Resid AM,ID_MN_RESI,1,MUNICAM.CNV
+SMun Resid AM,ID_MN_RESI,1,MUNICAM.CNV
+DMun Resid AP,ID_MN_RESI,1,MUNICAP.CNV
+SMun Resid AP,ID_MN_RESI,1,MUNICAP.CNV
+DMun Resid BA,ID_MN_RESI,1,MUNICBA.CNV
+SMun Resid BA,ID_MN_RESI,1,MUNICBA.CNV
+DMun Resid BR,ID_MN_RESI,1,MUNICBR.CNV
+SMun Resid BR,ID_MN_RESI,1,MUNICBR.CNV
+DMun Resid CE,ID_MN_RESI,1,MUNICCE.CNV
+SMun Resid CE,ID_MN_RESI,1,MUNICCE.CNV
+DMun Resid DF,ID_MN_RESI,1,MUNICDF.CNV
+SMun Resid DF,ID_MN_RESI,1,MUNICDF.CNV
+DMun Resid ES,ID_MN_RESI,1,MUNICES.CNV
+SMun Resid ES,ID_MN_RESI,1,MUNICES.CNV
+DMun Resid GO,ID_MN_RESI,1,MUNICGO.CNV
+SMun Resid GO,ID_MN_RESI,1,MUNICGO.CNV
+DMun Resid MA,ID_MN_RESI,1,MUNICMA.CNV
+SMun Resid MA,ID_MN_RESI,1,MUNICMA.CNV
+DMun Resid MG,ID_MN_RESI,1,MUNICMG.CNV
+SMun Resid MG,ID_MN_RESI,1,MUNICMG.CNV
+DMun Resid MS,ID_MN_RESI,1,MUNICMS.CNV
+SMun Resid MS,ID_MN_RESI,1,MUNICMS.CNV
+DMun Resid MT,ID_MN_RESI,1,MUNICMT.CNV
+SMun Resid MT,ID_MN_RESI,1,MUNICMT.CNV
+DMun Resid PA,ID_MN_RESI,1,MUNICPA.CNV
+SMun Resid PA,ID_MN_RESI,1,MUNICPA.CNV
+DMun Resid PB,ID_MN_RESI,1,MUNICPB.CNV
+SMun Resid PB,ID_MN_RESI,1,MUNICPB.CNV
+DMun Resid PE,ID_MN_RESI,1,MUNICPE.CNV
+SMun Resid PE,ID_MN_RESI,1,MUNICPE.CNV
+DMun Resid PI,ID_MN_RESI,1,MUNICPI.CNV
+SMun Resid PI,ID_MN_RESI,1,MUNICPI.CNV
+DMun Resid PR,ID_MN_RESI,1,MUNICPR.CNV
+SMun Resid PR,ID_MN_RESI,1,MUNICPR.CNV
+DMun Resid RJ,ID_MN_RESI,1,MUNICRJ.CNV
+SMun Resid RJ,ID_MN_RESI,1,MUNICRJ.CNV
+DMun Resid RN,ID_MN_RESI,1,MUNICRN.CNV
+SMun Resid RN,ID_MN_RESI,1,MUNICRN.CNV
+DMun Resid RO,ID_MN_RESI,1,MUNICRO.CNV
+SMun Resid RO,ID_MN_RESI,1,MUNICRO.CNV
+DMun Resid RR,ID_MN_RESI,1,MUNICRR.CNV
+SMun Resid RR,ID_MN_RESI,1,MUNICRR.CNV
+DMun Resid RS,ID_MN_RESI,1,MUNICRS.CNV
+SMun Resid RS,ID_MN_RESI,1,MUNICRS.CNV
+DMun Resid SC,ID_MN_RESI,1,MUNICSC.CNV
+SMun Resid SC,ID_MN_RESI,1,MUNICSC.CNV
+DMun Resid SE,ID_MN_RESI,1,MUNICSE.CNV
+SMun Resid SE,ID_MN_RESI,1,MUNICSE.CNV
+DMun Resid SP,ID_MN_RESI,1,MUNICSP.CNV
+SMun Resid SP,ID_MN_RESI,1,MUNICSP.CNV
+DMun Resid TO,ID_MN_RESI,1,MUNICTO.CNV
+SMun Resid TO,ID_MN_RESI,1,MUNICTO.CNV
+
+;Definições para Distritos de Residencia
+LDistr Resid,ID_DISTRIT,NM_DISTRIT,distrnet.dbf
+CDistr Resid,ID_DISTRIT,NM_DISTRIT,distrnet.dbf
+SDistr Resid,ID_DISTRIT,NM_DISTRIT,distrnet.dbf
+
+;Definições para Capitais de Residência
+DCapitais Residência,ID_MN_RESI,1,CAPITAL.CNV
+SCapitais Residência,ID_MN_RESI,1,CAPITAL.CNV
+
+;Definições para Relação com o caso base
+XRelação caso, ID_RELACAO, 1, MP4_relacao.cnv
+
+;Definiçoes para o status do monitoramento
+XStatus Monitor, STATUS, 1, MP4_status.cnv
+
+;Definição para o resultado final do monitoramento
+XResult.final, RESULTADO, 1, MP4_resultado.cnv
