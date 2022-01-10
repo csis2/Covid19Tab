@@ -264,7 +264,7 @@ As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento
 
 ## **8. Comentários sobre essa versão**
 
-* Em 2021, houve alteração dos arquivos CSV usados para processamento dos arquivos do tipo MP2_dados_unificados_COE.def e MP3_dados_unificados.def. Essa versão atualiza esses tipos de arquivos permitindo que o programa volte a processá-los, por meio da atualização desses modelos e das regras de negócio dentro do Covid19Tab.
+* Em 2021, houve alteração dos arquivos CSV usados para processamento dos arquivos do tipo "MP2_dados_unificados_COE" e "MP3_dados_unificados". Essa versão atualiza o tipo "MP2_dados_unificados_COE" permitindo que o programa volte a processá-los, por meio da atualização desses modelos e das regras de negócio dentro do Covid19Tab.
 
 * Não foi possível que o programa voltasse a processar os arquivos do tipo MP1 (Arquivo de exportação do e-SUS VE Notifica), pois em 2021, quando houve mudanças no e-SUS VE Notifica, ocorreu também uma mudança na estrutura dos arquivos exportados por esse sistema. Infelizmente nessa mudança foi introduzido um bug no arquivo de exportação, pois anteriormente, havia em cada linha do arquivo de exportação, apenas um registro único e agora há dados de uma única notificação em várias linhas do arquivo de exportação, o que impede que o programa faça o normal processamento desse tipo de arquivo, o que não ocorre em arquivos do tipo MP2, MP3 e MP4.
 A ilustração abaixo mostra esse problema usando o programa Klogg versão 21.04, usado na visualização de arquivos de log.
