@@ -33,11 +33,11 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image3.jpg)
 
-3.1.4. Procure a pasta onde o arquivo "Covid19Tab_1.7_setup.exe" foi salvo.
+3.1.4. Procure a pasta onde o arquivo "Covid19Tab_1.8_setup.exe" foi salvo.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image4a.jpg)
 
-3.1.5. Execute o arquivo "Covid19Tab_1.7_setup.exe".
+3.1.5. Execute o arquivo "Covid19Tab_1.8_setup.exe".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image5.jpg)
 
@@ -61,11 +61,11 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a descompactação de arquivos. No exemplo mostrado a seguir, utilizamos o WinRAR (https://www.win-rar.com). Caso o usuário tenha dificuldade em operações de descompactação de arquivos, recomendamos que antes de começar esse tópico, instale o WinRAR no seu PC para facilitar o entendimento do conteúdo descrito a seguir.
 
-3.2.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_1.7.rar". Esse arquivo está disponível no release "Covid19Tab versao 1.7". Procure na página do repositório e clique no link.
+3.2.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_1.8.rar". Esse arquivo está disponível no release "Covid19Tab versao 1.8". Procure na página do repositório e clique no link.
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image1.jpg)
 
-3.2.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.7.rar".
+3.2.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.8.rar".
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image10.jpg)
 
@@ -73,7 +73,7 @@ Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a desc
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image11.jpg)
 
-3.2.4. Surgirá então uma nova janela, mostrando o conteúdo inicial da descompactação do arquivo "Covid19Tab_1.7.rar". Clique uma vez na pasta "Covid19Tab" para selecionar o arquivo, depois clique no botão "Extrair Para".
+3.2.4. Surgirá então uma nova janela, mostrando o conteúdo inicial da descompactação do arquivo "Covid19Tab_1.8.rar". Clique uma vez na pasta "Covid19Tab" para selecionar o arquivo, depois clique no botão "Extrair Para".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release4.jpg)
 
