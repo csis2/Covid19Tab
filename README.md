@@ -269,16 +269,7 @@ As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento
 * Não foi possível que o programa voltasse a processar os arquivos do tipo MP1 (), pois em 2021, quando houve mudanças no e-SUS VE Notifica, ocorreu também uma mudança na estrutura dos arquivos exportados por esse sistema. Infelizmente nessa mudança foi introduzido um bug no arquivo de exportação, pois anteriormente, havia em cada linha do arquivo de exportação, apenas um registro único e agora há dados de uma única notificação em várias linhas do arquivo de exportação, o que impede que o programa faça o normal processamento desse tipo de arquivo, o que não ocorre em arquivos do tipo MP2, MP3 e MP4.
 A ilustração abaixo mostra esse problema usando o programa Klogg versão 21.04, usado na visualização de arquivos de log.
 
-
-
-
-
-
-
-
-
-
-
+![alt text](https://github.com/csis2/Covid19Tab/blob/1.8/img/sample.jpg)
 
 
 
