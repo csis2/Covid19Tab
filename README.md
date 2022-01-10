@@ -152,7 +152,7 @@ Modelo para arquivos exportados pelo e-SUS VE Notifica:
 ![Link para download do modelo padrão MP1 versão 1.0](https://github.com/csis2/Covid19Tab/blob/1.6/1.6/Covid19Tab/doc/estrutura_MP1_versao_1.0.xlsx)
 
 Modelo para arquivos de dados unificados COE:
-![Link para download do modelo padrão MP2 versão 1.1](https://github.com/csis2/Covid19Tab/blob/1.6/1.6/Covid19Tab/doc/estrutura_MP2_versao_1.1.xlsx)
+![Link para download do modelo padrão MP2 versão 1.2](https://github.com/csis2/Covid19Tab/blob/1.8/1.8/Covid19Tab/doc/estrutura_MP2_versao_1.2.xlsx)
 
 Modelo para arquivos de dados unificados:
 ![Link para download do modelo padrão MP3 versão 1.1](https://github.com/csis2/Covid19Tab/blob/1.6/1.6/Covid19Tab/doc/estrutura_MP3_versao_1.1.xlsx)
