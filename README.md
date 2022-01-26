@@ -19,13 +19,13 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 ### 3.1. Instalando o Covid19Tab
 
-![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/warning.jpg) Atenção!  Nas instruções que se seguem, as imagens que ilustram os procedimentos, mostra versões desatualizadas do Covid19Tab. Essas imagens são apenas para auxiliar o passo-a-passo da instalação e uso, já que o procedimento é o mesmo para as versões mais antigas. Utilize sempre o release que estiver mais atualizado no repositório. Atualmente, é o release "Covid19Tab versão 1.8".
+![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/warning.jpg) Atenção!  Nas instruções que se seguem, as imagens que ilustram os procedimentos, mostra versões desatualizadas do Covid19Tab. Essas imagens são apenas para auxiliar o passo-a-passo da instalação e uso, já que o procedimento é o mesmo para as versões mais antigas. Utilize sempre o release que estiver mais atualizado no repositório. Atualmente, é o release "Covid19Tab versão 1.9".
 
-3.1.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_1.8_setup.exe". Esse arquivo está disponível no release "Covid19Tab versao 1.8". Procure na página do repositório e clique no link.
+3.1.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_1.9_setup.exe". Esse arquivo está disponível no release "Covid19Tab versao 1.9". Procure na página do repositório e clique no link.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image1.jpg)
 
-3.1.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.8_setup.exe".
+3.1.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.9_setup.exe".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image2.jpg)
 
@@ -33,11 +33,11 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image3.jpg)
 
-3.1.4. Procure a pasta onde o arquivo "Covid19Tab_1.8_setup.exe" foi salvo.
+3.1.4. Procure a pasta onde o arquivo "Covid19Tab_1.9_setup.exe" foi salvo.
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image4a.jpg)
 
-3.1.5. Execute o arquivo "Covid19Tab_1.8_setup.exe".
+3.1.5. Execute o arquivo "Covid19Tab_1.9_setup.exe".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image5.jpg)
 
@@ -61,11 +61,11 @@ O usuário poderá utilizar a ferramenta de duas maneiras:
 
 Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a descompactação de arquivos. No exemplo mostrado a seguir, utilizamos o WinRAR (https://www.win-rar.com). Caso o usuário tenha dificuldade em operações de descompactação de arquivos, recomendamos que antes de começar esse tópico, instale o WinRAR no seu PC para facilitar o entendimento do conteúdo descrito a seguir.
 
-3.2.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_1.8.rar". Esse arquivo está disponível no release "Covid19Tab versao 1.8". Procure na página do repositório e clique no link.
+3.2.1. Para começar, o usuário deve fazer o download do arquivo "Covid19Tab_1.9.rar". Esse arquivo está disponível no release "Covid19Tab versao 1.9". Procure na página do repositório e clique no link.
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image1.jpg)
 
-3.2.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.8.rar".
+3.2.2. Após clicar no link, será carregada a página do release selecionado. Clique no link "Covid19Tab_1.9.rar".
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image10.jpg)
 
@@ -73,7 +73,7 @@ Para o Covid19Tab rodar da maneira descrita nesse item, será necessário a desc
 
    ![alt text](https://github.com/csis2/Covid19Tab/blob/1.3/img/image11.jpg)
 
-3.2.4. Surgirá então uma nova janela, mostrando o conteúdo inicial da descompactação do arquivo "Covid19Tab_1.8.rar". Clique uma vez na pasta "Covid19Tab" para selecionar o arquivo, depois clique no botão "Extrair Para".
+3.2.4. Surgirá então uma nova janela, mostrando o conteúdo inicial da descompactação do arquivo "Covid19Tab_1.9.rar". Clique uma vez na pasta "Covid19Tab" para selecionar o arquivo, depois clique no botão "Extrair Para".
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/master/img/release4.jpg)
 
@@ -159,6 +159,9 @@ Modelo para arquivos de dados unificados:
 
 Modelo para arquivos de monitoramento de contatos:
 ![Link para download do modelo padrão MP4 versão 1.0](https://github.com/csis2/Covid19Tab/blob/1.6/1.6/Covid19Tab/doc/estrutura_MP4_versao_1.0.xlsx)
+
+Modelo para arquivos de dados unificados para Regionais:
+![Link para download do modelo padrão MP5 versão 1.0](https://github.com/csis2/Covid19Tab/blob/1.6/1.6/Covid19Tab/doc/estrutura_MP5_versao_1.0.xlsx)
 
 Uma vez configurado o programa, o usuário estará pronto para processar um arquivo, desde que tal arquivo, seja um dos modelos permitidos pelo Covid19Tab.
 Dessa forma, primeiramente o usuário deve escolher o tipo de arquivo que será processado, escolhendo uma das opções disponíveis.
@@ -264,13 +267,6 @@ As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento
 
 ## **8. Comentários sobre essa versão**
 
-* Em 2021, houve alteração dos arquivos CSV usados para processamento dos arquivos do tipo "MP2_dados_unificados_COE" e "MP3_dados_unificados". Essa versão atualiza o tipo "MP2_dados_unificados_COE" permitindo que o programa volte a processá-los, por meio da atualização desses modelos e das regras de negócio dentro do Covid19Tab.
+* Essa versão permite o processamento de arquivos do tipo MP3 (arquivo de dados unificados), também inclui um novo modelo, o MP5, que permite o processamento de arquivos de dados unificados distribuídos para regionais de saúde.
 
-* Não foi possível que o programa voltasse a processar os arquivos do tipo MP1 (Arquivo de exportação do e-SUS VE Notifica), pois em 2021, quando houve mudanças no e-SUS VE Notifica, ocorreu também uma mudança na estrutura dos arquivos exportados por esse sistema. Infelizmente nessa mudança foi introduzido um bug no arquivo de exportação, pois anteriormente, havia em cada linha do arquivo de exportação, apenas um registro único e agora há dados de uma única notificação em várias linhas do arquivo de exportação, o que impede que o programa faça o normal processamento desse tipo de arquivo, o que não ocorre em arquivos do tipo MP2, MP3 e MP4.
-A ilustração abaixo mostra esse problema usando o programa Klogg versão 21.04, usado na visualização de arquivos de log.
-
-![alt text](https://github.com/csis2/Covid19Tab/blob/1.8/img/sample.jpg)
-
-Veja que os dados do registro selecionado em azul na ilustração, não foram finalizados na mesma linha como ocorre nas notificações anteriores, os dados da notificação continuam nas duas linhas subsequentes, desviando do padrão esperado.
-Um e-mail foi enviado ao suporte do e-SUS VE Notifica assim que o bug foi identificado quando uma nova versão do e-SUS VE Notifica em 2021 foi liberada, no entanto, nenhuma alteração foi feita no sentido de corrigir esse problema.
-
+* Apesar da atualização, infelizmente nos arquivos do tipo MP3 não está sendo possível tabular os dados relativos à data dos primeiros sintomas e nem as semanas epidemiológicas relacionadas às datas de primeiros sintomas, pois houve uma alteração no formato das datas apresentados nos arquivos desse tipo, passando de DD/MM/AAAA para AAAA-MM_DD.
