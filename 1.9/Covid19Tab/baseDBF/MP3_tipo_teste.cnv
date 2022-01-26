@@ -1,0 +1,14 @@
+; MP3_TIPO_TESTE.CNV
+12 2
+      1  ECLIA IGG                                          01                                         
+      2  ELISA IGM                                          02
+      3  Enzimaimunoensaio                                  03
+      4  IGA                                                04
+      5  IGG                                                05
+      6  IGM                                                06
+      7  Imunoensaio por eletroquimioluminescencia - ECLIA  07
+      8  Quimioluminescencia                                08
+      9  RT-PCR                                             09
+     10  Teste rápido - anticorpo                           10
+     11  Teste rápido - antígeno                            11
+     12  Ignorado/em branco                                 12
