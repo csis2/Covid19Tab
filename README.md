@@ -267,6 +267,6 @@ As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento
 
 ## **8. Comentários sobre essa versão**
 
-* Essa versão permite o processamento de arquivos do tipo MP3 (arquivo de dados unificados), também inclui um novo modelo, o MP5, que permite o processamento de arquivos de dados unificados distribuídos para regionais de saúde.
+* Essa versão permite o processamento de arquivos do tipo MP3 (arquivo de dados unificados) após a mudança ocorrida nesse formato em 2021, também inclui um novo modelo, o MP5, que permite o processamento de arquivos de dados unificados distribuídos para regionais de saúde.
 
-* Apesar da atualização, infelizmente nos arquivos do tipo MP3 não está sendo possível tabular os dados relativos à data dos primeiros sintomas e nem as semanas epidemiológicas relacionadas às datas de primeiros sintomas, pois houve uma alteração no formato das datas apresentados nos arquivos desse tipo, passando de DD/MM/AAAA para AAAA-MM_DD.
+* Apesar da atualização, infelizmente nos arquivos do tipo MP3 não está sendo possível tabular os dados relativos à data dos primeiros sintomas e nem as semanas epidemiológicas relacionadas às datas de primeiros sintomas, pois houve uma alteração no formato das datas apresentados nos arquivos desse tipo, passando de DD/MM/AAAA para AAAA-MM-DD.
