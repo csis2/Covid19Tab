@@ -272,7 +272,7 @@ Com isso, a estrutura desse arquivo (MP3) mudou e a atualização está no repos
 
 Tabulação do tipo de teste após a atualização:
 
-
+![alt text](https://github.com/csis2/Covid19Tab/blob/2.0/img/tp_teste.jpg)
 
 
 
