@@ -1,0 +1,22 @@
+;MP3_TIPO_TESTE.CNV
+18 1
+      1  Ignorado/em branco                                 R                                         
+      2  Anticorpos totais                                  A
+      3  Enzimaimun. Elisa IGM                              B
+      4  Enzinaimun. Elisa                                  C
+      5  IGA                                                D
+      6  IGG                                                E
+      7  IGM                                                F
+      8  Imunoens.eletro - ECLIA IGG                        G
+      9  Imunoens.eletro - ECLIA                            H
+     10  Quimiolumuminescencia - CLIA                       I
+     11  RT-LAMP                                            J
+     12  RT-PCR                                             K
+     13  Teste rápido - anticorpo IGG                       L
+     14  Teste rápido - anticorpo IGM                       M
+     15  Teste rápido - antigeno                            N
+     16  Teste sorológico IGA                               O
+     17  Teste sorológico IGG                               P
+     18  Teste sorológico IGM                               Q
+; ok...
+
