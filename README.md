@@ -267,15 +267,6 @@ As versões anteriores do Covid19Tab utilizaram como ambiente de desenvolvimento
 
 ## **8. Comentários sobre essa versão**
 
-* Essa versão atualiza os arquivos CNV do tipo de teste, resultado de teste e classificação para arquivos do tipo MP3 (arquivo de dados unificados), ajustando-os para tabulação após a mudança ocorrida nesse formato em 2021.
-Com isso, a estrutura desse arquivo (MP3) mudou e a atualização está no repositório (covid19tab\doc\estrutura_MP3_versao_1.3.xlsx).
-
-Tabulação do tipo de teste após a atualização:
-
-![alt text](https://github.com/csis2/Covid19Tab/blob/2.0/img/tp_teste.jpg)
-
-
-
-
-
+* Essa versão atualiza os arquivos CNV do tipo de teste, resultado de teste e classificação para arquivos do tipo MP2 (arquivo de dados unificados COE) e tipo MP5 (arquivo de dados unificados para Regionais), ajustando-os para tabulação após a mudança ocorrida nesse formato em 2021.
+Com isso, a estrutura dos arquivos MP2 e MP5 foram alterados e a atualização está no repositório (covid19tab\doc\estrutura_MP2_versao_1.3.xlsx e covid19tab\doc\estrutura_MP5_versão_1.1.xlsx).
 
