@@ -22,6 +22,8 @@ https://dotnet.microsoft.com/en-us/download/dotnet/3.1
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/2.1/img/core_3.1.jpg)
 
+![alt text](https://github.com/csis2/Covid19Tab/blob/2.1/img/download_net.jpg)
+
 ## **3. Colocando o Covid19Tab no seu computador**
 
 O usuário poderá utilizar a ferramenta de duas maneiras: 
