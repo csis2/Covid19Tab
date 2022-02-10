@@ -166,16 +166,16 @@ Modelo para arquivos exportados pelo e-SUS VE Notifica:
 ![Link para download do modelo padrão MP1 versão 1.0](https://github.com/csis2/Covid19Tab/blob/1.6/1.6/Covid19Tab/doc/estrutura_MP1_versao_1.0.xlsx)
 
 Modelo para arquivos de dados unificados COE:
-![Link para download do modelo padrão MP2 versão 1.2](https://github.com/csis2/Covid19Tab/blob/1.9/1.9/Covid19Tab/doc/estrutura_MP2_versao_1.2.xlsx)
+![Link para download do modelo padrão MP2 versão 1.2](https://github.com/csis2/Covid19Tab/blob/2.1/2.1/Covid19Tab/doc/estrutura_MP2_versao_1.3.xlsx)
 
 Modelo para arquivos de dados unificados:
-![Link para download do modelo padrão MP3 versão 1.3](https://github.com/csis2/Covid19Tab/blob/2.0/2.0/Covid19Tab/doc/estrutura_MP3_versao_1.3.xlsx)
+![Link para download do modelo padrão MP3 versão 1.3](https://github.com/csis2/Covid19Tab/blob/2.1/2.1/Covid19Tab/doc/estrutura_MP3_versao_1.3.xlsx)
 
 Modelo para arquivos de monitoramento de contatos:
-![Link para download do modelo padrão MP4 versão 1.0](https://github.com/csis2/Covid19Tab/blob/1.6/1.6/Covid19Tab/doc/estrutura_MP4_versao_1.0.xlsx)
+![Link para download do modelo padrão MP4 versão 1.0](https://github.com/csis2/Covid19Tab/blob/2.1/2.1/Covid19Tab/doc/estrutura_MP4_versao_1.0.xlsx)
 
 Modelo para arquivos de dados unificados para Regionais:
-![Link para download do modelo padrão MP5 versão 1.0](https://github.com/csis2/Covid19Tab/blob/1.9/1.9/Covid19Tab/doc/estrutura_MP5_versao_1.0.xlsx)
+![Link para download do modelo padrão MP5 versão 1.0](https://github.com/csis2/Covid19Tab/blob/2.1/2.1/Covid19Tab/doc/estrutura_MP5_versao_1.1.xlsx)
 
 Uma vez configurado o programa, o usuário estará pronto para processar um arquivo, desde que tal arquivo, seja um dos modelos permitidos pelo Covid19Tab.
 Dessa forma, primeiramente o usuário deve escolher o tipo de arquivo que será processado, escolhendo uma das opções disponíveis.
