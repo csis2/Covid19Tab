@@ -14,6 +14,7 @@ Você também pode constatar a segurança do Covid19Tab utilizando o VirusTotal 
 
 Esse programa utiliza o framework .NET Core 3.1 da Microsoft para funcionar. Se aparecer a mensagem abaixo, significa que o seu PC não tem esse recurso instalado e o usuário deve fazer a instalação antes de prosseguir.
 
+![alt text](https://github.com/csis2/Covid19Tab/blob/2.1/img/you_must_install.jpg)
 
 
 
