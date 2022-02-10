@@ -20,8 +20,7 @@ Assim, o usuário deve clicar no botão "Sim" para fazer o download e instalar o
 
 https://dotnet.microsoft.com/en-us/download/dotnet/3.1
 
-
-
+![alt text](https://github.com/csis2/Covid19Tab/blob/2.1/img/core_3.1.jpg)
 
 ## **3. Colocando o Covid19Tab no seu computador**
 
