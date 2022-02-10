@@ -16,6 +16,11 @@ Esse programa utiliza o framework .NET Core 3.1 da Microsoft para funcionar. Se 
 
 ![alt text](https://github.com/csis2/Covid19Tab/blob/2.1/img/you_must_install.jpg)
 
+Assim, o usuário deve clicar no botão "Sim" para fazer o download e instalar o recurso ou acessar a página da Microsoft onde está disponível o programa para fazer o download e instalar.
+
+https://dotnet.microsoft.com/en-us/download/dotnet/3.1
+
+
 
 
 ## **3. Colocando o Covid19Tab no seu computador**
